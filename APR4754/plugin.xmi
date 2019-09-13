@@ -159,6 +159,13 @@
             <methodElementProperty xmi:id="_SZ-bwNSlEemu8o3HrJgc_w" name="me_edited" value="true"/>
           </contentElements>
         </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_nOy7INY9EemnBYdtklqGnw" name="需求捕获阶段" guid="_nOy7INY9EemnBYdtklqGnw" presentationName="需求捕获阶段">
+          <methodElementProperty xmi:id="_nO8sINY9EemnBYdtklqGnw" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_wpOOMNY9EemnBYdtklqGnw" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_rFLW0NY9EemnBYdtklqGnw" name="定义系统需求" guid="_rFLW0NY9EemnBYdtklqGnw" presentationName="定义系统需求">
+            <methodElementProperty xmi:id="_wn4KYNY9EemnBYdtklqGnw" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_hsS-DdSfEemu8o3HrJgc_w" name="CapabilityPatterns" guid="_hsS-DdSfEemu8o3HrJgc_w">
         <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_45doMNSfEemu8o3HrJgc_w" href="uma://_45doMNSfEemu8o3HrJgc_w#_45doMNSfEemu8o3HrJgc_w"/>
