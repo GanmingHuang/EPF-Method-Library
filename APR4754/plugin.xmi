@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_hsUzMdSfEemu8o3HrJgc_w" guid="_hsUzMdSfEemu8o3HrJgc_w">
+    <subManagers xmi:id="_45-lkNSfEemu8o3HrJgc_w" href="uma://_45doMNSfEemu8o3HrJgc_w#_45-lkNSfEemu8o3HrJgc_w"/>
+    <subManagers xmi:id="_6jHGkNSfEemu8o3HrJgc_w" href="uma://_6iQyANSfEemu8o3HrJgc_w#_6jHGkNSfEemu8o3HrJgc_w"/>
+    <subManagers xmi:id="_8E3NMNSfEemu8o3HrJgc_w" href="uma://_8EMe0NSfEemu8o3HrJgc_w#_8E3NMNSfEemu8o3HrJgc_w"/>
+    <subManagers xmi:id="_9crUsNSfEemu8o3HrJgc_w" href="uma://_9b-KENSfEemu8o3HrJgc_w#_9crUsNSfEemu8o3HrJgc_w"/>
+    <subManagers xmi:id="_-50oINSfEemu8o3HrJgc_w" href="uma://_-5EaMNSfEemu8o3HrJgc_w#_-50oINSfEemu8o3HrJgc_w"/>
+    <resourceDescriptors xmi:id="_458wYNSfEemu8o3HrJgc_w" id="_45doMNSfEemu8o3HrJgc_w" uri="capabilitypatterns/计划制定阶段/model.xmi"/>
+    <resourceDescriptors xmi:id="_6is24dSfEemu8o3HrJgc_w" id="_6iQyANSfEemu8o3HrJgc_w" uri="capabilitypatterns/需求捕获阶段/model.xmi"/>
+    <resourceDescriptors xmi:id="_8E1YANSfEemu8o3HrJgc_w" id="_8EMe0NSfEemu8o3HrJgc_w" uri="capabilitypatterns/初步设计阶段/model.xmi"/>
+    <resourceDescriptors xmi:id="_9cqGkNSfEemu8o3HrJgc_w" id="_9b-KENSfEemu8o3HrJgc_w" uri="capabilitypatterns/详细设计阶段/model.xmi"/>
+    <resourceDescriptors xmi:id="_-5yy8NSfEemu8o3HrJgc_w" id="_-5EaMNSfEemu8o3HrJgc_w" uri="capabilitypatterns/实现验证阶段/model.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_hsS-ANSfEemu8o3HrJgc_w" name="APR4754" guid="_hsS-ANSfEemu8o3HrJgc_w" authors="黄干明">
+    <methodElementProperty xmi:id="_hsUzM9SfEemu8o3HrJgc_w" name="plugin_synFree" value="true"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_hsS-AdSfEemu8o3HrJgc_w" name="Content" guid="_hsS-AdSfEemu8o3HrJgc_w">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_hsS-AtSfEemu8o3HrJgc_w" name="Categories" guid="_hsS-AtSfEemu8o3HrJgc_w">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_hsS-A9SfEemu8o3HrJgc_w" name="Domains" guid="_hsS-A9SfEemu8o3HrJgc_w"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_hsS-BNSfEemu8o3HrJgc_w" name="Disciplines" guid="_hsS-BNSfEemu8o3HrJgc_w"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_hsS-BdSfEemu8o3HrJgc_w" name="RoleSets" guid="_hsS-BdSfEemu8o3HrJgc_w"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_hsS-BtSfEemu8o3HrJgc_w" name="WP Types" guid="_hsS-BtSfEemu8o3HrJgc_w"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_hsS-B9SfEemu8o3HrJgc_w" name="Tools" guid="_hsS-B9SfEemu8o3HrJgc_w"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_hsS-CNSfEemu8o3HrJgc_w" name="StandardCategories" guid="_hsS-CNSfEemu8o3HrJgc_w"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_hsS-CdSfEemu8o3HrJgc_w" name="CustomCategories" guid="_hsS-CdSfEemu8o3HrJgc_w">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_hsS-CtSfEemu8o3HrJgc_w" name="Hidden" guid="_hsS-CtSfEemu8o3HrJgc_w">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_hsS-C9SfEemu8o3HrJgc_w" name="Custom Categories" guid="_hsS-C9SfEemu8o3HrJgc_w"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_hsS-DNSfEemu8o3HrJgc_w" name="CoreContent" guid="_hsS-DNSfEemu8o3HrJgc_w">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_iyPSYNSfEemu8o3HrJgc_w" name="流程元素" guid="_iyPSYNSfEemu8o3HrJgc_w">
+          <methodElementProperty xmi:id="_iyPSYdSfEemu8o3HrJgc_w" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_mcc6UNSfEemu8o3HrJgc_w" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_nrxNINSfEemu8o3HrJgc_w" name="系统需求规范" guid="_nrxNINSfEemu8o3HrJgc_w" presentationName="系统需求规范">
+            <methodElementProperty xmi:id="_CUPEENShEemu8o3HrJgc_w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_KA9UoNSgEemu8o3HrJgc_w" name="定义功能" guid="_KA9UoNSgEemu8o3HrJgc_w" presentationName="定义功能">
+            <methodElementProperty xmi:id="_VoIzItSgEemu8o3HrJgc_w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Qj42INSgEemu8o3HrJgc_w" name="分配功能" guid="_Qj42INSgEemu8o3HrJgc_w" presentationName="分配功能">
+            <methodElementProperty xmi:id="_VoIzINSgEemu8o3HrJgc_w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_TYj9MNSgEemu8o3HrJgc_w" name="定义系统需求" guid="_TYj9MNSgEemu8o3HrJgc_w" presentationName="定义系统需求">
+            <methodElementProperty xmi:id="_Vn0qENSgEemu8o3HrJgc_w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Wl8fMNSgEemu8o3HrJgc_w" name="定义系统架构" guid="_Wl8fMNSgEemu8o3HrJgc_w" presentationName="定义系统架构">
+            <methodElementProperty xmi:id="_YSECwNSgEemu8o3HrJgc_w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_aEK5kNSgEemu8o3HrJgc_w" name="分配系统需求" guid="_aEK5kNSgEemu8o3HrJgc_w" presentationName="New Task">
+            <methodElementProperty xmi:id="_cHKsENSgEemu8o3HrJgc_w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_ayMAsNShEemu8o3HrJgc_w" name="评审报告" guid="_ayMAsNShEemu8o3HrJgc_w" presentationName="评审报告">
+            <methodElementProperty xmi:id="_c1FFgNShEemu8o3HrJgc_w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_lMYnUNSkEemu8o3HrJgc_w" name="合格审定综述" guid="_lMYnUNSkEemu8o3HrJgc_w" presentationName="合格审定综述">
+            <methodElementProperty xmi:id="_npj0YNSkEemu8o3HrJgc_w" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_wC420NSkEemu8o3HrJgc_w" name="计划制定阶段" guid="_wC420NSkEemu8o3HrJgc_w" presentationName="计划制定阶段">
+          <methodElementProperty xmi:id="_wC420dSkEemu8o3HrJgc_w" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_yVnucNSkEemu8o3HrJgc_w" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_ViwHYNShEemu8o3HrJgc_w" name="安全性项目计划" guid="_ViwHYNShEemu8o3HrJgc_w" presentationName="安全性项目计划">
+            <methodElementProperty xmi:id="_X_U3gNShEemu8o3HrJgc_w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_QxxEoNShEemu8o3HrJgc_w" name="构型管理计划" guid="_QxxEoNShEemu8o3HrJgc_w" presentationName="构型管理计划">
+            <methodElementProperty xmi:id="_S54nsNShEemu8o3HrJgc_w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_phfmYNSkEemu8o3HrJgc_w" name="构型索引文件" guid="_phfmYNSkEemu8o3HrJgc_w" presentationName="构型索引文件">
+            <methodElementProperty xmi:id="_ruJEINSkEemu8o3HrJgc_w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_TbTSsNShEemu8o3HrJgc_w" name="过程保证计划" guid="_TbTSsNShEemu8o3HrJgc_w" presentationName="过程保证计划">
+            <methodElementProperty xmi:id="_eoy-gNSkEemu8o3HrJgc_w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_EfhP4NShEemu8o3HrJgc_w" name="合格审定计划" guid="_EfhP4NShEemu8o3HrJgc_w" presentationName="合格审定计划">
+            <methodElementProperty xmi:id="_IBFSINShEemu8o3HrJgc_w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_LYHfYNShEemu8o3HrJgc_w" name="确认计划" guid="_LYHfYNShEemu8o3HrJgc_w" presentationName="确认计划">
+            <methodElementProperty xmi:id="_NIkJUNShEemu8o3HrJgc_w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_Ipt_cNShEemu8o3HrJgc_w" name="系统研制计划" guid="_Ipt_cNShEemu8o3HrJgc_w" presentationName="系统研制计划">
+            <methodElementProperty xmi:id="_Kza24NShEemu8o3HrJgc_w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_ODcdMNShEemu8o3HrJgc_w" name="验证计划" guid="_ODcdMNShEemu8o3HrJgc_w" presentationName="验证计划">
+            <methodElementProperty xmi:id="_QD2OsNShEemu8o3HrJgc_w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_KI3hMNSlEemu8o3HrJgc_w" name="质量保证计划" guid="_KI3hMNSlEemu8o3HrJgc_w" presentationName="质量保证计划">
+            <methodElementProperty xmi:id="_MblxwNSlEemu8o3HrJgc_w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_djRoQNShEemu8o3HrJgc_w" name="合格审定计划评审检查单" guid="_djRoQNShEemu8o3HrJgc_w" presentationName="合格审定计划评审检查单">
+            <methodElementProperty xmi:id="_ie0VMNShEemu8o3HrJgc_w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_63kE4NSlEemu8o3HrJgc_w" name="需求研制计划" guid="_63kE4NSlEemu8o3HrJgc_w" presentationName="需求研制计划">
+            <methodElementProperty xmi:id="_9RRHMNSlEemu8o3HrJgc_w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_ChviUNSmEemu8o3HrJgc_w" name="评审计划" guid="_ChviUNSmEemu8o3HrJgc_w" presentationName="评审计划">
+            <methodElementProperty xmi:id="_ER-w4NSmEemu8o3HrJgc_w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_FgytYNSmEemu8o3HrJgc_w" name="系统研制计划评审检查单" guid="_FgytYNSmEemu8o3HrJgc_w" presentationName="系统研制计划评审检查单">
+            <methodElementProperty xmi:id="_anDVcNSmEemu8o3HrJgc_w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_J8hR0NSmEemu8o3HrJgc_w" name="确认计划评审检查单" guid="_J8hR0NSmEemu8o3HrJgc_w" presentationName="确认计划评审检查单">
+            <methodElementProperty xmi:id="_am_rENSmEemu8o3HrJgc_w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_M0VzgNSmEemu8o3HrJgc_w" name="验证计划评审检查单" guid="_M0VzgNSmEemu8o3HrJgc_w" presentationName="验证计划评审检查单">
+            <methodElementProperty xmi:id="_am0r8NSmEemu8o3HrJgc_w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_Ps7KMNSmEemu8o3HrJgc_w" name="构型管理计划评审检查单" guid="_Ps7KMNSmEemu8o3HrJgc_w" presentationName="构型管理计划评审检查单">
+            <methodElementProperty xmi:id="_amoesNSmEemu8o3HrJgc_w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_TBQBsNSmEemu8o3HrJgc_w" name="过程保证计划评审检查单" guid="_TBQBsNSmEemu8o3HrJgc_w" presentationName="过程保证计划评审检查单">
+            <methodElementProperty xmi:id="_amRSUNSmEemu8o3HrJgc_w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_WLdT4NSmEemu8o3HrJgc_w" name="安全性项目计划评审检查单" guid="_WLdT4NSmEemu8o3HrJgc_w" presentationName="安全性项目计划评审检查单">
+            <methodElementProperty xmi:id="_Y1iUgNSmEemu8o3HrJgc_w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_cfJfgNSmEemu8o3HrJgc_w" name="计划评审报告" guid="_cfJfgNSmEemu8o3HrJgc_w" presentationName="计划评审报告">
+            <methodElementProperty xmi:id="_eopioNSmEemu8o3HrJgc_w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_oXu3ENSmEemu8o3HrJgc_w" name="new_task" guid="_oXu3ENSmEemu8o3HrJgc_w" presentationName="New Task"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_QTMx8NSkEemu8o3HrJgc_w" name="确定系统研制生命周期" guid="_QTMx8NSkEemu8o3HrJgc_w" presentationName="确定系统研制生命周期">
+            <methodElementProperty xmi:id="_S00aINSkEemu8o3HrJgc_w" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_zfm1UNSkEemu8o3HrJgc_w" name="公共元素" guid="_zfm1UNSkEemu8o3HrJgc_w" presentationName="公共元素">
+          <methodElementProperty xmi:id="_zfncYNSkEemu8o3HrJgc_w" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="__91QkNSkEemu8o3HrJgc_w" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_3VwkUNSgEemu8o3HrJgc_w" name="安全性分析师" guid="_3VwkUNSgEemu8o3HrJgc_w" presentationName="安全性分析师">
+            <methodElementProperty xmi:id="_52mwcNSgEemu8o3HrJgc_w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_wIj90NSgEemu8o3HrJgc_w" name="构型管理员" guid="_wIj90NSgEemu8o3HrJgc_w" presentationName="构型管理员">
+            <methodElementProperty xmi:id="_x0_qcNSgEemu8o3HrJgc_w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_juFaINSgEemu8o3HrJgc_w" name="审定联络人" guid="_juFaINSgEemu8o3HrJgc_w" presentationName="审定联络人">
+            <methodElementProperty xmi:id="_mXSRANSgEemu8o3HrJgc_w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_svVYMNSgEemu8o3HrJgc_w" name="系统工程师" guid="_svVYMNSgEemu8o3HrJgc_w" presentationName="系统工程师">
+            <methodElementProperty xmi:id="_zowHENSgEemu8o3HrJgc_w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_gWOtgNSgEemu8o3HrJgc_w" name="项目经理" guid="_gWOtgNSgEemu8o3HrJgc_w" presentationName="项目经理">
+            <methodElementProperty xmi:id="_jUNhkNSgEemu8o3HrJgc_w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_6EpFENSjEemu8o3HrJgc_w" name="需求工程师" guid="_6EpFENSjEemu8o3HrJgc_w" presentationName="需求工程师">
+            <methodElementProperty xmi:id="_8pPIwNSjEemu8o3HrJgc_w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_0VClUNSgEemu8o3HrJgc_w" name="验证工程师" guid="_0VClUNSgEemu8o3HrJgc_w" presentationName="验证工程师">
+            <methodElementProperty xmi:id="_2XMDQNSgEemu8o3HrJgc_w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_nw8yoNSgEemu8o3HrJgc_w" name="质量保证员" guid="_nw8yoNSgEemu8o3HrJgc_w" presentationName="质量保证员">
+            <methodElementProperty xmi:id="_qoj48NSgEemu8o3HrJgc_w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_7YYIYNSkEemu8o3HrJgc_w" name="验证" guid="_7YYIYNSkEemu8o3HrJgc_w" presentationName="验证">
+            <methodElementProperty xmi:id="__9lY8NSkEemu8o3HrJgc_w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_-SkooNSkEemu8o3HrJgc_w" name="确认" guid="_-SkooNSkEemu8o3HrJgc_w" presentationName="确认">
+            <methodElementProperty xmi:id="__9Qo0NSkEemu8o3HrJgc_w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_O7UjkNSlEemu8o3HrJgc_w" name="组织转段评审" guid="_O7UjkNSlEemu8o3HrJgc_w" presentationName="组织转段评审">
+            <methodElementProperty xmi:id="_SZ-bwNSlEemu8o3HrJgc_w" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_hsS-DdSfEemu8o3HrJgc_w" name="CapabilityPatterns" guid="_hsS-DdSfEemu8o3HrJgc_w">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_45doMNSfEemu8o3HrJgc_w" href="uma://_45doMNSfEemu8o3HrJgc_w#_45doMNSfEemu8o3HrJgc_w"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_6iQyANSfEemu8o3HrJgc_w" href="uma://_6iQyANSfEemu8o3HrJgc_w#_6iQyANSfEemu8o3HrJgc_w"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_8EMe0NSfEemu8o3HrJgc_w" href="uma://_8EMe0NSfEemu8o3HrJgc_w#_8EMe0NSfEemu8o3HrJgc_w"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_9b-KENSfEemu8o3HrJgc_w" href="uma://_9b-KENSfEemu8o3HrJgc_w#_9b-KENSfEemu8o3HrJgc_w"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_-5EaMNSfEemu8o3HrJgc_w" href="uma://_-5EaMNSfEemu8o3HrJgc_w#_-5EaMNSfEemu8o3HrJgc_w"/>
+      </childPackages>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_hsS-DtSfEemu8o3HrJgc_w" name="DeliveryProcesses" guid="_hsS-DtSfEemu8o3HrJgc_w"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_hsS-D9SfEemu8o3HrJgc_w" name="ProcessContributions" guid="_hsS-D9SfEemu8o3HrJgc_w"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

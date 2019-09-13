@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_6jHGkNSfEemu8o3HrJgc_w" guid="_6jHGkNSfEemu8o3HrJgc_w">
+    <resourceDescriptors xmi:id="_6jHGkdSfEemu8o3HrJgc_w" id="-HkQXPuH-fhJtY8cumT-XZw" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_6iQyANSfEemu8o3HrJgc_w" name="需求捕获阶段" guid="_6iQyANSfEemu8o3HrJgc_w">
+    <methodElementProperty xmi:id="_6iQyAtSfEemu8o3HrJgc_w" name="pkg_loadCheck" value="true"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_6iQyAdSfEemu8o3HrJgc_w" name="需求捕获阶段" guid="_6iQyAdSfEemu8o3HrJgc_w" presentationName="需求捕获阶段">
+      <presentation xmi:id="-HkQXPuH-fhJtY8cumT-XZw" href="uma://-HkQXPuH-fhJtY8cumT-XZw#-HkQXPuH-fhJtY8cumT-XZw"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>
