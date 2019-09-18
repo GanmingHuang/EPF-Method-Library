@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-Sc6GPVDzZxTcMqBkQatKQg" name="new_concept,_U2P7YNn_Eemvc_vfuMJU_w" guid="-Sc6GPVDzZxTcMqBkQatKQg" changeDate="2019-09-18T18:32:07.300+0800">
+  <mainDescription>&lt;p>&#xD;
+    Safety Requirements 安全性需求&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Functional Requirements 功能需求&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Customer Requirements 客户需求&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Operational Requirements 使用需求&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Performance Requirements 性能需求&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Physical and Installation Requirements 物理和安装需求&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Maintainability Requirements 维修性需求&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Interface Requirements 接口需求&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Additional Certification Requirements 补充的合格审定要求&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Derived Requirements 衍生需求&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>
