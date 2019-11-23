@@ -15,6 +15,7 @@
     <resourceDescriptors xmi:id="_ny9t0OByEemcf9jMnE7bJQ" id="-fheBj6TUTf10zOUw3xm50w" uri="guidances/guidelines/需求确认指南.xmi"/>
     <resourceDescriptors xmi:id="_g_bvEOBzEemcf9jMnE7bJQ" id="-tMkmOcmtZoEhwfLUnKCtLA" uri="guidances/guidelines/需求正确性检查.xmi"/>
     <resourceDescriptors xmi:id="_gGVHYOB0Eemcf9jMnE7bJQ" id="-rQcYZc6cBQh4kRjHXLAOuA" uri="guidances/checklists/需求完整性检查单.xmi"/>
+    <resourceDescriptors xmi:id="_0e29QA4HEeq8SJjonMxBNg" id="-bMU649_7hlHUiMXpUytQkw" uri="tasks/定义系统需求.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_hsS-ANSfEemu8o3HrJgc_w" name="APR4754" guid="_hsS-ANSfEemu8o3HrJgc_w" authors="黄干明">
     <methodElementProperty xmi:id="_hsUzM9SfEemu8o3HrJgc_w" name="plugin_synFree" value="true"/>
@@ -165,8 +166,9 @@
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_nOy7INY9EemnBYdtklqGnw" name="需求捕获" guid="_nOy7INY9EemnBYdtklqGnw" presentationName="需求捕获">
           <methodElementProperty xmi:id="_nO8sINY9EemnBYdtklqGnw" name="pkg_loadCheck" value="true"/>
           <methodElementProperty xmi:id="_wpOOMNY9EemnBYdtklqGnw" name="me_edited" value="true"/>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_rFLW0NY9EemnBYdtklqGnw" name="定义系统需求" guid="_rFLW0NY9EemnBYdtklqGnw" presentationName="定义系统需求">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_rFLW0NY9EemnBYdtklqGnw" name="定义系统需求" guid="_rFLW0NY9EemnBYdtklqGnw" presentationName="定义系统需求" conceptsAndPapers="_U2P7YNn_Eemvc_vfuMJU_w" performedBy="_6EpFENSjEemu8o3HrJgc_w" mandatoryInput="_xsRg8Nn-Eemvc_vfuMJU_w _63kE4NSlEemu8o3HrJgc_w" output="_nrxNINSfEemu8o3HrJgc_w" optionalInput="_nICYINk4EemLBsc5MB88Tw">
             <methodElementProperty xmi:id="_wn4KYNY9EemnBYdtklqGnw" name="me_edited" value="true"/>
+            <presentation xmi:id="-bMU649_7hlHUiMXpUytQkw" href="uma://-bMU649_7hlHUiMXpUytQkw#-bMU649_7hlHUiMXpUytQkw"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_nrxNINSfEemu8o3HrJgc_w" name="系统需求规范" guid="_nrxNINSfEemu8o3HrJgc_w" presentationName="系统需求规范">
             <methodElementProperty xmi:id="_CUPEENShEemu8o3HrJgc_w" name="me_edited" value="true"/>
@@ -180,7 +182,7 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_aEK5kNSgEemu8o3HrJgc_w" name="分配系统需求" guid="_aEK5kNSgEemu8o3HrJgc_w" presentationName="New Task">
             <methodElementProperty xmi:id="_cHKsENSgEemu8o3HrJgc_w" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_CjKcINhrEemvua4DnCkvFg" name="定义衍生需求" guid="_CjKcINhrEemvua4DnCkvFg" presentationName="定义衍生需求">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_CjKcINhrEemvua4DnCkvFg" name="定义衍生需求" guid="_CjKcINhrEemvua4DnCkvFg" presentationName="定义衍生需求" briefDescription="这个有必要单独成一个任务吗？">
             <methodElementProperty xmi:id="_2ZKH8NhrEemvua4DnCkvFg" name="me_edited" value="true"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_5uhhQNhrEemvua4DnCkvFg" name="执行功能危险性评估" guid="_5uhhQNhrEemvua4DnCkvFg" presentationName="执行功能危险性评估">
@@ -195,7 +197,7 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_nICYINk4EemLBsc5MB88Tw" name="需求建模标准" guid="_nICYINk4EemLBsc5MB88Tw" presentationName="需求建模标准" briefDescription="如果使用建模语言捕获需求，需要建立需求建模标准">
             <methodElementProperty xmi:id="_tZ3ikNk4EemLBsc5MB88Tw" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_HkeOQNk5EemLBsc5MB88Tw" name="飞机级功能清单" guid="_HkeOQNk5EemLBsc5MB88Tw" presentationName="飞机级功能清单" briefDescription="只有飞机层级有功能清单？">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_HkeOQNk5EemLBsc5MB88Tw" name="功能清单" guid="_HkeOQNk5EemLBsc5MB88Tw" presentationName="功能清单">
             <methodElementProperty xmi:id="_OYxMkNk5EemLBsc5MB88Tw" name="me_edited" value="true"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_nTquYNn-Eemvc_vfuMJU_w" name="执行共因分析" guid="_nTquYNn-Eemvc_vfuMJU_w" presentationName="执行共因分析">
