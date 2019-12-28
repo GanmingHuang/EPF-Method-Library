@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-vjqo9tX4EhH60gbeN_hyRg" name=",_Usl18CkYEeqmTOHftqwPiw" guid="-vjqo9tX4EhH60gbeN_hyRg">
+  <sections xmi:id="_rLU9wCkhEeqmTOHftqwPiw" name="分析完整的需求集合" guid="_rLU9wCkhEeqmTOHftqwPiw">
+    <sectionDescription>&lt;p>&#xD;
+    对单个需求以及完整的需求集合进行分析。&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_c-qzUCk4EeqmTOHftqwPiw" name="定义能够评估技术成果的关键性能度量" guid="_c-qzUCk4EeqmTOHftqwPiw"/>
+  <sections xmi:id="_sr5YoCkhEeqmTOHftqwPiw" name="为合适的利益相关者提供分析结果" guid="_sr5YoCkhEeqmTOHftqwPiw"/>
+  <sections xmi:id="_yAsTECkhEeqmTOHftqwPiw" name="协商解决需求存在的问题" guid="_yAsTECkhEeqmTOHftqwPiw"/>
+</org.eclipse.epf.uma:TaskDescription>

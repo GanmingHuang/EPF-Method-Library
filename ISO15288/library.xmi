@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_I4st8CkUEeqN4917xAh_4A" guid="_I4st8CkUEeqN4917xAh_4A">
+    <subManagers xmi:id="_eTD9wCkUEeqmTOHftqwPiw" href="uma://_eSyQ8CkUEeqmTOHftqwPiw#_eTD9wCkUEeqmTOHftqwPiw"/>
+    <resourceDescriptors xmi:id="_I4t8ECkUEeqN4917xAh_4A" id="_I4rf0CkUEeqN4917xAh_4A" uri=""/>
+    <resourceDescriptors xmi:id="_eTD9wSkUEeqmTOHftqwPiw" id="_eSyQ8CkUEeqmTOHftqwPiw" uri="ISO15288技术流程/plugin.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodLibrary xmi:id="_I4rf0CkUEeqN4917xAh_4A" name="ISO15288" guid="_I4rf0CkUEeqN4917xAh_4A" briefDescription="ISO15288技术流程">
+    <methodElementProperty xmi:id="_I6kWMCkUEeqN4917xAh_4A" name="library_synFree" value="true"/>
+    <methodPlugins xmi:id="_eSyQ8CkUEeqmTOHftqwPiw" href="uma://_eSyQ8CkUEeqmTOHftqwPiw#_eSyQ8CkUEeqmTOHftqwPiw"/>
+  </org.eclipse.epf.uma:MethodLibrary>
+</xmi:XMI>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-v8cv0rtHeG676V-mYCAttA" name=",_XIoakCkYEeqmTOHftqwPiw" guid="-v8cv0rtHeG676V-mYCAttA">
+  <sections xmi:id="_89zg4CkhEeqmTOHftqwPiw" name="获得对系统需求的一致认识" guid="_89zg4CkhEeqmTOHftqwPiw"/>
+  <sections xmi:id="_A9DksCkiEeqmTOHftqwPiw" name="维护需求可追溯性" guid="_A9DksCkiEeqmTOHftqwPiw"/>
+  <sections xmi:id="_DPFRsCkiEeqmTOHftqwPiw" name="提供构型管理的基线信息" guid="_DPFRsCkiEeqmTOHftqwPiw"/>
+</org.eclipse.epf.uma:TaskDescription>

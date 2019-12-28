@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-uQmUDcGBjW4GVHm6bK3NxA" name=",_SLxfACkYEeqmTOHftqwPiw" guid="-uQmUDcGBjW4GVHm6bK3NxA">
+  <sections xmi:id="_JxPzoCkhEeqmTOHftqwPiw" name="识别和定义系统功能" guid="_JxPzoCkhEeqmTOHftqwPiw">
+    <sectionDescription>&lt;p>&#xD;
+    功能应该与实现无关，也不要施加额外的设计约束。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    有时，功能是从关键质量特性分析派生出来的，例如从可靠性分析可能派生出系统自检功能的数据备份功能。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    功能执行的条件需要与系统的状态与模式关联。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    需要识别支持性的功能。&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_QoA3ICkhEeqmTOHftqwPiw" name="识别约束" guid="_QoA3ICkhEeqmTOHftqwPiw">
+    <sectionDescription>包括利益相关者需求的约束和架构定义引入的约束</sectionDescription>
+  </sections>
+  <sections xmi:id="_WEa1cCkhEeqmTOHftqwPiw" name="识别关键质量特征" guid="_WEa1cCkhEeqmTOHftqwPiw">
+    <sectionDescription>如安全性、可靠性、保障性等</sectionDescription>
+  </sections>
+  <sections xmi:id="_aZle4CkhEeqmTOHftqwPiw" name="识别技术风险" guid="_aZle4CkhEeqmTOHftqwPiw"/>
+  <sections xmi:id="_b-jRkCkhEeqmTOHftqwPiw" name="定义系统需求和依据" guid="_b-jRkCkhEeqmTOHftqwPiw">
+    <sectionDescription>随着需求被明确规定，捕获需求的依据</sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:TaskDescription>

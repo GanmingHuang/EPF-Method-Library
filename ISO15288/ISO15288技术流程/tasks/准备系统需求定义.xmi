@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-wUmV2DYG049cZH_USj5-AA" name=",_PTVSQCkYEeqmTOHftqwPiw" guid="-wUmV2DYG049cZH_USj5-AA">
+  <sections xmi:id="_QdomkCk2EeqmTOHftqwPiw" name="定义系统功能边界" guid="_QdomkCk2EeqmTOHftqwPiw">
+    <sectionDescription>系统的功能边界部分基于使用的环境和运行的场景</sectionDescription>
+  </sections>
+  <sections xmi:id="_g6W3sCk2EeqmTOHftqwPiw" name="定义系统需求定义策略" guid="_g6W3sCk2EeqmTOHftqwPiw">
+    <sectionDescription>在全生命周期过程中进行系统需求定义和管理的方法</sectionDescription>
+  </sections>
+  <sections xmi:id="_LFTagCk3EeqmTOHftqwPiw" name="规划需求定义使能系统或服务" guid="_LFTagCk3EeqmTOHftqwPiw">
+    <sectionDescription>工具以及其他使能产品或者服务。</sectionDescription>
+  </sections>
+  <sections xmi:id="_tPHP4CkgEeqmTOHftqwPiw" name="获取需求定义使能系统或服务" guid="_tPHP4CkgEeqmTOHftqwPiw">
+    <sectionDescription>工具以及其他使能产品或者服务。</sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:TaskDescription>
