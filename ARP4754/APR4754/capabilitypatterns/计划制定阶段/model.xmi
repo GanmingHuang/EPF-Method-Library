@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_45-lkNSfEemu8o3HrJgc_w" guid="_45-lkNSfEemu8o3HrJgc_w">
+    <resourceDescriptors xmi:id="_45-lkdSfEemu8o3HrJgc_w" id="-hbbG0erkPtkfhF6YdNnCkQ" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_45doMNSfEemu8o3HrJgc_w" name="计划制定阶段" guid="_45doMNSfEemu8o3HrJgc_w">
+    <methodElementProperty xmi:id="_45doMtSfEemu8o3HrJgc_w" name="pkg_loadCheck" value="true"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_45doMdSfEemu8o3HrJgc_w" name="计划制定阶段" guid="_45doMdSfEemu8o3HrJgc_w" presentationName="计划制定阶段">
+      <presentation xmi:id="-hbbG0erkPtkfhF6YdNnCkQ" href="uma://-hbbG0erkPtkfhF6YdNnCkQ#-hbbG0erkPtkfhF6YdNnCkQ"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>
