@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-xrxeQwt3bpPS2CaH-VqaiQ" name="new_guideline,_-hcFoCrIEeqlGtluUHjdnA" guid="-xrxeQwt3bpPS2CaH-VqaiQ" changeDate="2019-12-30T13:56:20.739+0800">
-  <mainDescription>&lt;p>&#xD;
-    INCOSE. Guide for Writing Requirements&amp;nbsp;第5章 ATTRIBUTES OF REQUIREMENTS STATEMENTS&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
-    这里提供了全面的需求属性，并建议最小的属性集合。&#xD;
-&lt;/p></mainDescription>
-</org.eclipse.epf.uma:ContentDescription>

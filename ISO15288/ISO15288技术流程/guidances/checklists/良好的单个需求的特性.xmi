@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-PvYVJss1A9iAbFHyza8DGQ" name="new_checklist,_QvYSYCrtEeqdO_wwUlGd4w" guid="-PvYVJss1A9iAbFHyza8DGQ">
+  <sections xmi:id="_ayk1oCrtEeqdO_wwUlGd4w" name="必要的" guid="_ayk1oCrtEeqdO_wwUlGd4w"/>
+  <sections xmi:id="_x_4pwCrtEeqdO_wwUlGd4w" name="合适的" guid="_x_4pwCrtEeqdO_wwUlGd4w">
+    <sectionDescription>需求应该在合适的层次</sectionDescription>
+  </sections>
+  <sections xmi:id="_coZHwCrtEeqdO_wwUlGd4w" name="无歧义" guid="_coZHwCrtEeqdO_wwUlGd4w"/>
+  <sections xmi:id="_mXV5UCrtEeqdO_wwUlGd4w" name="完整" guid="_mXV5UCrtEeqdO_wwUlGd4w"/>
+  <sections xmi:id="_nauB4CrtEeqdO_wwUlGd4w" name="单一" guid="_nauB4CrtEeqdO_wwUlGd4w"/>
+  <sections xmi:id="_p3Rj4CrtEeqdO_wwUlGd4w" name="可行" guid="_p3Rj4CrtEeqdO_wwUlGd4w"/>
+  <sections xmi:id="_qlMZ0CrtEeqdO_wwUlGd4w" name="可验证" guid="_qlMZ0CrtEeqdO_wwUlGd4w"/>
+  <sections xmi:id="_rT-LYCrtEeqdO_wwUlGd4w" name="正确" guid="_rT-LYCrtEeqdO_wwUlGd4w"/>
+  <sections xmi:id="_r3DqUCrtEeqdO_wwUlGd4w" name="符合的 conforming" guid="_r3DqUCrtEeqdO_wwUlGd4w">
+    <sectionDescription>需求条目的书写符合需求条目模板</sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:ContentDescription>

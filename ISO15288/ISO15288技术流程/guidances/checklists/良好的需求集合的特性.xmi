@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-FJeBiqirvTKUdsxw4RH6_Q" name="new_checklist,_L0hsgCruEeqdO_wwUlGd4w" guid="-FJeBiqirvTKUdsxw4RH6_Q">
+  <sections xmi:id="_PEKRQCruEeqdO_wwUlGd4w" name="完整" guid="_PEKRQCruEeqdO_wwUlGd4w">
+    <sectionDescription>The requirement set stands alone such that it sufficiently describes the necessary capabilities, characteristics,&#xD;
+constraints, interfaces, standards, regulations, and/or quality factors to meet the entity needs without needing other&#xD;
+information.</sectionDescription>
+  </sections>
+  <sections xmi:id="_PnPJICruEeqdO_wwUlGd4w" name="一致" guid="_PnPJICruEeqdO_wwUlGd4w">
+    <sectionDescription>The set of requirements contains individual requirements that are unique, do not conflict with or overlap with other&#xD;
+requirements in the set, and the units and measurement systems they use are homogeneous. The language used within the set&#xD;
+of requirements is consistent (i.e., the same word is used throughout the set to mean the same thing).</sectionDescription>
+  </sections>
+  <sections xmi:id="_Qv3lICruEeqdO_wwUlGd4w" name="可行" guid="_Qv3lICruEeqdO_wwUlGd4w">
+    <sectionDescription>The requirement set can be realized within entity constraints (e.g., cost, schedule, technical, legal, ethical, regulatory)&#xD;
+with acceptable risk.</sectionDescription>
+  </sections>
+  <sections xmi:id="_SRE5MCruEeqdO_wwUlGd4w" name="可理解" guid="_SRE5MCruEeqdO_wwUlGd4w">
+    <sectionDescription>The set of requirements must be written such that it is clear as to what is expected by the entity and its relation to the&#xD;
+system of which it is a part.</sectionDescription>
+  </sections>
+  <sections xmi:id="_V1FLcCruEeqdO_wwUlGd4w" name="可确认" guid="_V1FLcCruEeqdO_wwUlGd4w">
+    <sectionDescription>It must be able to be proven the requirement set will lead to the achievement of the entity needs within the constraints&#xD;
+(such as cost, schedule, technical, legal and regulatory compliance).</sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:ContentDescription>
