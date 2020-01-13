@@ -15,6 +15,12 @@
     <resourceDescriptors xmi:id="_p3GgkCr0EeqdO_wwUlGd4w" id="-aoQHFjYZc4RwDn94ei1hTQ" uri="guidances/guidelines/系统需求定义主要陷阱.xmi"/>
     <resourceDescriptors xmi:id="_5hUWsCr0EeqdO_wwUlGd4w" id="--cZ5Xo4kTUhwsopvYNtaYw" uri="guidances/practices/系统需求定义最佳实践.xmi"/>
     <resourceDescriptors xmi:id="_ldvBsCr2EeqdO_wwUlGd4w" id="-v5ekm9dWF6BiLyShvqkVrw" uri="guidances/templates/系统需求规范.xmi"/>
+    <resourceDescriptors xmi:id="_npAVADXvEeqq5tBxpADcIQ" id="-f_ux6j-c65tx-AzyiCHQsg" uri="tasks/准备架构定义.xmi"/>
+    <resourceDescriptors xmi:id="_BuCkMDXwEeqq5tBxpADcIQ" id="-dAZLDO3WP7ovYmxQlH0yRw" uri="tasks/开发架构视点.xmi"/>
+    <resourceDescriptors xmi:id="_e9HtgDXwEeqq5tBxpADcIQ" id="-SCmY6rhS06hXwrcJcDJMmQ" uri="tasks/开发备选架构模型与视图.xmi"/>
+    <resourceDescriptors xmi:id="_K2xN0DXxEeqq5tBxpADcIQ" id="-sMerPFAxIqAxlCLtOPtzOA" uri="tasks/建立架构与设计的关联.xmi"/>
+    <resourceDescriptors xmi:id="_d4z7YDXxEeqq5tBxpADcIQ" id="-hl88g23Y9yoy16NCUdpskQ" uri="tasks/评估备选架构.xmi"/>
+    <resourceDescriptors xmi:id="_4kFrMDXxEeqq5tBxpADcIQ" id="-HjH_PZ-z3jE6nCLxOkSjuA" uri="tasks/管理选定架构.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_eSyQ8CkUEeqmTOHftqwPiw" name="ISO15288技术流程" guid="_eSyQ8CkUEeqmTOHftqwPiw" briefDescription="ISO15288技术流程">
     <methodElementProperty xmi:id="_eTFy8CkUEeqmTOHftqwPiw" name="plugin_synFree" value="true"/>
@@ -34,7 +40,7 @@
         </childPackages>
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_eSyQ_CkUEeqmTOHftqwPiw" name="CoreContent" guid="_eSyQ_CkUEeqmTOHftqwPiw">
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_jd9VUCkUEeqmTOHftqwPiw" name="4.3系统需求定义" guid="_jd9VUCkUEeqmTOHftqwPiw" briefDescription="作为系统的供应商，需要定义系统需求，以便进行后续的系统架构和设计工作。">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_jd9VUCkUEeqmTOHftqwPiw" name="6.4.3系统需求定义" guid="_jd9VUCkUEeqmTOHftqwPiw" briefDescription="作为系统的供应商，需要定义系统需求，以便进行后续的系统架构和设计工作。">
           <methodElementProperty xmi:id="_jd9VUSkUEeqmTOHftqwPiw" name="pkg_loadCheck" value="true"/>
           <methodElementProperty xmi:id="_tjZ7UCkUEeqmTOHftqwPiw" name="me_edited" value="true"/>
           <methodElementProperty xmi:id="_KGh_oCqsEeqlGtluUHjdnA" name="pakage_supporting" value="false"/>
@@ -128,8 +134,11 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_b08lsCr6Eeq5E6LzodU7Og" name="项目经理" guid="_b08lsCr6Eeq5E6LzodU7Og" presentationName="项目经理" responsibleFor="__SUxICk1EeqmTOHftqwPiw">
             <methodElementProperty xmi:id="_dmdmoCr6Eeq5E6LzodU7Og" name="me_edited" value="true"/>
           </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_U5pk0DXtEeqq5tBxpADcIQ" name="架构与需求和设计一致" guid="_U5pk0DXtEeqq5tBxpADcIQ" presentationName="架构与需求和设计一致">
+            <methodElementProperty xmi:id="_XcQrgDXtEeqq5tBxpADcIQ" name="me_edited" value="true"/>
+          </contentElements>
         </childPackages>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_tzMuACkYEeqmTOHftqwPiw" name="4.2利益相关者需要和需求定义" guid="_tzMuACkYEeqmTOHftqwPiw" presentationName="4.2利益相关者需要和需求定义">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_tzMuACkYEeqmTOHftqwPiw" name="6.4.2利益相关者需要和需求定义" guid="_tzMuACkYEeqmTOHftqwPiw" presentationName="4.2利益相关者需要和需求定义">
           <methodElementProperty xmi:id="_tzMuASkYEeqmTOHftqwPiw" name="pkg_loadCheck" value="true"/>
           <methodElementProperty xmi:id="_xb22wCkYEeqmTOHftqwPiw" name="me_edited" value="true"/>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_yRmzACkYEeqmTOHftqwPiw" name="利益相关者需要和需求定义策略" guid="_yRmzACkYEeqmTOHftqwPiw" presentationName="利益相关者需要和需求定义策略">
@@ -161,6 +170,61 @@
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_aQpe8CkZEeqmTOHftqwPiw" name="利益相关者需要和需求定义记录" guid="_aQpe8CkZEeqmTOHftqwPiw" presentationName="利益相关者需要和需求定义记录">
             <methodElementProperty xmi:id="_fejuQCkZEeqmTOHftqwPiw" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_zgv74DXrEeqzMMsFB3jb2w" name="6.4.4架构定义" guid="_zgv74DXrEeqzMMsFB3jb2w">
+          <methodElementProperty xmi:id="_zgy_MDXrEeqzMMsFB3jb2w" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_8qSTQDXrEeqzMMsFB3jb2w" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_-34zQDXrEeqzMMsFB3jb2w" name="架构视点" guid="_-34zQDXrEeqzMMsFB3jb2w" presentationName="架构视点">
+            <methodElementProperty xmi:id="_EJU3sDXsEeqzMMsFB3jb2w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_ExUr0DXsEeqzMMsFB3jb2w" name="利益相关者关注被架构满足" guid="_ExUr0DXsEeqzMMsFB3jb2w" briefDescription="stakeholder concerns are addressed by the architecture">
+            <methodElementProperty xmi:id="_RPomoDXsEeqzMMsFB3jb2w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_Urb_IDXsEeqzMMsFB3jb2w" name="系统环境，系统边界和外部接口" guid="_Urb_IDXsEeqzMMsFB3jb2w" presentationName="系统环境，系统边界和外部接口">
+            <methodElementProperty xmi:id="_ZWFJUDXsEeqzMMsFB3jb2w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_kusAUDXsEeqq5tBxpADcIQ" name="架构视图与系统模型" guid="_kusAUDXsEeqq5tBxpADcIQ" presentationName="架构视图与系统模型">
+            <methodElementProperty xmi:id="_qvJt8DXsEeqq5tBxpADcIQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_rf088DXsEeqq5tBxpADcIQ" name="系统元素及其接口被识别" guid="_rf088DXsEeqq5tBxpADcIQ" presentationName="系统元素及其接口被识别">
+            <methodElementProperty xmi:id="_6-HP4DXsEeqq5tBxpADcIQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_x4yqIDXsEeqq5tBxpADcIQ" name="架构关键元素被分配到架构" guid="_x4yqIDXsEeqq5tBxpADcIQ" presentationName="架构关键元素被分配到架构" briefDescription="架构关键元素包括概念、属性、特征、行为、功能、约束等">
+            <methodElementProperty xmi:id="_6v3YgDXsEeqq5tBxpADcIQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_91AkgDXsEeqq5tBxpADcIQ" name="架构元素的可追溯性" guid="_91AkgDXsEeqq5tBxpADcIQ" presentationName="架构元素的可追溯性" briefDescription="可追溯性包括对利益相关者需求和系统需求的可追溯性">
+            <methodElementProperty xmi:id="_DSh9IDXtEeqq5tBxpADcIQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_GEVWYDXtEeqq5tBxpADcIQ" name="架构定义使能设施可用" guid="_GEVWYDXtEeqq5tBxpADcIQ" presentationName="架构定义使能设施可用">
+            <methodElementProperty xmi:id="_KaO_oDXtEeqq5tBxpADcIQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_M0NuwDXtEeqq5tBxpADcIQ" name="备选架构被评估" guid="_M0NuwDXtEeqq5tBxpADcIQ" presentationName="备选架构被评估">
+            <methodElementProperty xmi:id="_PN1RgDXtEeqq5tBxpADcIQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_QVH0QDXuEeqq5tBxpADcIQ" name="准备架构定义" guid="_QVH0QDXuEeqq5tBxpADcIQ" presentationName="准备架构定义">
+            <methodElementProperty xmi:id="_k2RkIDXuEeqq5tBxpADcIQ" name="me_edited" value="true"/>
+            <presentation xmi:id="-f_ux6j-c65tx-AzyiCHQsg" href="uma://-f_ux6j-c65tx-AzyiCHQsg#-f_ux6j-c65tx-AzyiCHQsg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_ToH2EDXuEeqq5tBxpADcIQ" name="开发架构视点" guid="_ToH2EDXuEeqq5tBxpADcIQ" presentationName="开发架构视点">
+            <methodElementProperty xmi:id="_YmLEcDXuEeqq5tBxpADcIQ" name="me_edited" value="true"/>
+            <presentation xmi:id="-dAZLDO3WP7ovYmxQlH0yRw" href="uma://-dAZLDO3WP7ovYmxQlH0yRw#-dAZLDO3WP7ovYmxQlH0yRw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_ZFPmEDXuEeqq5tBxpADcIQ" name="开发备选架构模型与视图" guid="_ZFPmEDXuEeqq5tBxpADcIQ" presentationName="开发备选架构模型与视图">
+            <methodElementProperty xmi:id="_cfCzcDXuEeqq5tBxpADcIQ" name="me_edited" value="true"/>
+            <presentation xmi:id="-SCmY6rhS06hXwrcJcDJMmQ" href="uma://-SCmY6rhS06hXwrcJcDJMmQ#-SCmY6rhS06hXwrcJcDJMmQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_fhEaADXuEeqq5tBxpADcIQ" name="建立架构与设计的关联" guid="_fhEaADXuEeqq5tBxpADcIQ" presentationName="建立架构与设计的关联">
+            <methodElementProperty xmi:id="_h2LQMDXuEeqq5tBxpADcIQ" name="me_edited" value="true"/>
+            <presentation xmi:id="-sMerPFAxIqAxlCLtOPtzOA" href="uma://-sMerPFAxIqAxlCLtOPtzOA#-sMerPFAxIqAxlCLtOPtzOA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_ifw_wDXuEeqq5tBxpADcIQ" name="评估备选架构" guid="_ifw_wDXuEeqq5tBxpADcIQ" presentationName="评估备选架构">
+            <methodElementProperty xmi:id="_k2BFcDXuEeqq5tBxpADcIQ" name="me_edited" value="true"/>
+            <presentation xmi:id="-hl88g23Y9yoy16NCUdpskQ" href="uma://-hl88g23Y9yoy16NCUdpskQ#-hl88g23Y9yoy16NCUdpskQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_wQgy0DXuEeqq5tBxpADcIQ" name="管理选定架构" guid="_wQgy0DXuEeqq5tBxpADcIQ" presentationName="管理选定架构">
+            <methodElementProperty xmi:id="_y70igDXuEeqq5tBxpADcIQ" name="me_edited" value="true"/>
+            <presentation xmi:id="-HjH_PZ-z3jE6nCLxOkSjuA" href="uma://-HjH_PZ-z3jE6nCLxOkSjuA#-HjH_PZ-z3jE6nCLxOkSjuA"/>
           </contentElements>
         </childPackages>
       </childPackages>

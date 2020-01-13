@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-f_ux6j-c65tx-AzyiCHQsg" name=",_QVH0QDXuEeqq5tBxpADcIQ" guid="-f_ux6j-c65tx-AzyiCHQsg">
+  <sections xmi:id="_EJZBwDXvEeqq5tBxpADcIQ" name="识别架构关键驱动因素" guid="_EJZBwDXvEeqq5tBxpADcIQ"/>
+  <sections xmi:id="_QdgewDXvEeqq5tBxpADcIQ" name="识别利益相关者关注点" guid="_QdgewDXvEeqq5tBxpADcIQ"/>
+  <sections xmi:id="_WUybMDXvEeqq5tBxpADcIQ" name="定义架构定义路线图，方法和策略" guid="_WUybMDXvEeqq5tBxpADcIQ"/>
+  <sections xmi:id="_clQ6wDXvEeqq5tBxpADcIQ" name="定义架构评估准则" guid="_clQ6wDXvEeqq5tBxpADcIQ"/>
+  <sections xmi:id="_fhZUsDXvEeqq5tBxpADcIQ" name="识别使能设施需求" guid="_fhZUsDXvEeqq5tBxpADcIQ"/>
+  <sections xmi:id="_inYOMDXvEeqq5tBxpADcIQ" name="获取使能设施" guid="_inYOMDXvEeqq5tBxpADcIQ"/>
+</org.eclipse.epf.uma:TaskDescription>

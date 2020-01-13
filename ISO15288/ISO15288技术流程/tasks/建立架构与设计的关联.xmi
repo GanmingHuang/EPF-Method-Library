@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-sMerPFAxIqAxlCLtOPtzOA" name=",_fhEaADXuEeqq5tBxpADcIQ" guid="-sMerPFAxIqAxlCLtOPtzOA">
+  <sections xmi:id="_y4srIDXwEeqq5tBxpADcIQ" name="识别与架构实体相关的系统元素" guid="_y4srIDXwEeqq5tBxpADcIQ"/>
+  <sections xmi:id="_2gi7kDXwEeqq5tBxpADcIQ" name="定义系统元素与其他元素的交互" guid="_2gi7kDXwEeqq5tBxpADcIQ"/>
+  <sections xmi:id="_-JvhkDXwEeqq5tBxpADcIQ" name="分配需求到架构实体和系统元素" guid="_-JvhkDXwEeqq5tBxpADcIQ"/>
+  <sections xmi:id="_EpFjkDXxEeqq5tBxpADcIQ" name="建立系统元素、架构实体与设计特征的映射" guid="_EpFjkDXxEeqq5tBxpADcIQ"/>
+  <sections xmi:id="_Hn-WkDXxEeqq5tBxpADcIQ" name="定义系统设计和演进的原理" guid="_Hn-WkDXxEeqq5tBxpADcIQ"/>
+</org.eclipse.epf.uma:TaskDescription>

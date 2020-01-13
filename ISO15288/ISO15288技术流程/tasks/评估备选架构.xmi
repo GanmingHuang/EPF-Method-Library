@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-hl88g23Y9yoy16NCUdpskQ" name=",_ifw_wDXuEeqq5tBxpADcIQ" guid="-hl88g23Y9yoy16NCUdpskQ">
+  <sections xmi:id="_NwDvIDXxEeqq5tBxpADcIQ" name="基于需求评估备选架构" guid="_NwDvIDXxEeqq5tBxpADcIQ"/>
+  <sections xmi:id="_RSQqkDXxEeqq5tBxpADcIQ" name="基于利益相关者关注点评估备选架构" guid="_RSQqkDXxEeqq5tBxpADcIQ"/>
+  <sections xmi:id="_X2fMkDXxEeqq5tBxpADcIQ" name="选定架构并明确依据" guid="_X2fMkDXxEeqq5tBxpADcIQ"/>
+  <sections xmi:id="_cPoXEDXxEeqq5tBxpADcIQ" name="建立选定架构的基线" guid="_cPoXEDXxEeqq5tBxpADcIQ"/>
+</org.eclipse.epf.uma:TaskDescription>

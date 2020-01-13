@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-SCmY6rhS06hXwrcJcDJMmQ" name=",_ZFPmEDXuEeqq5tBxpADcIQ" guid="-SCmY6rhS06hXwrcJcDJMmQ">
+  <sections xmi:id="_DkDqoDXwEeqq5tBxpADcIQ" name="定义系统环境与系统边界" guid="_DkDqoDXwEeqq5tBxpADcIQ"/>
+  <sections xmi:id="_HfdJMDXwEeqq5tBxpADcIQ" name="识别关键架构实体及其关系" guid="_HfdJMDXwEeqq5tBxpADcIQ"/>
+  <sections xmi:id="_KTHjoDXwEeqq5tBxpADcIQ" name="分配架构关键因素到架构实体" guid="_KTHjoDXwEeqq5tBxpADcIQ">
+    <sectionDescription>架构关键因素包括概念、属性、特征、行为、功能、约束等</sectionDescription>
+  </sections>
+  <sections xmi:id="_gE-tcDXwEeqq5tBxpADcIQ" name="选择，修改或者开发备选架构模型" guid="_gE-tcDXwEeqq5tBxpADcIQ"/>
+  <sections xmi:id="_jbsxoDXwEeqq5tBxpADcIQ" name="根据视点建立架构视图" guid="_jbsxoDXwEeqq5tBxpADcIQ"/>
+  <sections xmi:id="_o8VIoDXwEeqq5tBxpADcIQ" name="确认视图达成一致" guid="_o8VIoDXwEeqq5tBxpADcIQ"/>
+</org.eclipse.epf.uma:TaskDescription>

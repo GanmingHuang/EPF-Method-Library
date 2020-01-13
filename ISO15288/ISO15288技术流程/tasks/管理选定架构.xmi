@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-HjH_PZ-z3jE6nCLxOkSjuA" name=",_wQgy0DXuEeqq5tBxpADcIQ" guid="-HjH_PZ-z3jE6nCLxOkSjuA">
+  <sections xmi:id="_h4RakDXxEeqq5tBxpADcIQ" name="确定架构管理方法" guid="_h4RakDXxEeqq5tBxpADcIQ"/>
+  <sections xmi:id="_jkTekDXxEeqq5tBxpADcIQ" name="获取利益相关者对架构的认可" guid="_jkTekDXxEeqq5tBxpADcIQ"/>
+  <sections xmi:id="_mkVhEDXxEeqq5tBxpADcIQ" name="维护架构实体的一致性和完整性" guid="_mkVhEDXxEeqq5tBxpADcIQ"/>
+  <sections xmi:id="_rD41kDXxEeqq5tBxpADcIQ" name="控制架构模型和视图的演进" guid="_rD41kDXxEeqq5tBxpADcIQ"/>
+  <sections xmi:id="_uGgSADXxEeqq5tBxpADcIQ" name="维护架构定义和演进的策略" guid="_uGgSADXxEeqq5tBxpADcIQ"/>
+  <sections xmi:id="_xKlHADXxEeqq5tBxpADcIQ" name="维护架构可追溯性" guid="_xKlHADXxEeqq5tBxpADcIQ"/>
+  <sections xmi:id="_0sVWgDXxEeqq5tBxpADcIQ" name="提供架构基线的关键信息项" guid="_0sVWgDXxEeqq5tBxpADcIQ"/>
+</org.eclipse.epf.uma:TaskDescription>

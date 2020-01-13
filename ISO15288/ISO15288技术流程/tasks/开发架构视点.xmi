@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-dAZLDO3WP7ovYmxQlH0yRw" name=",_ToH2EDXuEeqq5tBxpADcIQ" guid="-dAZLDO3WP7ovYmxQlH0yRw">
+  <sections xmi:id="_pD93IDXvEeqq5tBxpADcIQ" name="根据利益相关者关注点选择视点" guid="_pD93IDXvEeqq5tBxpADcIQ"/>
+  <sections xmi:id="_wXu_sDXvEeqq5tBxpADcIQ" name="建立或识别开发视点的架构框架" guid="_wXu_sDXvEeqq5tBxpADcIQ"/>
+  <sections xmi:id="_2GerMDXvEeqq5tBxpADcIQ" name="定义架构框架、视点选择的依据" guid="_2GerMDXvEeqq5tBxpADcIQ"/>
+  <sections xmi:id="_7a0SoDXvEeqq5tBxpADcIQ" name="选择或开发建模技术与工具" guid="_7a0SoDXvEeqq5tBxpADcIQ"/>
+</org.eclipse.epf.uma:TaskDescription>
