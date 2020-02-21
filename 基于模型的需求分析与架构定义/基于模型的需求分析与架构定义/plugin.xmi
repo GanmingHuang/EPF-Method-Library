@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_Jn_xoVS-EeqpgdRmUO9KKw" guid="_Jn_xoVS-EeqpgdRmUO9KKw"/>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_Jn2nsFS-EeqpgdRmUO9KKw" name="基于模型的需求分析与架构定义" guid="_Jn2nsFS-EeqpgdRmUO9KKw">
+    <methodElementProperty xmi:id="_Jn_xo1S-EeqpgdRmUO9KKw" name="plugin_synFree" value="true"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Jn2nsVS-EeqpgdRmUO9KKw" name="Content" guid="_Jn2nsVS-EeqpgdRmUO9KKw">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Jn2nslS-EeqpgdRmUO9KKw" name="Categories" guid="_Jn2nslS-EeqpgdRmUO9KKw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Jn2ns1S-EeqpgdRmUO9KKw" name="Domains" guid="_Jn2ns1S-EeqpgdRmUO9KKw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Jn2ntFS-EeqpgdRmUO9KKw" name="Disciplines" guid="_Jn2ntFS-EeqpgdRmUO9KKw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Jn2ntVS-EeqpgdRmUO9KKw" name="RoleSets" guid="_Jn2ntVS-EeqpgdRmUO9KKw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Jn2ntlS-EeqpgdRmUO9KKw" name="WP Types" guid="_Jn2ntlS-EeqpgdRmUO9KKw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Jn2nt1S-EeqpgdRmUO9KKw" name="Tools" guid="_Jn2nt1S-EeqpgdRmUO9KKw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Jn2nuFS-EeqpgdRmUO9KKw" name="StandardCategories" guid="_Jn2nuFS-EeqpgdRmUO9KKw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Jn2nuVS-EeqpgdRmUO9KKw" name="CustomCategories" guid="_Jn2nuVS-EeqpgdRmUO9KKw">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Jn2nulS-EeqpgdRmUO9KKw" name="Hidden" guid="_Jn2nulS-EeqpgdRmUO9KKw">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_Jn2nu1S-EeqpgdRmUO9KKw" name="Custom Categories" guid="_Jn2nu1S-EeqpgdRmUO9KKw"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Jn2nvFS-EeqpgdRmUO9KKw" name="CoreContent" guid="_Jn2nvFS-EeqpgdRmUO9KKw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_LJKpcFS-EeqpgdRmUO9KKw" name="利益相关者需求分析" guid="_LJKpcFS-EeqpgdRmUO9KKw">
+          <methodElementProperty xmi:id="_LJKpcVS-EeqpgdRmUO9KKw" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_RThS4VS-EeqpgdRmUO9KKw" name="me_edited" value="true"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_N-8jwFS-EeqpgdRmUO9KKw" name="系统需求定义" guid="_N-8jwFS-EeqpgdRmUO9KKw">
+          <methodElementProperty xmi:id="_N-8jwVS-EeqpgdRmUO9KKw" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_RTYI8FS-EeqpgdRmUO9KKw" name="me_edited" value="true"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_PcjxQFS-EeqpgdRmUO9KKw" name="架构定义" guid="_PcjxQFS-EeqpgdRmUO9KKw">
+          <methodElementProperty xmi:id="_PcjxQVS-EeqpgdRmUO9KKw" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_Q0ueEFS-EeqpgdRmUO9KKw" name="me_edited" value="true"/>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Jn2nvVS-EeqpgdRmUO9KKw" name="CapabilityPatterns" guid="_Jn2nvVS-EeqpgdRmUO9KKw"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Jn2nvlS-EeqpgdRmUO9KKw" name="DeliveryProcesses" guid="_Jn2nvlS-EeqpgdRmUO9KKw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Jn2nv1S-EeqpgdRmUO9KKw" name="ProcessContributions" guid="_Jn2nv1S-EeqpgdRmUO9KKw"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

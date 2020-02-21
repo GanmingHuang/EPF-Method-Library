@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_GiQvwVS-EeqpgdRmUO9KKw" guid="_GiQvwVS-EeqpgdRmUO9KKw">
+    <subManagers xmi:id="_Jn_xoVS-EeqpgdRmUO9KKw" href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_Jn_xoVS-EeqpgdRmUO9KKw"/>
+    <resourceDescriptors xmi:id="_GiQvwlS-EeqpgdRmUO9KKw" id="_GiQvwFS-EeqpgdRmUO9KKw" uri=""/>
+    <resourceDescriptors xmi:id="_Jn_xolS-EeqpgdRmUO9KKw" id="_Jn2nsFS-EeqpgdRmUO9KKw" uri="基于模型的需求分析与架构定义/plugin.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodLibrary xmi:id="_GiQvwFS-EeqpgdRmUO9KKw" name="基于模型的需求分析与架构定义" guid="_GiQvwFS-EeqpgdRmUO9KKw">
+    <methodElementProperty xmi:id="_Gk8QUFS-EeqpgdRmUO9KKw" name="library_synFree" value="true"/>
+    <methodPlugins xmi:id="_Jn2nsFS-EeqpgdRmUO9KKw" href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_Jn2nsFS-EeqpgdRmUO9KKw"/>
+  </org.eclipse.epf.uma:MethodLibrary>
+</xmi:XMI>
