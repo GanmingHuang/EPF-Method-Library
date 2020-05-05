@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_qU3eEI5yEeqsY7E4q20-og" guid="_qU3eEI5yEeqsY7E4q20-og"/>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_qUmYUI5yEeqsY7E4q20-og" name="COMAC SEM" guid="_qUmYUI5yEeqsY7E4q20-og" briefDescription="商飞系统工程手册">
+    <methodElementProperty xmi:id="_qU4sMI5yEeqsY7E4q20-og" name="plugin_synFree" value="true"/>
+    <methodElementProperty xmi:id="_sxQA8I5yEeqsY7E4q20-og" name="me_edited" value="true"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_qUmYUY5yEeqsY7E4q20-og" name="Content" guid="_qUmYUY5yEeqsY7E4q20-og">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_qUmYUo5yEeqsY7E4q20-og" name="Categories" guid="_qUmYUo5yEeqsY7E4q20-og">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_qUmYU45yEeqsY7E4q20-og" name="Domains" guid="_qUmYU45yEeqsY7E4q20-og"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_qUmYVI5yEeqsY7E4q20-og" name="Disciplines" guid="_qUmYVI5yEeqsY7E4q20-og"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_qUmYVY5yEeqsY7E4q20-og" name="RoleSets" guid="_qUmYVY5yEeqsY7E4q20-og"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_qUmYVo5yEeqsY7E4q20-og" name="WP Types" guid="_qUmYVo5yEeqsY7E4q20-og"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_qUmYV45yEeqsY7E4q20-og" name="Tools" guid="_qUmYV45yEeqsY7E4q20-og"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_qUmYWI5yEeqsY7E4q20-og" name="StandardCategories" guid="_qUmYWI5yEeqsY7E4q20-og"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_qUmYWY5yEeqsY7E4q20-og" name="CustomCategories" guid="_qUmYWY5yEeqsY7E4q20-og">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_qUmYWo5yEeqsY7E4q20-og" name="Hidden" guid="_qUmYWo5yEeqsY7E4q20-og">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_qUmYW45yEeqsY7E4q20-og" name="Custom Categories" guid="_qUmYW45yEeqsY7E4q20-og"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_qUmYXI5yEeqsY7E4q20-og" name="CoreContent" guid="_qUmYXI5yEeqsY7E4q20-og">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_uvt4wI5yEeqsY7E4q20-og" name="T1市场分析" guid="_uvt4wI5yEeqsY7E4q20-og">
+          <methodElementProperty xmi:id="_uvuf0I5yEeqsY7E4q20-og" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_VjPMwI5zEeqsY7E4q20-og" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_qfu00I5zEeqsY7E4q20-og" name="型号设计的市场要求" guid="_qfu00I5zEeqsY7E4q20-og" presentationName="New Artifact">
+            <methodElementProperty xmi:id="_w-zKAI5zEeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_1_juII5zEeqsY7E4q20-og" name="市场需求预测" guid="_1_juII5zEeqsY7E4q20-og" presentationName="市场需求预测">
+            <methodElementProperty xmi:id="_CLFP0I50EeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_6eTxYI5zEeqsY7E4q20-og" name="产品简介材料" guid="_6eTxYI5zEeqsY7E4q20-og" presentationName="New Artifact">
+            <methodElementProperty xmi:id="_CLSrMI50EeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_Ed7cMI50EeqsY7E4q20-og" name="竞品分析报告" guid="_Ed7cMI50EeqsY7E4q20-og" presentationName="New Artifact">
+            <methodElementProperty xmi:id="_QTq7II50EeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_IopwMI50EeqsY7E4q20-og" name="机型适应性分析报告" guid="_IopwMI50EeqsY7E4q20-og" presentationName="New Artifact">
+            <methodElementProperty xmi:id="_QTbqkI50EeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_MChPAI50EeqsY7E4q20-og" name="直接运行成本分析报告" guid="_MChPAI50EeqsY7E4q20-og" presentationName="New Artifact">
+            <methodElementProperty xmi:id="_QTIIkI50EeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_dkHdgI50EeqsY7E4q20-og" name="航线适应性分析报告？" guid="_dkHdgI50EeqsY7E4q20-og" presentationName="New Artifact">
+            <methodElementProperty xmi:id="_gzYO0I50EeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_her1oI50EeqsY7E4q20-og" name="收集市场信息" guid="_her1oI50EeqsY7E4q20-og" presentationName="New Task">
+            <methodElementProperty xmi:id="_4CHmUI50EeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_kqXugI50EeqsY7E4q20-og" name="创建或完善数学分析模型" guid="_kqXugI50EeqsY7E4q20-og" presentationName="New Task">
+            <methodElementProperty xmi:id="_4B3usI50EeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_plm5cI50EeqsY7E4q20-og" name="进行客户走访和市场调研" guid="_plm5cI50EeqsY7E4q20-og" presentationName="New Task">
+            <methodElementProperty xmi:id="_4BqTUI50EeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_xxumUI50EeqsY7E4q20-og" name="推广产品" guid="_xxumUI50EeqsY7E4q20-og" presentationName="New Task" briefDescription="产品展宣和论坛">
+            <methodElementProperty xmi:id="_4BWKQI50EeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_PstMUI51EeqsY7E4q20-og" name="new_toolmentor" guid="_PstMUI51EeqsY7E4q20-og" presentationName="New Toolmentor"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_i06W0I52EeqsY7E4q20-og" name="宏观环境发展？" guid="_i06W0I52EeqsY7E4q20-og" presentationName="New Artifact">
+            <methodElementProperty xmi:id="_CgND4I53EeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_o3iAkI52EeqsY7E4q20-og" name="航空运输市场发展信息" guid="_o3iAkI52EeqsY7E4q20-og" presentationName="New Artifact">
+            <methodElementProperty xmi:id="_Cf9zUI53EeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_r8dxMI52EeqsY7E4q20-og" name="航空运输基础设施" guid="_r8dxMI52EeqsY7E4q20-og" presentationName="New Artifact">
+            <methodElementProperty xmi:id="_CfPakI53EeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_uocPQI52EeqsY7E4q20-og" name="行业竞争和经营模式变化" guid="_uocPQI52EeqsY7E4q20-og" presentationName="New Artifact">
+            <methodElementProperty xmi:id="_Ce_i8I53EeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_zF7HMI52EeqsY7E4q20-og" name="替代产品发展" guid="_zF7HMI52EeqsY7E4q20-og" presentationName="New Artifact">
+            <methodElementProperty xmi:id="_Cet2II53EeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_2AlhgI52EeqsY7E4q20-og" name="市场竞争情况" guid="_2AlhgI52EeqsY7E4q20-og" presentationName="New Artifact">
+            <methodElementProperty xmi:id="_CecJUI53EeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_41PacI52EeqsY7E4q20-og" name="政策和法规" guid="_41PacI52EeqsY7E4q20-og" presentationName="New Artifact">
+            <methodElementProperty xmi:id="_7pHQQI52EeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_5zAnEI5yEeqsY7E4q20-og" name="T2利益攸关方需求定义" guid="_5zAnEI5yEeqsY7E4q20-og">
+          <methodElementProperty xmi:id="_5zAnEY5yEeqsY7E4q20-og" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_VirMEI5zEeqsY7E4q20-og" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_Z0DS8I55EeqsY7E4q20-og" name="已识别的利益攸关方" guid="_Z0DS8I55EeqsY7E4q20-og" presentationName="New Artifact">
+            <methodElementProperty xmi:id="_wRQf0I55EeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_k-B4EI55EeqsY7E4q20-og" name="系统需求追溯性" guid="_k-B4EI55EeqsY7E4q20-og" presentationName="New Artifact">
+            <methodElementProperty xmi:id="_tsBGcI56EeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_yfbyII56EeqsY7E4q20-og" name="识别利益攸关方？" guid="_yfbyII56EeqsY7E4q20-og" presentationName="New Task">
+            <methodElementProperty xmi:id="_xBqXII57EeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_8TS44I56EeqsY7E4q20-og" name="定义利益攸关方需求" guid="_8TS44I56EeqsY7E4q20-og" presentationName="New Task">
+            <methodElementProperty xmi:id="_xBZRYI57EeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_bkIekI57EeqsY7E4q20-og" name="确认利益攸关方需求" guid="_bkIekI57EeqsY7E4q20-og" presentationName="New Task">
+            <methodElementProperty xmi:id="_xBG9gI57EeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_93kSkI57EeqsY7E4q20-og" name="开放生命周期概念" guid="_93kSkI57EeqsY7E4q20-og" presentationName="New Task">
+            <methodElementProperty xmi:id="_bIYEwI59EeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_ArH_UI58EeqsY7E4q20-og" name="生命周期概念" guid="_ArH_UI58EeqsY7E4q20-og" presentationName="New Artifact">
+            <methodElementProperty xmi:id="_Dar84I58EeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_HXqIwI58EeqsY7E4q20-og" name="利益攸关方需求" guid="_HXqIwI58EeqsY7E4q20-og" presentationName="New Artifact">
+            <methodElementProperty xmi:id="_NgnEAI58EeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_Z2rBwI58EeqsY7E4q20-og" name="利益攸关方清单" guid="_Z2rBwI58EeqsY7E4q20-og" presentationName="New Artifact">
+            <methodElementProperty xmi:id="_bIKCUI59EeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_dRlpcI58EeqsY7E4q20-og" name="效能指标" guid="_dRlpcI58EeqsY7E4q20-og" presentationName="New Artifact">
+            <methodElementProperty xmi:id="_bHjlYI59EeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9X1YsI5yEeqsY7E4q20-og" name="T3功能分析" guid="_9X1YsI5yEeqsY7E4q20-og">
+          <methodElementProperty xmi:id="_9X1YsY5yEeqsY7E4q20-og" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_VidJoI5zEeqsY7E4q20-og" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_tDEvwI59EeqsY7E4q20-og" name="功能清单" guid="_tDEvwI59EeqsY7E4q20-og" presentationName="New Artifact">
+            <methodElementProperty xmi:id="_yfFQAI5-EeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_woWNUI59EeqsY7E4q20-og" name="功能接口" guid="_woWNUI59EeqsY7E4q20-og" presentationName="New Artifact">
+            <methodElementProperty xmi:id="_yeahoI5-EeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_ygeMkI59EeqsY7E4q20-og" name="功能架构" guid="_ygeMkI59EeqsY7E4q20-og" presentationName="New Artifact">
+            <methodElementProperty xmi:id="_yeKqAI5-EeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_z55oMI5-EeqsY7E4q20-og" name="功能识别" guid="_z55oMI5-EeqsY7E4q20-og" presentationName="New Task">
+            <methodElementProperty xmi:id="_aDEiMI6AEeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_1xVD4I5-EeqsY7E4q20-og" name="定义功能" guid="_1xVD4I5-EeqsY7E4q20-og" presentationName="New Task">
+            <methodElementProperty xmi:id="_aC0DgI6AEeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_3i7kYI5-EeqsY7E4q20-og" name="创建功能架构" guid="_3i7kYI5-EeqsY7E4q20-og" presentationName="New Task">
+            <methodElementProperty xmi:id="_aCmBEI6AEeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Tg2LUI6AEeqsY7E4q20-og" name="确认功能架构" guid="_Tg2LUI6AEeqsY7E4q20-og" presentationName="New Task">
+            <methodElementProperty xmi:id="_aCWJcI6AEeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="__Xp7YI5yEeqsY7E4q20-og" name="T4需求分析" guid="__Xp7YI5yEeqsY7E4q20-og">
+          <methodElementProperty xmi:id="__Xp7YY5yEeqsY7E4q20-og" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_ViQ8YI5zEeqsY7E4q20-og" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_2aY9EI6AEeqsY7E4q20-og" name="系统需求" guid="_2aY9EI6AEeqsY7E4q20-og" presentationName="New Artifact">
+            <methodElementProperty xmi:id="_LWpfII6CEeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_LemWsI6BEeqsY7E4q20-og" name="定义内外部约束" guid="_LemWsI6BEeqsY7E4q20-og" presentationName="New Task">
+            <methodElementProperty xmi:id="_LVsc4I6CEeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_PRic0I6BEeqsY7E4q20-og" name="定义使用环境" guid="_PRic0I6BEeqsY7E4q20-og" presentationName="New Task">
+            <methodElementProperty xmi:id="_LVeacI6CEeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_RibhYI6BEeqsY7E4q20-og" name="分析利益攸关方需求" guid="_RibhYI6BEeqsY7E4q20-og" presentationName="New Task">
+            <methodElementProperty xmi:id="_LU39gI6CEeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_WanYUI6BEeqsY7E4q20-og" name="捕获功能需求" guid="_WanYUI6BEeqsY7E4q20-og" presentationName="New Task">
+            <methodElementProperty xmi:id="_LT3Q4I6CEeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Y_4KYI6BEeqsY7E4q20-og" name="捕获非功能需求" guid="_Y_4KYI6BEeqsY7E4q20-og" presentationName="New Task">
+            <methodElementProperty xmi:id="_LTjH0I6CEeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_uOJe8I6BEeqsY7E4q20-og" name="文档化需求" guid="_uOJe8I6BEeqsY7E4q20-og" presentationName="New Task">
+            <methodElementProperty xmi:id="_LUos8I6CEeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_BCwyUI5zEeqsY7E4q20-og" name="T5设计综合" guid="_BCwyUI5zEeqsY7E4q20-og">
+          <methodElementProperty xmi:id="_BCwyUY5zEeqsY7E4q20-og" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_VhmOAI5zEeqsY7E4q20-og" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_U0ergI6CEeqsY7E4q20-og" name="设计方案" guid="_U0ergI6CEeqsY7E4q20-og" presentationName="New Artifact">
+            <methodElementProperty xmi:id="_rQyggI6CEeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_dmQqMI6CEeqsY7E4q20-og" name="物理接口" guid="_dmQqMI6CEeqsY7E4q20-og" presentationName="New Artifact">
+            <methodElementProperty xmi:id="_rQjP8I6CEeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_fkZK0I6CEeqsY7E4q20-og" name="衍生需求" guid="_fkZK0I6CEeqsY7E4q20-og" presentationName="New Artifact">
+            <methodElementProperty xmi:id="_rQUmcI6CEeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_mWr-AI6CEeqsY7E4q20-og" name="组件需求" guid="_mWr-AI6CEeqsY7E4q20-og" presentationName="New Artifact">
+            <methodElementProperty xmi:id="_rQEHwI6CEeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_wN_L8I7SEeqpEYEy2MyyQw" name="整理设计目标" guid="_wN_L8I7SEeqpEYEy2MyyQw" presentationName="New Task">
+            <methodElementProperty xmi:id="_RZbdII7TEeqpEYEy2MyyQw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_y2LWMI7SEeqpEYEy2MyyQw" name="开发备选概念方案" guid="_y2LWMI7SEeqpEYEy2MyyQw" presentationName="New Task">
+            <methodElementProperty xmi:id="_RZDpsI7TEeqpEYEy2MyyQw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_07v7kI7SEeqpEYEy2MyyQw" name="选择最佳方案" guid="_07v7kI7SEeqpEYEy2MyyQw" presentationName="New Task">
+            <methodElementProperty xmi:id="_RY8U8I7TEeqpEYEy2MyyQw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_4QtsQI7SEeqpEYEy2MyyQw" name="详细设计？" guid="_4QtsQI7SEeqpEYEy2MyyQw" presentationName="New Task">
+            <methodElementProperty xmi:id="_RYrPMI7TEeqpEYEy2MyyQw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_DRJ64I7TEeqpEYEy2MyyQw" name="验证设计？" guid="_DRJ64I7TEeqpEYEy2MyyQw" presentationName="New Task">
+            <methodElementProperty xmi:id="_RYzyEI7TEeqpEYEy2MyyQw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_G9gQ0I7TEeqpEYEy2MyyQw" name="将最终设计方案纳入基线？" guid="_G9gQ0I7TEeqpEYEy2MyyQw" presentationName="New Task">
+            <methodElementProperty xmi:id="_RYN8MI7TEeqpEYEy2MyyQw" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_C0Dw0I5zEeqsY7E4q20-og" name="T6安全性评估" guid="_C0Dw0I5zEeqsY7E4q20-og">
+          <methodElementProperty xmi:id="_C0Dw0Y5zEeqsY7E4q20-og" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_VhNzgI5zEeqsY7E4q20-og" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_I1m7MI6BEeqsY7E4q20-og" name="安全性分析报告？" guid="_I1m7MI6BEeqsY7E4q20-og" presentationName="New Artifact">
+            <methodElementProperty xmi:id="_LV8UgI6CEeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_g3gUsI7TEeqpEYEy2MyyQw" name="适航规章" guid="_g3gUsI7TEeqpEYEy2MyyQw" presentationName="New Artifact">
+            <methodElementProperty xmi:id="_vsJ0wI7TEeqpEYEy2MyyQw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_lsu-QI7TEeqpEYEy2MyyQw" name="安全性支持文件" guid="_lsu-QI7TEeqpEYEy2MyyQw" presentationName="New Artifact">
+            <methodElementProperty xmi:id="_vsDHEI7TEeqpEYEy2MyyQw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_owGBkI7TEeqpEYEy2MyyQw" name="适航监控及经验教训" guid="_owGBkI7TEeqpEYEy2MyyQw" presentationName="New Artifact">
+            <methodElementProperty xmi:id="_vr7LQI7TEeqpEYEy2MyyQw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_tklrUI7TEeqpEYEy2MyyQw" name="成本需求" guid="_tklrUI7TEeqpEYEy2MyyQw" presentationName="New Artifact">
+            <methodElementProperty xmi:id="_vryoYI7TEeqpEYEy2MyyQw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_wj-NkI7TEeqpEYEy2MyyQw" name="编制安全性公共数据文件" guid="_wj-NkI7TEeqpEYEy2MyyQw" presentationName="New Task">
+            <methodElementProperty xmi:id="_SLTJgI7UEeqpEYEy2MyyQw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_zQI44I7TEeqpEYEy2MyyQw" name="执行系统功能危险性评估" guid="_zQI44I7TEeqpEYEy2MyyQw" presentationName="New Task">
+            <methodElementProperty xmi:id="_SKpCMI7UEeqpEYEy2MyyQw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_5YKnEI7TEeqpEYEy2MyyQw" name="执行初步系统安全性评估" guid="_5YKnEI7TEeqpEYEy2MyyQw" presentationName="New Task">
+            <methodElementProperty xmi:id="_SKw-AI7UEeqpEYEy2MyyQw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_8W3M0I7TEeqpEYEy2MyyQw" name="分配研制保证等级" guid="_8W3M0I7TEeqpEYEy2MyyQw" presentationName="New Task">
+            <methodElementProperty xmi:id="_SK3rsI7UEeqpEYEy2MyyQw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_EBsxkI7UEeqpEYEy2MyyQw" name="执行故障模式及影响分析" guid="_EBsxkI7UEeqpEYEy2MyyQw" presentationName="New Task">
+            <methodElementProperty xmi:id="_SKhGYI7UEeqpEYEy2MyyQw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_H4F0UI7UEeqpEYEy2MyyQw" name="执行特定风险分析" guid="_H4F0UI7UEeqpEYEy2MyyQw" presentationName="New Task">
+            <methodElementProperty xmi:id="_SKZxoI7UEeqpEYEy2MyyQw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_JxSxoI7UEeqpEYEy2MyyQw" name="执行区域安全性分析" guid="_JxSxoI7UEeqpEYEy2MyyQw" presentationName="New Task">
+            <methodElementProperty xmi:id="_SKJ6AI7UEeqpEYEy2MyyQw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_MYpOYI7UEeqpEYEy2MyyQw" name="执行共模分析" guid="_MYpOYI7UEeqpEYEy2MyyQw" presentationName="New Task">
+            <methodElementProperty xmi:id="_SKAJAI7UEeqpEYEy2MyyQw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_PGnQgI7UEeqpEYEy2MyyQw" name="执行系统安全性评估" guid="_PGnQgI7UEeqpEYEy2MyyQw" presentationName="New Task">
+            <methodElementProperty xmi:id="_R553gI7UEeqpEYEy2MyyQw" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_FMfAwI5zEeqsY7E4q20-og" name="T7需求确认" guid="_FMfAwI5zEeqsY7E4q20-og">
+          <methodElementProperty xmi:id="_FMfAwY5zEeqsY7E4q20-og" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_VgieEI5zEeqsY7E4q20-og" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_tiNTcI7YEeqpEYEy2MyyQw" name="需求确认总结？" guid="_tiNTcI7YEeqpEYEy2MyyQw" presentationName="New Artifact">
+            <methodElementProperty xmi:id="_6UG4oI7YEeqpEYEy2MyyQw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_Xw6ncI6CEeqsY7E4q20-og" name="系统需求经确认" guid="_Xw6ncI6CEeqsY7E4q20-og" presentationName="New Outcome">
+            <methodElementProperty xmi:id="_rRu7sI6CEeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_HwaswI7ZEeqpEYEy2MyyQw" name="准备需求确认" guid="_HwaswI7ZEeqpEYEy2MyyQw" presentationName="New Task">
+            <methodElementProperty xmi:id="_6qKywI7ZEeqpEYEy2MyyQw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_LG9x0I7ZEeqpEYEy2MyyQw" name="建立初始需求确认矩阵" guid="_LG9x0I7ZEeqpEYEy2MyyQw" presentationName="New Task">
+            <methodElementProperty xmi:id="_6qmQkI7ZEeqpEYEy2MyyQw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_jW_nMI7ZEeqpEYEy2MyyQw" name="确定需求确认方法？" guid="_jW_nMI7ZEeqpEYEy2MyyQw" presentationName="New Task" briefDescription="这个不在准备工作里边吗？">
+            <methodElementProperty xmi:id="_6qT8sI7ZEeqpEYEy2MyyQw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_pPCYoI7ZEeqpEYEy2MyyQw" name="执行需求确认" guid="_pPCYoI7ZEeqpEYEy2MyyQw" presentationName="New Task">
+            <methodElementProperty xmi:id="_6qdtsI7ZEeqpEYEy2MyyQw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_rgmyoI7ZEeqpEYEy2MyyQw" name="编制需求确认总结" guid="_rgmyoI7ZEeqpEYEy2MyyQw" presentationName="New Task">
+            <methodElementProperty xmi:id="_6qtlUI7ZEeqpEYEy2MyyQw" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_G2mZMI5zEeqsY7E4q20-og" name="T8实施" guid="_G2mZMI5zEeqsY7E4q20-og">
+          <methodElementProperty xmi:id="_G2mZMY5zEeqsY7E4q20-og" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_VgMf0I5zEeqsY7E4q20-og" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_-Gw1cI7ZEeqpEYEy2MyyQw" name="系统元素" guid="_-Gw1cI7ZEeqpEYEy2MyyQw" presentationName="New Artifact">
+            <methodElementProperty xmi:id="_ZQNH8I7aEeqpEYEy2MyyQw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_CtJxwI7aEeqpEYEy2MyyQw" name="系统元素文档" guid="_CtJxwI7aEeqpEYEy2MyyQw" presentationName="New Artifact">
+            <methodElementProperty xmi:id="_ZQFzMI7aEeqpEYEy2MyyQw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_E2Mh4I7aEeqpEYEy2MyyQw" name="准备实施" guid="_E2Mh4I7aEeqpEYEy2MyyQw" presentationName="New Task">
+            <methodElementProperty xmi:id="_ZP93YI7aEeqpEYEy2MyyQw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_QpUxsI7aEeqpEYEy2MyyQw" name="执行实施" guid="_QpUxsI7aEeqpEYEy2MyyQw" presentationName="New Task">
+            <methodElementProperty xmi:id="_ZP17kI7aEeqpEYEy2MyyQw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_TsiEAI7aEeqpEYEy2MyyQw" name="确认系统元素符合性" guid="_TsiEAI7aEeqpEYEy2MyyQw" presentationName="New Task">
+            <methodElementProperty xmi:id="_ZPrjgI7aEeqpEYEy2MyyQw" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_K3teMI5zEeqsY7E4q20-og" name="产品集成" guid="_K3teMI5zEeqsY7E4q20-og">
+          <methodElementProperty xmi:id="_K3teMY5zEeqsY7E4q20-og" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_VfgjUI5zEeqsY7E4q20-og" name="me_edited" value="true"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_MqylYI5zEeqsY7E4q20-og" name="实施验证" guid="_MqylYI5zEeqsY7E4q20-og">
+          <methodElementProperty xmi:id="_MqylYY5zEeqsY7E4q20-og" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_VfIv4I5zEeqsY7E4q20-og" name="me_edited" value="true"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_OeQHEI5zEeqsY7E4q20-og" name="产品确认" guid="_OeQHEI5zEeqsY7E4q20-og">
+          <methodElementProperty xmi:id="_OeQHEY5zEeqsY7E4q20-og" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_VeYh8I5zEeqsY7E4q20-og" name="me_edited" value="true"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_QIy9UI5zEeqsY7E4q20-og" name="交付" guid="_QIy9UI5zEeqsY7E4q20-og">
+          <methodElementProperty xmi:id="_QIy9UY5zEeqsY7E4q20-og" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_VeAugI5zEeqsY7E4q20-og" name="me_edited" value="true"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_R-FrAI5zEeqsY7E4q20-og" name="运行支持" guid="_R-FrAI5zEeqsY7E4q20-og">
+          <methodElementProperty xmi:id="_R-GSEI5zEeqsY7E4q20-og" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_VdrXUI5zEeqsY7E4q20-og" name="me_edited" value="true"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_TqPq0I5zEeqsY7E4q20-og" name="报废回收" guid="_TqPq0I5zEeqsY7E4q20-og">
+          <methodElementProperty xmi:id="_TqPq0Y5zEeqsY7E4q20-og" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_VddU4I5zEeqsY7E4q20-og" name="me_edited" value="true"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_njT4QI55EeqsY7E4q20-og" name="0公共" guid="_njT4QI55EeqsY7E4q20-og" briefDescription="外部输入、角色统一放在公共包里边。">
+          <methodElementProperty xmi:id="_njT4QY55EeqsY7E4q20-og" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_wRB2UI55EeqsY7E4q20-og" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_rwGBwI55EeqsY7E4q20-og" name="市场团队" guid="_rwGBwI55EeqsY7E4q20-og" presentationName="New Role">
+            <methodElementProperty xmi:id="_wQzM0I55EeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_t-xf0I55EeqsY7E4q20-og" name="需求团队" guid="_t-xf0I55EeqsY7E4q20-og" presentationName="New Role">
+            <methodElementProperty xmi:id="_wQj8QI55EeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_NY8gUI59EeqsY7E4q20-og" name="客户" guid="_NY8gUI59EeqsY7E4q20-og" presentationName="New Role">
+            <methodElementProperty xmi:id="_bHTGsI59EeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_PhVwMI59EeqsY7E4q20-og" name="产品策划团队" guid="_PhVwMI59EeqsY7E4q20-og" presentationName="New Role">
+            <methodElementProperty xmi:id="_bHEdMI59EeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_S2g8QI59EeqsY7E4q20-og" name="民航局方" guid="_S2g8QI59EeqsY7E4q20-og" presentationName="New Role">
+            <methodElementProperty xmi:id="_bGxiQI59EeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_Vsg5AI59EeqsY7E4q20-og" name="其他专业工程团队" guid="_Vsg5AI59EeqsY7E4q20-og" presentationName="New Role">
+            <methodElementProperty xmi:id="_ydsv8I5-EeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_J4ubgI51EeqsY7E4q20-og" name="其他利益攸关方" guid="_J4ubgI51EeqsY7E4q20-og" presentationName="New Role">
+            <methodElementProperty xmi:id="_Ue5I8I51EeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_2QI8QI59EeqsY7E4q20-og" name="安全性分析团队" guid="_2QI8QI59EeqsY7E4q20-og" presentationName="New Role 2">
+            <methodElementProperty xmi:id="_yd7ZcI5-EeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_1AG68I6BEeqsY7E4q20-og" name="设计团队" guid="_1AG68I6BEeqsY7E4q20-og" presentationName="New Role">
+            <methodElementProperty xmi:id="_LTJfMI6CEeqsY7E4q20-og" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_J_71II7VEeqpEYEy2MyyQw" name="实施团队" guid="_J_71II7VEeqpEYEy2MyyQw" presentationName="New Role">
+            <methodElementProperty xmi:id="_gO64cI7YEeqpEYEy2MyyQw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_L8N7oI7VEeqpEYEy2MyyQw" name="适航团队" guid="_L8N7oI7VEeqpEYEy2MyyQw" presentationName="New Role">
+            <methodElementProperty xmi:id="_gOsO8I7YEeqpEYEy2MyyQw" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_qUmYXY5yEeqsY7E4q20-og" name="CapabilityPatterns" guid="_qUmYXY5yEeqsY7E4q20-og"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_qUmYXo5yEeqsY7E4q20-og" name="DeliveryProcesses" guid="_qUmYXo5yEeqsY7E4q20-og"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_qUmYX45yEeqsY7E4q20-og" name="ProcessContributions" guid="_qUmYX45yEeqsY7E4q20-og"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>
