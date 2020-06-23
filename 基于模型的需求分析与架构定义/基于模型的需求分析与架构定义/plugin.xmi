@@ -21,6 +21,54 @@
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_LJKpcFS-EeqpgdRmUO9KKw" name="利益相关者需求分析" guid="_LJKpcFS-EeqpgdRmUO9KKw">
           <methodElementProperty xmi:id="_LJKpcVS-EeqpgdRmUO9KKw" name="pkg_loadCheck" value="true"/>
           <methodElementProperty xmi:id="_RThS4VS-EeqpgdRmUO9KKw" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_QP7N8LVgEeqrEZCQsiFrQw" name="建立生命周期概念" guid="_QP7N8LVgEeqrEZCQsiFrQw" presentationName="New Task">
+            <methodElementProperty xmi:id="_3Rj2cLVgEeqrEZCQsiFrQw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_on2bELVgEeqrEZCQsiFrQw" name="识别利益相关者" guid="_on2bELVgEeqrEZCQsiFrQw" presentationName="New Task">
+            <methodElementProperty xmi:id="_3RasgLVgEeqrEZCQsiFrQw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_rTW_ELVgEeqrEZCQsiFrQw" name="定义利益相关者需求" guid="_rTW_ELVgEeqrEZCQsiFrQw" presentationName="New Task">
+            <methodElementProperty xmi:id="_3RRikLVgEeqrEZCQsiFrQw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_vV7coLVgEeqrEZCQsiFrQw" name="建立系统环境" guid="_vV7coLVgEeqrEZCQsiFrQw" presentationName="New Task">
+            <methodElementProperty xmi:id="_3OgicLVgEeqrEZCQsiFrQw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_xjcdELVgEeqrEZCQsiFrQw" name="描述场景" guid="_xjcdELVgEeqrEZCQsiFrQw" presentationName="New Task">
+            <methodElementProperty xmi:id="_3QSrILVgEeqrEZCQsiFrQw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_6gwWULVgEeqrEZCQsiFrQw" name="识别系统功能" guid="_6gwWULVgEeqrEZCQsiFrQw" presentationName="New Task">
+            <methodElementProperty xmi:id="_8jKS8LVgEeqrEZCQsiFrQw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="__iyFwLVgEeqrEZCQsiFrQw" name="利益相关者清单" guid="__iyFwLVgEeqrEZCQsiFrQw" presentationName="New Artifact">
+            <methodElementProperty xmi:id="_DL9y8LVhEeqrEZCQsiFrQw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_DqilULVhEeqrEZCQsiFrQw" name="场景" guid="_DqilULVhEeqrEZCQsiFrQw" presentationName="New Artifact">
+            <methodElementProperty xmi:id="_JJrHgLVhEeqrEZCQsiFrQw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_GRMegLVhEeqrEZCQsiFrQw" name="功能识别" guid="_GRMegLVhEeqrEZCQsiFrQw" presentationName="New Artifact">
+            <methodElementProperty xmi:id="_JJceALVhEeqrEZCQsiFrQw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_KXTYQLVhEeqrEZCQsiFrQw" name="利益相关者需求" guid="_KXTYQLVhEeqrEZCQsiFrQw" presentationName="New Artifact" briefDescription="如何从模型自动生成利益相关者需求？">
+            <methodElementProperty xmi:id="_POmeYLVhEeqrEZCQsiFrQw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_S2vpwLVhEeqrEZCQsiFrQw" name="用例" guid="_S2vpwLVhEeqrEZCQsiFrQw" presentationName="New Artifact">
+            <methodElementProperty xmi:id="_ZN1HoLVhEeqrEZCQsiFrQw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_Wy3hELVhEeqrEZCQsiFrQw" name="系统环境" guid="_Wy3hELVhEeqrEZCQsiFrQw" presentationName="New Artifact">
+            <methodElementProperty xmi:id="_YoMrALVhEeqrEZCQsiFrQw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_gEoAULVhEeqrEZCQsiFrQw" name="建立利益相关者需求追溯性" guid="_gEoAULVhEeqrEZCQsiFrQw" presentationName="New Task">
+            <methodElementProperty xmi:id="_izNtgLVhEeqrEZCQsiFrQw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_SLROYLViEeqrEZCQsiFrQw" name="捕获利益相关者需要" guid="_SLROYLViEeqrEZCQsiFrQw" presentationName="New Task">
+            <methodElementProperty xmi:id="_cHZgULViEeqrEZCQsiFrQw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_VkdXwLViEeqrEZCQsiFrQw" name="利益相关者需要" guid="_VkdXwLViEeqrEZCQsiFrQw" presentationName="New Artifact">
+            <methodElementProperty xmi:id="_cHEJILViEeqrEZCQsiFrQw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_heSFcLViEeqrEZCQsiFrQw" name="需求工程师" guid="_heSFcLViEeqrEZCQsiFrQw" presentationName="New Role">
+            <methodElementProperty xmi:id="_i5HrwLViEeqrEZCQsiFrQw" name="me_edited" value="true"/>
+          </contentElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_N-8jwFS-EeqpgdRmUO9KKw" name="系统需求定义" guid="_N-8jwFS-EeqpgdRmUO9KKw">
           <methodElementProperty xmi:id="_N-8jwVS-EeqpgdRmUO9KKw" name="pkg_loadCheck" value="true"/>
