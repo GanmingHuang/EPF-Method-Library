@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML">
+  <uml:Activity xmi:id="_bJ_EEGGAEeuZNcqltU9cSw" name="创建模型">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bJ_EEWGAEeuZNcqltU9cSw" source="uma_element">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bJ_EEmGAEeuZNcqltU9cSw" key="uri" value="uma://_HAY4kGGAEeuZNcqltU9cSw#_VU11oWGAEeuZNcqltU9cSw"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bJ_EE2GAEeuZNcqltU9cSw" key="type" value="Activity"/>
+    </eAnnotations>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_jx3f4GGAEeuZNcqltU9cSw" name="建立建模规范">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jx4G8GGAEeuZNcqltU9cSw" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jx4G8WGAEeuZNcqltU9cSw" key="uri" value="uma://_HAY4kGGAEeuZNcqltU9cSw#_jx3f4WGAEeuZNcqltU9cSw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jx4G8mGAEeuZNcqltU9cSw" key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+  </uml:Activity>
+  <notation:Diagram xmi:id="_bJ_EFGGAEeuZNcqltU9cSw" type="AD" element="_bJ_EEGGAEeuZNcqltU9cSw" name="创建模型" measurementUnit="Pixel">
+    <children xmi:type="notation:Node" xmi:id="_jx5VEGGAEeuZNcqltU9cSw" type="1009" element="_jx3f4GGAEeuZNcqltU9cSw">
+      <children xmi:type="notation:Node" xmi:id="_jx58IGGAEeuZNcqltU9cSw" type="4008"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_jx5VEWGAEeuZNcqltU9cSw" fontName="Arial" fontHeight="8"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_jx5VEmGAEeuZNcqltU9cSw"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_jx5VE2GAEeuZNcqltU9cSw"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_jx5VFGGAEeuZNcqltU9cSw" lineColor="0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jx5VFWGAEeuZNcqltU9cSw" x="250" y="95"/>
+    </children>
+    <styles xmi:type="notation:PageStyle" xmi:id="_bJ_EFWGAEeuZNcqltU9cSw"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="_bJ_EFmGAEeuZNcqltU9cSw"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_bJ_EF2GAEeuZNcqltU9cSw"/>
+  </notation:Diagram>
+</xmi:XMI>
