@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_Vn_fAGe-EeuvYfasU7h29w" guid="_Vn_fAGe-EeuvYfasU7h29w"/>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_Vnl2YGe-EeuvYfasU7h29w" name="Harmony aMBSE" guid="_Vnl2YGe-EeuvYfasU7h29w">
+    <methodElementProperty xmi:id="_VoEXgGe-EeuvYfasU7h29w" name="plugin_synFree" value="true"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Vnl2YWe-EeuvYfasU7h29w" name="Content" guid="_Vnl2YWe-EeuvYfasU7h29w">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Vnl2Yme-EeuvYfasU7h29w" name="Categories" guid="_Vnl2Yme-EeuvYfasU7h29w">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Vnl2Y2e-EeuvYfasU7h29w" name="Domains" guid="_Vnl2Y2e-EeuvYfasU7h29w"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Vnl2ZGe-EeuvYfasU7h29w" name="Disciplines" guid="_Vnl2ZGe-EeuvYfasU7h29w"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Vnl2ZWe-EeuvYfasU7h29w" name="RoleSets" guid="_Vnl2ZWe-EeuvYfasU7h29w"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Vnl2Zme-EeuvYfasU7h29w" name="WP Types" guid="_Vnl2Zme-EeuvYfasU7h29w"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Vnl2Z2e-EeuvYfasU7h29w" name="Tools" guid="_Vnl2Z2e-EeuvYfasU7h29w"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Vnl2aGe-EeuvYfasU7h29w" name="StandardCategories" guid="_Vnl2aGe-EeuvYfasU7h29w"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Vnl2aWe-EeuvYfasU7h29w" name="CustomCategories" guid="_Vnl2aWe-EeuvYfasU7h29w">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Vnl2ame-EeuvYfasU7h29w" name="Hidden" guid="_Vnl2ame-EeuvYfasU7h29w">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_Vnl2a2e-EeuvYfasU7h29w" name="Custom Categories" guid="_Vnl2a2e-EeuvYfasU7h29w"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Vnl2bGe-EeuvYfasU7h29w" name="CoreContent" guid="_Vnl2bGe-EeuvYfasU7h29w">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_kxiRAGe-EeuvYfasU7h29w" name="启动项目" guid="_kxiRAGe-EeuvYfasU7h29w">
+          <methodElementProperty xmi:id="_kxi4EGe-EeuvYfasU7h29w" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_6-CIYGe-EeuvYfasU7h29w" name="me_edited" value="true"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_tCzjoGe-EeuvYfasU7h29w" name="利益攸关方需求定义" guid="_tCzjoGe-EeuvYfasU7h29w">
+          <methodElementProperty xmi:id="_tCzjoWe-EeuvYfasU7h29w" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_6917IGe-EeuvYfasU7h29w" name="me_edited" value="true"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_vpLwAGe-EeuvYfasU7h29w" name="系统需求定义" guid="_vpLwAGe-EeuvYfasU7h29w">
+          <methodElementProperty xmi:id="_vpMXEGe-EeuvYfasU7h29w" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_5e3bsGe-EeuvYfasU7h29w" name="me_edited" value="true"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_xGmJMGe-EeuvYfasU7h29w" name="架构分析" guid="_xGmJMGe-EeuvYfasU7h29w">
+          <methodElementProperty xmi:id="_xGmJMWe-EeuvYfasU7h29w" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_5DRr4Ge-EeuvYfasU7h29w" name="me_edited" value="true"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_0T7n4Ge-EeuvYfasU7h29w" name="架构定义" guid="_0T7n4Ge-EeuvYfasU7h29w">
+          <methodElementProperty xmi:id="_0T8O8Ge-EeuvYfasU7h29w" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_4mykMGe-EeuvYfasU7h29w" name="me_edited" value="true"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2tKwIGe-EeuvYfasU7h29w" name="控制项目" guid="_2tKwIGe-EeuvYfasU7h29w">
+          <methodElementProperty xmi:id="_2tKwIWe-EeuvYfasU7h29w" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_4J7CAGe-EeuvYfasU7h29w" name="me_edited" value="true"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_HpWdEGfCEeuvYfasU7h29w" name="交付下游工程" guid="_HpWdEGfCEeuvYfasU7h29w">
+          <methodElementProperty xmi:id="_HpWdEWfCEeuvYfasU7h29w" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="__9hH4GfDEeuvYfasU7h29w" name="me_edited" value="true"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_K_mnMGfCEeuvYfasU7h29w" name="质量保证" guid="_K_mnMGfCEeuvYfasU7h29w">
+          <methodElementProperty xmi:id="_K_mnMWfCEeuvYfasU7h29w" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_PerakGfCEeuvYfasU7h29w" name="me_edited" value="true"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Nj3TsGfCEeuvYfasU7h29w" name="管理变更" guid="_Nj3TsGfCEeuvYfasU7h29w">
+          <methodElementProperty xmi:id="_Nj3TsWfCEeuvYfasU7h29w" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_PCGMQGfCEeuvYfasU7h29w" name="me_edited" value="true"/>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Vnl2bWe-EeuvYfasU7h29w" name="CapabilityPatterns" guid="_Vnl2bWe-EeuvYfasU7h29w"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Vnl2bme-EeuvYfasU7h29w" name="DeliveryProcesses" guid="_Vnl2bme-EeuvYfasU7h29w"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Vnl2b2e-EeuvYfasU7h29w" name="ProcessContributions" guid="_Vnl2b2e-EeuvYfasU7h29w"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

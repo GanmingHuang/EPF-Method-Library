@@ -2,11 +2,29 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
   <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_GiQvwVS-EeqpgdRmUO9KKw" guid="_GiQvwVS-EeqpgdRmUO9KKw">
     <subManagers xmi:id="_Jn_xoVS-EeqpgdRmUO9KKw" href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_Jn_xoVS-EeqpgdRmUO9KKw"/>
+    <subManagers xmi:id="_Vn_fAGe-EeuvYfasU7h29w" href="uma://_Vnl2YGe-EeuvYfasU7h29w#_Vn_fAGe-EeuvYfasU7h29w"/>
+    <subManagers xmi:id="_AvphsGe_EeuvYfasU7h29w" href="uma://_AvmeYGe_EeuvYfasU7h29w#_AvphsGe_EeuvYfasU7h29w"/>
+    <subManagers xmi:id="_JyHAsGe_EeuvYfasU7h29w" href="uma://_JyDWUGe_EeuvYfasU7h29w#_JyHAsGe_EeuvYfasU7h29w"/>
+    <subManagers xmi:id="_LpJa0Ge_EeuvYfasU7h29w" href="uma://_LpFwcGe_EeuvYfasU7h29w#_LpJa0Ge_EeuvYfasU7h29w"/>
+    <subManagers xmi:id="_OyGIwGe_EeuvYfasU7h29w" href="uma://_OyDFcGe_EeuvYfasU7h29w#_OyGIwGe_EeuvYfasU7h29w"/>
+    <subManagers xmi:id="_f-qicGe_EeuvYfasU7h29w" href="uma://_f-m4EGe_EeuvYfasU7h29w#_f-qicGe_EeuvYfasU7h29w"/>
     <resourceDescriptors xmi:id="_GiQvwlS-EeqpgdRmUO9KKw" id="_GiQvwFS-EeqpgdRmUO9KKw" uri=""/>
-    <resourceDescriptors xmi:id="_Jn_xolS-EeqpgdRmUO9KKw" id="_Jn2nsFS-EeqpgdRmUO9KKw" uri="基于模型的需求分析与架构定义/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_Jn_xolS-EeqpgdRmUO9KKw" id="_Jn2nsFS-EeqpgdRmUO9KKw" uri="OpenMBSE/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_Vn_fAWe-EeuvYfasU7h29w" id="_Vnl2YGe-EeuvYfasU7h29w" uri="Harmony%20aMBSE/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_AvphsWe_EeuvYfasU7h29w" id="_AvmeYGe_EeuvYfasU7h29w" uri="FAA系统工程/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_JyHAsWe_EeuvYfasU7h29w" id="_JyDWUGe_EeuvYfasU7h29w" uri="INCOSE系统工程/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_LpJa0We_EeuvYfasU7h29w" id="_LpFwcGe_EeuvYfasU7h29w" uri="ARCADIA/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_OyGIwWe_EeuvYfasU7h29w" id="_OyDFcGe_EeuvYfasU7h29w" uri="OOSEM/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_f-qicWe_EeuvYfasU7h29w" id="_f-m4EGe_EeuvYfasU7h29w" uri="ARP4754A/plugin.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:MethodLibrary xmi:id="_GiQvwFS-EeqpgdRmUO9KKw" name="基于模型的需求分析与架构定义" guid="_GiQvwFS-EeqpgdRmUO9KKw">
     <methodElementProperty xmi:id="_Gk8QUFS-EeqpgdRmUO9KKw" name="library_synFree" value="true"/>
     <methodPlugins xmi:id="_Jn2nsFS-EeqpgdRmUO9KKw" href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_Jn2nsFS-EeqpgdRmUO9KKw"/>
+    <methodPlugins xmi:id="_Vnl2YGe-EeuvYfasU7h29w" href="uma://_Vnl2YGe-EeuvYfasU7h29w#_Vnl2YGe-EeuvYfasU7h29w"/>
+    <methodPlugins xmi:id="_AvmeYGe_EeuvYfasU7h29w" href="uma://_AvmeYGe_EeuvYfasU7h29w#_AvmeYGe_EeuvYfasU7h29w"/>
+    <methodPlugins xmi:id="_JyDWUGe_EeuvYfasU7h29w" href="uma://_JyDWUGe_EeuvYfasU7h29w#_JyDWUGe_EeuvYfasU7h29w"/>
+    <methodPlugins xmi:id="_LpFwcGe_EeuvYfasU7h29w" href="uma://_LpFwcGe_EeuvYfasU7h29w#_LpFwcGe_EeuvYfasU7h29w"/>
+    <methodPlugins xmi:id="_OyDFcGe_EeuvYfasU7h29w" href="uma://_OyDFcGe_EeuvYfasU7h29w#_OyDFcGe_EeuvYfasU7h29w"/>
+    <methodPlugins xmi:id="_f-m4EGe_EeuvYfasU7h29w" href="uma://_f-m4EGe_EeuvYfasU7h29w#_f-m4EGe_EeuvYfasU7h29w"/>
   </org.eclipse.epf.uma:MethodLibrary>
 </xmi:XMI>

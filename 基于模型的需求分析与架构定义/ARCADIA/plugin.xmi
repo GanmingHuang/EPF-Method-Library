@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_LpJa0Ge_EeuvYfasU7h29w" guid="_LpJa0Ge_EeuvYfasU7h29w"/>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_LpFwcGe_EeuvYfasU7h29w" name="ARCADIA" guid="_LpFwcGe_EeuvYfasU7h29w">
+    <methodElementProperty xmi:id="_LpJa0me_EeuvYfasU7h29w" name="plugin_synFree" value="true"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_LpFwcWe_EeuvYfasU7h29w" name="Content" guid="_LpFwcWe_EeuvYfasU7h29w">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_LpFwcme_EeuvYfasU7h29w" name="Categories" guid="_LpFwcme_EeuvYfasU7h29w">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_LpFwc2e_EeuvYfasU7h29w" name="Domains" guid="_LpFwc2e_EeuvYfasU7h29w"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_LpFwdGe_EeuvYfasU7h29w" name="Disciplines" guid="_LpFwdGe_EeuvYfasU7h29w"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_LpFwdWe_EeuvYfasU7h29w" name="RoleSets" guid="_LpFwdWe_EeuvYfasU7h29w"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_LpFwdme_EeuvYfasU7h29w" name="WP Types" guid="_LpFwdme_EeuvYfasU7h29w"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_LpFwd2e_EeuvYfasU7h29w" name="Tools" guid="_LpFwd2e_EeuvYfasU7h29w"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_LpFweGe_EeuvYfasU7h29w" name="StandardCategories" guid="_LpFweGe_EeuvYfasU7h29w"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_LpFweWe_EeuvYfasU7h29w" name="CustomCategories" guid="_LpFweWe_EeuvYfasU7h29w">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_LpFweme_EeuvYfasU7h29w" name="Hidden" guid="_LpFweme_EeuvYfasU7h29w">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_LpFwe2e_EeuvYfasU7h29w" name="Custom Categories" guid="_LpFwe2e_EeuvYfasU7h29w"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_LpFwfGe_EeuvYfasU7h29w" name="CoreContent" guid="_LpFwfGe_EeuvYfasU7h29w">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_h_vCUGe_EeuvYfasU7h29w" name="运行分析" guid="_h_vCUGe_EeuvYfasU7h29w">
+          <methodElementProperty xmi:id="_h_vCUWe_EeuvYfasU7h29w" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_qQIyQGe_EeuvYfasU7h29w" name="me_edited" value="true"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_jnPLoGe_EeuvYfasU7h29w" name="系统分析" guid="_jnPLoGe_EeuvYfasU7h29w">
+          <methodElementProperty xmi:id="_jnPLoWe_EeuvYfasU7h29w" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_p5ArsGe_EeuvYfasU7h29w" name="me_edited" value="true"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_lCJDYGe_EeuvYfasU7h29w" name="逻辑架构" guid="_lCJDYGe_EeuvYfasU7h29w">
+          <methodElementProperty xmi:id="_lCJDYWe_EeuvYfasU7h29w" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_pjGGEGe_EeuvYfasU7h29w" name="me_edited" value="true"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_mmw30Ge_EeuvYfasU7h29w" name="物理架构" guid="_mmw30Ge_EeuvYfasU7h29w">
+          <methodElementProperty xmi:id="_mmw30We_EeuvYfasU7h29w" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_pKrmEGe_EeuvYfasU7h29w" name="me_edited" value="true"/>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_LpFwfWe_EeuvYfasU7h29w" name="CapabilityPatterns" guid="_LpFwfWe_EeuvYfasU7h29w"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_LpFwfme_EeuvYfasU7h29w" name="DeliveryProcesses" guid="_LpFwfme_EeuvYfasU7h29w"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_LpFwf2e_EeuvYfasU7h29w" name="ProcessContributions" guid="_LpFwf2e_EeuvYfasU7h29w"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

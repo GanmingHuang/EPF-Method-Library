@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_OyGIwGe_EeuvYfasU7h29w" guid="_OyGIwGe_EeuvYfasU7h29w"/>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_OyDFcGe_EeuvYfasU7h29w" name="OOSEM" guid="_OyDFcGe_EeuvYfasU7h29w">
+    <methodElementProperty xmi:id="_OyGIwme_EeuvYfasU7h29w" name="plugin_synFree" value="true"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_OyDFcWe_EeuvYfasU7h29w" name="Content" guid="_OyDFcWe_EeuvYfasU7h29w">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_OyDFcme_EeuvYfasU7h29w" name="Categories" guid="_OyDFcme_EeuvYfasU7h29w">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_OyDFc2e_EeuvYfasU7h29w" name="Domains" guid="_OyDFc2e_EeuvYfasU7h29w"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_OyDFdGe_EeuvYfasU7h29w" name="Disciplines" guid="_OyDFdGe_EeuvYfasU7h29w"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_OyDFdWe_EeuvYfasU7h29w" name="RoleSets" guid="_OyDFdWe_EeuvYfasU7h29w"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_OyDFdme_EeuvYfasU7h29w" name="WP Types" guid="_OyDFdme_EeuvYfasU7h29w"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_OyDFd2e_EeuvYfasU7h29w" name="Tools" guid="_OyDFd2e_EeuvYfasU7h29w"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_OyDFeGe_EeuvYfasU7h29w" name="StandardCategories" guid="_OyDFeGe_EeuvYfasU7h29w"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_OyDFeWe_EeuvYfasU7h29w" name="CustomCategories" guid="_OyDFeWe_EeuvYfasU7h29w">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_OyDFeme_EeuvYfasU7h29w" name="Hidden" guid="_OyDFeme_EeuvYfasU7h29w">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_OyDFe2e_EeuvYfasU7h29w" name="Custom Categories" guid="_OyDFe2e_EeuvYfasU7h29w"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_OyDFfGe_EeuvYfasU7h29w" name="CoreContent" guid="_OyDFfGe_EeuvYfasU7h29w">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_a8YQIGfGEeuvYfasU7h29w" name="系统分析" guid="_a8YQIGfGEeuvYfasU7h29w" presentationName="系统分析" briefDescription="参考OOSEM的流程，&#xD;&#xA;可靠性分析、安全性分析等如何体现？">
+          <methodElementProperty xmi:id="_a-P4YGfGEeuvYfasU7h29w" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_a-P4YWfGEeuvYfasU7h29w" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_a8Y3MWfGEeuvYfasU7h29w" name="识别分析" guid="_a8Y3MWfGEeuvYfasU7h29w" presentationName="识别分析">
+            <methodElementProperty xmi:id="_a-QfcWfGEeuvYfasU7h29w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_a8Y3MmfGEeuvYfasU7h29w" name="建立分析模型" guid="_a8Y3MmfGEeuvYfasU7h29w" presentationName="建立分析模型">
+            <methodElementProperty xmi:id="_a-QfcmfGEeuvYfasU7h29w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_a8YQImfGEeuvYfasU7h29w" name="定义分析上下文" guid="_a8YQImfGEeuvYfasU7h29w" presentationName="定义分析上下文">
+            <methodElementProperty xmi:id="_a-Qfc2fGEeuvYfasU7h29w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_a8Y3M2fGEeuvYfasU7h29w" name="执行分析" guid="_a8Y3M2fGEeuvYfasU7h29w" presentationName="执行分析">
+            <methodElementProperty xmi:id="_a-QfdGfGEeuvYfasU7h29w" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_OyDFfWe_EeuvYfasU7h29w" name="CapabilityPatterns" guid="_OyDFfWe_EeuvYfasU7h29w"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_OyDFfme_EeuvYfasU7h29w" name="DeliveryProcesses" guid="_OyDFfme_EeuvYfasU7h29w"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_OyDFf2e_EeuvYfasU7h29w" name="ProcessContributions" guid="_OyDFf2e_EeuvYfasU7h29w"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>
