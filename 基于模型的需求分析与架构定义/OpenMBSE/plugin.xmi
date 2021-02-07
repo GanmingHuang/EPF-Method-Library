@@ -15,6 +15,8 @@
     <resourceDescriptors xmi:id="_fbfZYGe-EeuvYfasU7h29w" id="_fZ7TIGe-EeuvYfasU7h29w" uri="capabilitypatterns/物理架构定义/model.xmi"/>
     <resourceDescriptors xmi:id="_haJecGe-EeuvYfasU7h29w" id="_hYiU4Ge-EeuvYfasU7h29w" uri="capabilitypatterns/系统分析/model.xmi"/>
     <resourceDescriptors xmi:id="_ptXm8GfAEeuvYfasU7h29w" id="_prtaEGfAEeuvYfasU7h29w" uri="deliveryprocesses/基于模型的需求分析与架构定义/model.xmi"/>
+    <resourceDescriptors xmi:id="_g3vPoGlYEeu889X7HLlvoQ" id="-uBzLkHvGrv4yr4PiFjaAWg" uri="guidances/guidelines/基于模型属性的需求.xmi"/>
+    <resourceDescriptors xmi:id="_ZfBqwGlaEeu889X7HLlvoQ" id="-GOSAZXLV-HLQFvJu_vlBEQ" uri="guidances/checklists/逻辑架构定义工作检查.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_Jn2nsFS-EeqpgdRmUO9KKw" name="OpenMBSE" guid="_Jn2nsFS-EeqpgdRmUO9KKw" briefDescription="OpenMBSE, 通用MBSE, 集大成MBSE">
     <methodElementProperty xmi:id="_Jn_xo1S-EeqpgdRmUO9KKw" name="plugin_synFree" value="true"/>
@@ -115,6 +117,10 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_9ZtrUGY3EeuvDfTza-_7BA" name="特性工程师" guid="_9ZtrUGY3EeuvDfTza-_7BA" presentationName="特性工程师" briefDescription="负责特性分析的工程师，包括可靠性、安全性等。">
             <methodElementProperty xmi:id="_EeWLsGY4EeuvDfTza-_7BA" name="me_edited" value="true"/>
           </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_Cm8KoGlYEeu889X7HLlvoQ" name="基于模型属性的需求" guid="_Cm8KoGlYEeu889X7HLlvoQ" presentationName="基于模型属性的需求" briefDescription="使用块表示系统需求规范，使用块的属性表示系统的需求。&#xD;&#xA;使用操作表示功能需求，使用值属性表示性能需求、特性需求等量化需求，使用端口表示接口需求">
+            <methodElementProperty xmi:id="_d1K2gGlYEeu889X7HLlvoQ" name="me_edited" value="true"/>
+            <presentation xmi:id="-uBzLkHvGrv4yr4PiFjaAWg" href="uma://-uBzLkHvGrv4yr4PiFjaAWg#-uBzLkHvGrv4yr4PiFjaAWg"/>
+          </contentElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_PcjxQFS-EeqpgdRmUO9KKw" name="3 逻辑架构定义" guid="_PcjxQFS-EeqpgdRmUO9KKw">
           <methodElementProperty xmi:id="_PcjxQVS-EeqpgdRmUO9KKw" name="pkg_loadCheck" value="true"/>
@@ -140,13 +146,13 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_QhB0YF_rEeuGyK4GEWNojA" name="定义逻辑分解" guid="_QhB0YF_rEeuGyK4GEWNojA" presentationName="定义逻辑分解" briefDescription="将系统分解成逻辑组件" performedBy="_sP2icF5XEeu1xJ-wzF5uEw" mandatoryInput="_Wy3hELVhEeqrEZCQsiFrQw _qPMpUGF4EeuZNcqltU9cSw" output="_QfAGAF_pEeuGyK4GEWNojA _7xOPYF_oEeuGyK4GEWNojA">
             <methodElementProperty xmi:id="_cYejgF_rEeuGyK4GEWNojA" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_XEXJEF_sEeuGyK4GEWNojA" name="定义逻辑组件需求" guid="_XEXJEF_sEeuGyK4GEWNojA" presentationName="定义逻辑组件需求" mandatoryInput="_3zdKcGF2EeuZNcqltU9cSw _k-nk0F_pEeuGyK4GEWNojA" output="_-iPH4GF8EeuZNcqltU9cSw _FpfVAF_pEeuGyK4GEWNojA">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_XEXJEF_sEeuGyK4GEWNojA" name="定义逻辑组件需求" guid="_XEXJEF_sEeuGyK4GEWNojA" presentationName="定义逻辑组件需求" performedBy="_sP2icF5XEeu1xJ-wzF5uEw" mandatoryInput="_3zdKcGF2EeuZNcqltU9cSw _k-nk0F_pEeuGyK4GEWNojA" output="_-iPH4GF8EeuZNcqltU9cSw _FpfVAF_pEeuGyK4GEWNojA">
             <methodElementProperty xmi:id="_dijUgF_sEeuGyK4GEWNojA" name="me_edited" value="true"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_3zdKcGF2EeuZNcqltU9cSw" name="系统逻辑场景" guid="_3zdKcGF2EeuZNcqltU9cSw" presentationName="系统逻辑场景">
             <methodElementProperty xmi:id="_e1hQwGF3EeuZNcqltU9cSw" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_m0UTUGF3EeuZNcqltU9cSw" name="创建系统逻辑场景" guid="_m0UTUGF3EeuZNcqltU9cSw" presentationName="创建系统逻辑场景" mandatoryInput="_DqilULVhEeqrEZCQsiFrQw _QfAGAF_pEeuGyK4GEWNojA _qPMpUGF4EeuZNcqltU9cSw" output="_3zdKcGF2EeuZNcqltU9cSw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_m0UTUGF3EeuZNcqltU9cSw" name="创建系统逻辑场景" guid="_m0UTUGF3EeuZNcqltU9cSw" presentationName="创建系统逻辑场景" performedBy="_sP2icF5XEeu1xJ-wzF5uEw" mandatoryInput="_DqilULVhEeqrEZCQsiFrQw _QfAGAF_pEeuGyK4GEWNojA _qPMpUGF4EeuZNcqltU9cSw" output="_3zdKcGF2EeuZNcqltU9cSw">
             <methodElementProperty xmi:id="_DoPVMGF5EeuZNcqltU9cSw" name="me_edited" value="true"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_2HwBIGF3EeuZNcqltU9cSw" name="创建逻辑组件交联视图" guid="_2HwBIGF3EeuZNcqltU9cSw" presentationName="创建逻辑组件交联视图" performedBy="_sP2icF5XEeu1xJ-wzF5uEw" mandatoryInput="_3zdKcGF2EeuZNcqltU9cSw" output="_k-nk0F_pEeuGyK4GEWNojA _AHkkkF_pEeuGyK4GEWNojA">
@@ -154,6 +160,13 @@
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_-iPH4GF8EeuZNcqltU9cSw" name="逻辑组件需求" guid="_-iPH4GF8EeuZNcqltU9cSw" presentationName="逻辑组件需求">
             <methodElementProperty xmi:id="_FJBOoGF9EeuZNcqltU9cSw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_8WBwwGlYEeu889X7HLlvoQ" name="逻辑数据模型？" guid="_8WBwwGlYEeu889X7HLlvoQ" presentationName="逻辑数据模型" briefDescription="描述数据的内容以及数据之间的关系，不考虑数据的物理形态">
+            <methodElementProperty xmi:id="_DGR8kGlZEeu889X7HLlvoQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_QQVGkGlaEeu889X7HLlvoQ" name="逻辑架构定义工作检查" guid="_QQVGkGlaEeu889X7HLlvoQ" presentationName="New Checklist">
+            <methodElementProperty xmi:id="_UNm0cGlaEeu889X7HLlvoQ" name="me_edited" value="true"/>
+            <presentation xmi:id="-GOSAZXLV-HLQFvJu_vlBEQ" href="uma://-GOSAZXLV-HLQFvJu_vlBEQ#-GOSAZXLV-HLQFvJu_vlBEQ"/>
           </contentElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_kTVfIMBnEeqNRYuURMXvwA" name="项目外输入" guid="_kTVfIMBnEeqNRYuURMXvwA">
