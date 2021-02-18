@@ -148,9 +148,6 @@
     <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductNode" xmi:id="_ojkfsGYzEeuvDfTza-_7BA" name="企业级建模规范" type="1">
       <linkedElement xmi:type="org.eclipse.epf.uma:WorkProductDescriptor" href="uma://_HAY4kGGAEeuZNcqltU9cSw#_r7D0kmGAEeuZNcqltU9cSw"/>
     </nodes>
-    <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductNode" xmi:id="_ojkfsWYzEeuvDfTza-_7BA" name="模型组织架构" type="3">
-      <linkedElement xmi:type="org.eclipse.epf.uma:WorkProductDescriptor" href="uma://_HAY4kGGAEeuZNcqltU9cSw#_r7D0lGGAEeuZNcqltU9cSw"/>
-    </nodes>
     <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductNode" xmi:id="_ojlGwGYzEeuvDfTza-_7BA" name="项目级建模规范" type="1">
       <linkedElement xmi:type="org.eclipse.epf.uma:WorkProductDescriptor" href="uma://_HAY4kGGAEeuZNcqltU9cSw#_5o-W4GYyEeuvDfTza-_7BA"/>
     </nodes>
@@ -163,14 +160,6 @@
       <styles xmi:type="notation:FillStyle" xmi:id="_ojmU42YzEeuvDfTza-_7BA"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_ojmU5GYzEeuvDfTza-_7BA"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ojmU5WYzEeuvDfTza-_7BA"/>
-    </children>
-    <children xmi:type="notation:Node" xmi:id="_ojoKEGYzEeuvDfTza-_7BA" type="1001" element="_ojkfsWYzEeuvDfTza-_7BA">
-      <children xmi:type="notation:Node" xmi:id="_ojoKFmYzEeuvDfTza-_7BA" type="4001"/>
-      <styles xmi:type="notation:FontStyle" xmi:id="_ojoKEWYzEeuvDfTza-_7BA" fontName="Arial" fontHeight="8"/>
-      <styles xmi:type="notation:DescriptionStyle" xmi:id="_ojoKEmYzEeuvDfTza-_7BA"/>
-      <styles xmi:type="notation:FillStyle" xmi:id="_ojoKE2YzEeuvDfTza-_7BA"/>
-      <styles xmi:type="notation:LineStyle" xmi:id="_ojoKFGYzEeuvDfTza-_7BA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ojoKFWYzEeuvDfTza-_7BA" x="145"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_ojoxIGYzEeuvDfTza-_7BA" type="1001" element="_ojlGwGYzEeuvDfTza-_7BA">
       <children xmi:type="notation:Node" xmi:id="_ojpYMGYzEeuvDfTza-_7BA" type="4001"/>
@@ -209,9 +198,6 @@
     </nodes>
     <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductComposite" xmi:id="_uohEtmYzEeuvDfTza-_7BA" incomingConnections="_uohrwWYzEeuvDfTza-_7BA" type="2">
       <linkedElement xmi:type="org.eclipse.epf.uma:TaskDescriptor" href="uma://_HAY4kGGAEeuZNcqltU9cSw#_r7DNgGGAEeuZNcqltU9cSw"/>
-      <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductDescriptorNode" xmi:id="_uohEt2YzEeuvDfTza-_7BA" name="模型组织架构" state="">
-        <linkedElement xmi:type="org.eclipse.epf.uma:WorkProductDescriptor" href="uma://_HAY4kGGAEeuZNcqltU9cSw#_r7D0lGGAEeuZNcqltU9cSw"/>
-      </nodes>
     </nodes>
     <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductComposite" xmi:id="_uohEuGYzEeuvDfTza-_7BA" type="1">
       <linkedElement xmi:type="org.eclipse.epf.uma:TaskDescriptor" href="uma://_HAY4kGGAEeuZNcqltU9cSw#_5o6FcGYyEeuvDfTza-_7BA"/>
@@ -275,14 +261,6 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uol9NWYzEeuvDfTza-_7BA" x="131" y="1" width="79" height="67"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_uomkQGYzEeuvDfTza-_7BA" type="1002" element="_uohEtmYzEeuvDfTza-_7BA">
-      <children xmi:type="notation:Node" xmi:id="_upOPUGYzEeuvDfTza-_7BA" type="2003" element="_uohEt2YzEeuvDfTza-_7BA">
-        <children xmi:type="notation:Node" xmi:id="_upO2ZGYzEeuvDfTza-_7BA" type="4003"/>
-        <styles xmi:type="notation:FontStyle" xmi:id="_upOPUWYzEeuvDfTza-_7BA" fontName="Microsoft YaHei UI"/>
-        <styles xmi:type="notation:DescriptionStyle" xmi:id="_upO2YGYzEeuvDfTza-_7BA"/>
-        <styles xmi:type="notation:FillStyle" xmi:id="_upO2YWYzEeuvDfTza-_7BA"/>
-        <styles xmi:type="notation:LineStyle" xmi:id="_upO2YmYzEeuvDfTza-_7BA"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_upO2Y2YzEeuvDfTza-_7BA" x="141" y="178" width="59"/>
-      </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_uomkQWYzEeuvDfTza-_7BA" fontName="Microsoft YaHei UI"/>
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_uomkQmYzEeuvDfTza-_7BA"/>
       <styles xmi:type="notation:FillStyle" xmi:id="_uomkQ2YzEeuvDfTza-_7BA"/>
