@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
   <org.eclipse.epf.uma:DeliveryProcessDescription xmi:id="-3NPMSXXERJ7VojnV8j_rMA" name="基于模型的需求分析与架构定义,_prtaEWfAEeuvYfasU7h29w" guid="-3NPMSXXERJ7VojnV8j_rMA"/>
-  <org.eclipse.epf.uma:ProcessDescription xmi:id="-mByhXa0vK9I1PKDVSRnLew" name="创建模型,_HAY4kWGAEeuZNcqltU9cSw" guid="-mByhXa0vK9I1PKDVSRnLew"/>
-  <org.eclipse.epf.uma:ProcessDescription xmi:id="-LCu_eOP_7vwTb_o8N1jP1g" name="系统需求定义,_dSlzMWe-EeuvYfasU7h29w" guid="-LCu_eOP_7vwTb_o8N1jP1g"/>
-  <org.eclipse.epf.uma:ProcessDescription xmi:id="-HXut6M04jKuvEcOvVZV1Iw" name="逻辑架构定义,_vJAeoWF9EeuZNcqltU9cSw" guid="-HXut6M04jKuvEcOvVZV1Iw"/>
-  <org.eclipse.epf.uma:ProcessDescription xmi:id="-zvMWB57Ncco-z2Ogb3IktQ" name="物理架构定义,_fZ7TIWe-EeuvYfasU7h29w" guid="-zvMWB57Ncco-z2Ogb3IktQ"/>
-  <org.eclipse.epf.uma:ProcessDescription xmi:id="-Ega1aSLthkbsX98NQfwvTw" name="系统分析,_hYiU4We-EeuvYfasU7h29w" guid="-Ega1aSLthkbsX98NQfwvTw"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-zjuEDfZAv_EYvfr-TjKrrA" name="创建模型,_HAY4kWGAEeuZNcqltU9cSw" guid="-zjuEDfZAv_EYvfr-TjKrrA"/>
 </xmi:XMI>

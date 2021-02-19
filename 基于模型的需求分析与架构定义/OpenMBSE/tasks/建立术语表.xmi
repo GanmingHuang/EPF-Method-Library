@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-kBWocSkbKDU3OKVFdM5ARQ" name="建立术语表,_Lhi68GYzEeuvDfTza-_7BA" guid="-kBWocSkbKDU3OKVFdM5ARQ" changeDate="2021-02-20T00:07:57.420+0800">
+  <purpose>统一项目团队的术语理解和使用。</purpose>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-etr6o79QBDmh2G_FI30tNQ" name="建立模型库,_-91MgGfDEeuvYfasU7h29w" guid="-etr6o79QBDmh2G_FI30tNQ" changeDate="2021-02-20T00:07:06.700+0800">
+  <purpose>提供可复用的模型元素，提高建模效率。</purpose>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-HaCpUR4lxqA8buVdzVCpRw" name="准备建模,_VneI4HH2EeuAWZ7t2FAmYg" guid="-HaCpUR4lxqA8buVdzVCpRw">
+  <purpose>制定MBSE计划，作为项目所有建模工作的依据</purpose>
+</org.eclipse.epf.uma:TaskDescription>
