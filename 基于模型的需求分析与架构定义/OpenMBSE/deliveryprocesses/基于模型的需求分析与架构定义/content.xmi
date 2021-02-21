@@ -2,4 +2,5 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
   <org.eclipse.epf.uma:DeliveryProcessDescription xmi:id="-3NPMSXXERJ7VojnV8j_rMA" name="基于模型的需求分析与架构定义,_prtaEWfAEeuvYfasU7h29w" guid="-3NPMSXXERJ7VojnV8j_rMA"/>
   <org.eclipse.epf.uma:ProcessDescription xmi:id="-zjuEDfZAv_EYvfr-TjKrrA" name="创建模型,_HAY4kWGAEeuZNcqltU9cSw" guid="-zjuEDfZAv_EYvfr-TjKrrA"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-cH2yz4YMYz8dOq5A5Ze9Gg" name="逻辑架构定义,_vJAeoWF9EeuZNcqltU9cSw" guid="-cH2yz4YMYz8dOq5A5Ze9Gg"/>
 </xmi:XMI>

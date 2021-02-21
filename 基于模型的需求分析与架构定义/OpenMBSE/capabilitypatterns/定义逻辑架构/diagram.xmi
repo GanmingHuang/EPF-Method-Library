@@ -11,13 +11,13 @@
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_y9Msg2F-EeuZNcqltU9cSw" key="type" value="Task"/>
       </eAnnotations>
     </node>
-    <node xmi:type="uml:ActivityParameterNode" xmi:id="_y9MshGF-EeuZNcqltU9cSw" name="创建系统逻辑场景" outgoing="_2pfYEGF-EeuZNcqltU9cSw" incoming="_2Y5-YGF-EeuZNcqltU9cSw">
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_y9MshGF-EeuZNcqltU9cSw" name="定义系统功能逻辑场景" outgoing="_2pfYEGF-EeuZNcqltU9cSw" incoming="_2Y5-YGF-EeuZNcqltU9cSw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_y9MshWF-EeuZNcqltU9cSw" source="uma_element">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_y9MshmF-EeuZNcqltU9cSw" key="uri" value="uma://_vJAeoGF9EeuZNcqltU9cSw#_m9A4IGF-EeuZNcqltU9cSw"/>
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_y9Msh2F-EeuZNcqltU9cSw" key="type" value="Task"/>
       </eAnnotations>
     </node>
-    <node xmi:type="uml:ActivityParameterNode" xmi:id="_y9MsiGF-EeuZNcqltU9cSw" name="创建逻辑组件交联视图" outgoing="_23gl8GF-EeuZNcqltU9cSw" incoming="_2pfYEGF-EeuZNcqltU9cSw">
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_y9MsiGF-EeuZNcqltU9cSw" name="定义系统内部逻辑交联视图" outgoing="_23gl8GF-EeuZNcqltU9cSw" incoming="_2pfYEGF-EeuZNcqltU9cSw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_y9MsiWF-EeuZNcqltU9cSw" source="uma_element">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_y9MsimF-EeuZNcqltU9cSw" key="uri" value="uma://_vJAeoGF9EeuZNcqltU9cSw#_sKUDcGF-EeuZNcqltU9cSw"/>
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_y9Msi2F-EeuZNcqltU9cSw" key="type" value="Task"/>
@@ -30,12 +30,19 @@
       </eAnnotations>
     </node>
     <node xmi:type="uml:InitialNode" xmi:id="_SNCzsGF_EeuZNcqltU9cSw" outgoing="_TRSe8GF_EeuZNcqltU9cSw"/>
-    <node xmi:type="uml:ActivityFinalNode" xmi:id="_U9eT8GF_EeuZNcqltU9cSw" incoming="_XO1SkGF_EeuZNcqltU9cSw"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_U9eT8GF_EeuZNcqltU9cSw" incoming="_W7JGUHReEeue9dq7oqftvQ"/>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_SbVTIHReEeue9dq7oqftvQ" name="定义逻辑组件状态机" outgoing="_W7JGUHReEeue9dq7oqftvQ" incoming="_XO1SkGF_EeuZNcqltU9cSw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_SbVTIXReEeue9dq7oqftvQ" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_SbVTInReEeue9dq7oqftvQ" key="uri" value="uma://_vJAeoGF9EeuZNcqltU9cSw#_NZnFsHReEeue9dq7oqftvQ"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_SbVTI3ReEeue9dq7oqftvQ" key="type" value="Task"/>
+      </eAnnotations>
+    </node>
     <edge xmi:type="uml:ControlFlow" xmi:id="_2Y5-YGF-EeuZNcqltU9cSw" source="_y9MsgGF-EeuZNcqltU9cSw" target="_y9MshGF-EeuZNcqltU9cSw"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_2pfYEGF-EeuZNcqltU9cSw" source="_y9MshGF-EeuZNcqltU9cSw" target="_y9MsiGF-EeuZNcqltU9cSw"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_23gl8GF-EeuZNcqltU9cSw" source="_y9MsiGF-EeuZNcqltU9cSw" target="_y9MsjGF-EeuZNcqltU9cSw"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_TRSe8GF_EeuZNcqltU9cSw" source="_SNCzsGF_EeuZNcqltU9cSw" target="_y9MsgGF-EeuZNcqltU9cSw"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_XO1SkGF_EeuZNcqltU9cSw" source="_y9MsjGF-EeuZNcqltU9cSw" target="_U9eT8GF_EeuZNcqltU9cSw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_XO1SkGF_EeuZNcqltU9cSw" source="_y9MsjGF-EeuZNcqltU9cSw" target="_SbVTIHReEeue9dq7oqftvQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_W7JGUHReEeue9dq7oqftvQ" source="_SbVTIHReEeue9dq7oqftvQ" target="_U9eT8GF_EeuZNcqltU9cSw"/>
   </uml:Activity>
   <notation:Diagram xmi:id="_8BWqEGF9EeuZNcqltU9cSw" type="AD" element="_8BLq8GF9EeuZNcqltU9cSw" name="逻辑架构定义" measurementUnit="Pixel">
     <children xmi:type="notation:Node" xmi:id="_y9Pv0GF-EeuZNcqltU9cSw" type="1009" element="_y9MsgGF-EeuZNcqltU9cSw">
@@ -44,7 +51,7 @@
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_y9Pv0mF-EeuZNcqltU9cSw"/>
       <styles xmi:type="notation:FillStyle" xmi:id="_y9Pv02F-EeuZNcqltU9cSw"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_y9Pv1GF-EeuZNcqltU9cSw" lineColor="0"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y9Pv1WF-EeuZNcqltU9cSw" x="135" y="80"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y9Pv1WF-EeuZNcqltU9cSw" x="135" y="70"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_y9QW4WF-EeuZNcqltU9cSw" type="1009" element="_y9MshGF-EeuZNcqltU9cSw">
       <children xmi:type="notation:Node" xmi:id="_y9Q98GF-EeuZNcqltU9cSw" type="4008"/>
@@ -52,7 +59,7 @@
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_y9QW42F-EeuZNcqltU9cSw"/>
       <styles xmi:type="notation:FillStyle" xmi:id="_y9QW5GF-EeuZNcqltU9cSw"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_y9QW5WF-EeuZNcqltU9cSw" lineColor="0"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y9QW5mF-EeuZNcqltU9cSw" x="125" y="160"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y9QW5mF-EeuZNcqltU9cSw" x="110" y="140"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_y9RlAGF-EeuZNcqltU9cSw" type="1009" element="_y9MsiGF-EeuZNcqltU9cSw">
       <children xmi:type="notation:Node" xmi:id="_y9SMEGF-EeuZNcqltU9cSw" type="4008"/>
@@ -60,7 +67,7 @@
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_y9RlAmF-EeuZNcqltU9cSw"/>
       <styles xmi:type="notation:FillStyle" xmi:id="_y9RlA2F-EeuZNcqltU9cSw"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_y9RlBGF-EeuZNcqltU9cSw" lineColor="0"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y9RlBWF-EeuZNcqltU9cSw" x="110" y="240"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y9RlBWF-EeuZNcqltU9cSw" x="99" y="210"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_y9SMEWF-EeuZNcqltU9cSw" type="1009" element="_y9MsjGF-EeuZNcqltU9cSw">
       <children xmi:type="notation:Node" xmi:id="_y9SzIGF-EeuZNcqltU9cSw" type="4008"/>
@@ -68,7 +75,7 @@
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_y9SME2F-EeuZNcqltU9cSw"/>
       <styles xmi:type="notation:FillStyle" xmi:id="_y9SMFGF-EeuZNcqltU9cSw"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_y9SMFWF-EeuZNcqltU9cSw" lineColor="0"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y9SMFmF-EeuZNcqltU9cSw" x="120" y="320"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y9SMFmF-EeuZNcqltU9cSw" x="125" y="280"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_SNEo4GF_EeuZNcqltU9cSw" type="1004" element="_SNCzsGF_EeuZNcqltU9cSw">
       <children xmi:type="notation:Node" xmi:id="_SNF3AGF_EeuZNcqltU9cSw" type="4003">
@@ -78,7 +85,7 @@
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_SNEo4mF_EeuZNcqltU9cSw"/>
       <styles xmi:type="notation:FillStyle" xmi:id="_SNEo42F_EeuZNcqltU9cSw"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_SNEo5GF_EeuZNcqltU9cSw" lineColor="0"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SNEo5WF_EeuZNcqltU9cSw" x="160" y="30"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SNEo5WF_EeuZNcqltU9cSw" x="162" y="30"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_U9fiEGF_EeuZNcqltU9cSw" type="1001" element="_U9eT8GF_EeuZNcqltU9cSw">
       <children xmi:type="notation:Node" xmi:id="_U9gJIGF_EeuZNcqltU9cSw" type="4001">
@@ -88,7 +95,15 @@
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_U9fiEmF_EeuZNcqltU9cSw"/>
       <styles xmi:type="notation:FillStyle" xmi:id="_U9fiE2F_EeuZNcqltU9cSw"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_U9fiFGF_EeuZNcqltU9cSw" lineColor="0"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_U9fiFWF_EeuZNcqltU9cSw" x="150" y="390"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_U9fiFWF_EeuZNcqltU9cSw" x="160" y="425"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_SbrRYHReEeue9dq7oqftvQ" type="1009" element="_SbVTIHReEeue9dq7oqftvQ">
+      <children xmi:type="notation:Node" xmi:id="_SbuUsHReEeue9dq7oqftvQ" type="4008"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_SbrRYXReEeue9dq7oqftvQ" fontName="Arial" fontHeight="8"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_SbrRYnReEeue9dq7oqftvQ"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_SbrRY3ReEeue9dq7oqftvQ"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_SbrRZHReEeue9dq7oqftvQ" lineColor="0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SbrRZXReEeue9dq7oqftvQ" x="115" y="350"/>
     </children>
     <styles xmi:type="notation:PageStyle" xmi:id="_8BWqEWF9EeuZNcqltU9cSw"/>
     <styles xmi:type="notation:GuideStyle" xmi:id="_8BWqEmF9EeuZNcqltU9cSw"/>
@@ -129,7 +144,7 @@
       <styles xmi:type="notation:LineStyle" xmi:id="_TRU7M2F_EeuZNcqltU9cSw" lineColor="0"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_TRU7NGF_EeuZNcqltU9cSw" points="[-7, 10, -3, -54]$[-7, 40, -3, -24]"/>
     </edges>
-    <edges xmi:type="notation:Edge" xmi:id="_XO2gsGF_EeuZNcqltU9cSw" type="3001" element="_XO1SkGF_EeuZNcqltU9cSw" source="_y9SMEWF-EeuZNcqltU9cSw" target="_U9fiEGF_EeuZNcqltU9cSw">
+    <edges xmi:type="notation:Edge" xmi:id="_XO2gsGF_EeuZNcqltU9cSw" type="3001" element="_XO1SkGF_EeuZNcqltU9cSw" source="_y9SMEWF-EeuZNcqltU9cSw" target="_SbrRYHReEeue9dq7oqftvQ">
       <children xmi:type="notation:Node" xmi:id="_XO3HwGF_EeuZNcqltU9cSw" type="4012">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_XO3HwWF_EeuZNcqltU9cSw" y="40"/>
       </children>
@@ -137,6 +152,16 @@
       <styles xmi:type="notation:FontStyle" xmi:id="_XO2gsmF_EeuZNcqltU9cSw" fontName="Arial" fontHeight="8"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_XO2gs2F_EeuZNcqltU9cSw" lineColor="0"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XO2gtGF_EeuZNcqltU9cSw" points="[-4, 25, 2, -33]$[-4, 46, 2, -12]"/>
+    </edges>
+    <edges xmi:type="notation:Edge" xmi:id="_W7MwsHReEeue9dq7oqftvQ" type="3001" element="_W7JGUHReEeue9dq7oqftvQ" source="_SbrRYHReEeue9dq7oqftvQ" target="_U9fiEGF_EeuZNcqltU9cSw">
+      <children xmi:type="notation:Node" xmi:id="_W7N-0HReEeue9dq7oqftvQ" type="4012">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_W7N-0XReEeue9dq7oqftvQ" y="40"/>
+      </children>
+      <styles xmi:type="notation:RoutingStyle" xmi:id="_W7MwsXReEeue9dq7oqftvQ"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_W7MwsnReEeue9dq7oqftvQ" fontName="Arial" fontHeight="8"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_W7Mws3ReEeue9dq7oqftvQ" lineColor="0"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_W7MwtHReEeue9dq7oqftvQ" points="[-9, 25, 0, -15]$[-10, 38, -1, -2]"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_W7QbEHReEeue9dq7oqftvQ" id="(0.4166666666666667,0.08333333333333333)"/>
     </edges>
   </notation:Diagram>
   <org.eclipse.epf.diagram.model:WorkProductDependencyDiagram xmi:id="_CktM4GF_EeuZNcqltU9cSw">
@@ -156,21 +181,13 @@
     <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductNode" xmi:id="_CmLMhGF_EeuZNcqltU9cSw" name="逻辑组件交联视图" type="1">
       <linkedElement xmi:type="org.eclipse.epf.uma:WorkProductDescriptor" href="uma://_vJAeoGF9EeuZNcqltU9cSw#_sKV4oGF-EeuZNcqltU9cSw"/>
     </nodes>
-    <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductNode" xmi:id="_CmLMhWF_EeuZNcqltU9cSw" name="逻辑接口定义" type="1">
-      <linkedElement xmi:type="org.eclipse.epf.uma:WorkProductDescriptor" href="uma://_vJAeoGF9EeuZNcqltU9cSw#_sKV4omF-EeuZNcqltU9cSw"/>
-    </nodes>
+    <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductNode" xmi:id="_CmLMhWF_EeuZNcqltU9cSw" linkedElement="_sKV4omF-EeuZNcqltU9cSw" name="逻辑接口定义" type="1"/>
     <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductNode" xmi:id="_CmLzkGF_EeuZNcqltU9cSw" name="逻辑组件需求" type="1">
       <linkedElement xmi:type="org.eclipse.epf.uma:WorkProductDescriptor" href="uma://_vJAeoGF9EeuZNcqltU9cSw#_su1FwWF-EeuZNcqltU9cSw"/>
     </nodes>
-    <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductNode" xmi:id="_CmLzkWF_EeuZNcqltU9cSw" name="逻辑组件状态机" type="1">
-      <linkedElement xmi:type="org.eclipse.epf.uma:WorkProductDescriptor" href="uma://_vJAeoGF9EeuZNcqltU9cSw#_su1Fw2F-EeuZNcqltU9cSw"/>
-    </nodes>
-    <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductNode" xmi:id="_CmLzkmF_EeuZNcqltU9cSw" name="系统环境模型" type="1">
-      <linkedElement xmi:type="org.eclipse.epf.uma:WorkProductDescriptor" href="uma://_vJAeoGF9EeuZNcqltU9cSw#_vZacsWF-EeuZNcqltU9cSw"/>
-    </nodes>
-    <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductNode" xmi:id="_CmLzk2F_EeuZNcqltU9cSw" name="逻辑组件" type="1">
-      <linkedElement xmi:type="org.eclipse.epf.uma:WorkProductDescriptor" href="uma://_vJAeoGF9EeuZNcqltU9cSw#_vZacs2F-EeuZNcqltU9cSw"/>
-    </nodes>
+    <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductNode" xmi:id="_CmLzkWF_EeuZNcqltU9cSw" linkedElement="_su1Fw2F-EeuZNcqltU9cSw" name="逻辑组件状态机" type="1"/>
+    <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductNode" xmi:id="_CmLzkmF_EeuZNcqltU9cSw" linkedElement="_vZacsWF-EeuZNcqltU9cSw" name="系统环境模型" type="1"/>
+    <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductNode" xmi:id="_CmLzk2F_EeuZNcqltU9cSw" linkedElement="_vZacs2F-EeuZNcqltU9cSw" name="逻辑组件" type="1"/>
   </org.eclipse.epf.diagram.model:WorkProductDependencyDiagram>
   <notation:Diagram xmi:id="_Cktz8GF_EeuZNcqltU9cSw" type="WPDD" element="_CktM4GF_EeuZNcqltU9cSw" name="逻辑架构定义" measurementUnit="Pixel">
     <children xmi:type="notation:Node" xmi:id="_CmOP0GF_EeuZNcqltU9cSw" type="1001" element="_CmLMgGF_EeuZNcqltU9cSw">
@@ -284,9 +301,7 @@
     <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductComposite" xmi:id="_9s5LJmlaEeu889X7HLlvoQ" type="1">
       <linkedElement xmi:type="org.eclipse.epf.uma:TaskDescriptor" href="uma://_vJAeoGF9EeuZNcqltU9cSw#_vZacsGF-EeuZNcqltU9cSw"/>
       <outgoingConnections xmi:type="org.eclipse.epf.diagram.model:Link" xmi:id="_9s7nYGlaEeu889X7HLlvoQ" target="_9s5LImlaEeu889X7HLlvoQ"/>
-      <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductDescriptorNode" xmi:id="_9s5LJ2laEeu889X7HLlvoQ" name="系统环境模型" state="">
-        <linkedElement xmi:type="org.eclipse.epf.uma:WorkProductDescriptor" href="uma://_vJAeoGF9EeuZNcqltU9cSw#_vZacsWF-EeuZNcqltU9cSw"/>
-      </nodes>
+      <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductDescriptorNode" xmi:id="_9s5LJ2laEeu889X7HLlvoQ" linkedElement="_vZacsWF-EeuZNcqltU9cSw" name="系统环境模型" state=""/>
       <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductDescriptorNode" xmi:id="_9s5LKGlaEeu889X7HLlvoQ" name="系统需求" state="">
         <linkedElement xmi:type="org.eclipse.epf.uma:WorkProductDescriptor" href="uma://_vJAeoGF9EeuZNcqltU9cSw#_m9CGQGF-EeuZNcqltU9cSw"/>
       </nodes>
@@ -296,9 +311,7 @@
       <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductDescriptorNode" xmi:id="_9s5LKmlaEeu889X7HLlvoQ" name="系统逻辑分解" state="">
         <linkedElement xmi:type="org.eclipse.epf.uma:WorkProductDescriptor" href="uma://_vJAeoGF9EeuZNcqltU9cSw#_m9BfMmF-EeuZNcqltU9cSw"/>
       </nodes>
-      <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductDescriptorNode" xmi:id="_9s5LK2laEeu889X7HLlvoQ" name="逻辑组件" state="">
-        <linkedElement xmi:type="org.eclipse.epf.uma:WorkProductDescriptor" href="uma://_vJAeoGF9EeuZNcqltU9cSw#_vZacs2F-EeuZNcqltU9cSw"/>
-      </nodes>
+      <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductDescriptorNode" xmi:id="_9s5LK2laEeu889X7HLlvoQ" linkedElement="_vZacs2F-EeuZNcqltU9cSw" name="逻辑组件" state=""/>
     </nodes>
     <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductComposite" xmi:id="_9s5LLGlaEeu889X7HLlvoQ" type="1">
       <linkedElement xmi:type="org.eclipse.epf.uma:TaskDescriptor" href="uma://_vJAeoGF9EeuZNcqltU9cSw#_m9A4IGF-EeuZNcqltU9cSw"/>
@@ -331,9 +344,7 @@
       <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductDescriptorNode" xmi:id="_9s5LNWlaEeu889X7HLlvoQ" name="逻辑组件交联视图" state="">
         <linkedElement xmi:type="org.eclipse.epf.uma:WorkProductDescriptor" href="uma://_vJAeoGF9EeuZNcqltU9cSw#_sKV4oGF-EeuZNcqltU9cSw"/>
       </nodes>
-      <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductDescriptorNode" xmi:id="_9s5LNmlaEeu889X7HLlvoQ" name="逻辑接口定义" state="">
-        <linkedElement xmi:type="org.eclipse.epf.uma:WorkProductDescriptor" href="uma://_vJAeoGF9EeuZNcqltU9cSw#_sKV4omF-EeuZNcqltU9cSw"/>
-      </nodes>
+      <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductDescriptorNode" xmi:id="_9s5LNmlaEeu889X7HLlvoQ" linkedElement="_sKV4omF-EeuZNcqltU9cSw" name="逻辑接口定义" state=""/>
     </nodes>
     <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductComposite" xmi:id="_9s5LN2laEeu889X7HLlvoQ" type="1">
       <linkedElement xmi:type="org.eclipse.epf.uma:TaskDescriptor" href="uma://_vJAeoGF9EeuZNcqltU9cSw#_su1FwGF-EeuZNcqltU9cSw"/>
@@ -350,9 +361,7 @@
       <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductDescriptorNode" xmi:id="_9s5LO2laEeu889X7HLlvoQ" name="逻辑组件需求" state="">
         <linkedElement xmi:type="org.eclipse.epf.uma:WorkProductDescriptor" href="uma://_vJAeoGF9EeuZNcqltU9cSw#_su1FwWF-EeuZNcqltU9cSw"/>
       </nodes>
-      <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductDescriptorNode" xmi:id="_9s5LPGlaEeu889X7HLlvoQ" name="逻辑组件状态机" state="">
-        <linkedElement xmi:type="org.eclipse.epf.uma:WorkProductDescriptor" href="uma://_vJAeoGF9EeuZNcqltU9cSw#_su1Fw2F-EeuZNcqltU9cSw"/>
-      </nodes>
+      <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductDescriptorNode" xmi:id="_9s5LPGlaEeu889X7HLlvoQ" linkedElement="_su1Fw2F-EeuZNcqltU9cSw" name="逻辑组件状态机" state=""/>
     </nodes>
   </org.eclipse.epf.diagram.model:ActivityDetailDiagram>
   <notation:Diagram xmi:id="_9r2CQWlaEeu889X7HLlvoQ" type="ADD" element="_9r2CQGlaEeu889X7HLlvoQ" name="逻辑架构定义" measurementUnit="Pixel">
