@@ -12,7 +12,7 @@
     <resourceDescriptors xmi:id="_HCo7UGGAEeuZNcqltU9cSw" id="_HAY4kGGAEeuZNcqltU9cSw" uri="capabilitypatterns/准备建模/model.xmi"/>
     <resourceDescriptors xmi:id="_azrgwGe-EeuvYfasU7h29w" id="_atxGAGe-EeuvYfasU7h29w" uri="capabilitypatterns/利益攸关方需求定义/model.xmi"/>
     <resourceDescriptors xmi:id="_dUZxEGe-EeuvYfasU7h29w" id="_dSlzMGe-EeuvYfasU7h29w" uri="capabilitypatterns/系统需求定义/model.xmi"/>
-    <resourceDescriptors xmi:id="_fbfZYGe-EeuvYfasU7h29w" id="_fZ7TIGe-EeuvYfasU7h29w" uri="capabilitypatterns/物理架构定义/model.xmi"/>
+    <resourceDescriptors xmi:id="_fbfZYGe-EeuvYfasU7h29w" id="_fZ7TIGe-EeuvYfasU7h29w" uri="capabilitypatterns/定义物理架构/model.xmi"/>
     <resourceDescriptors xmi:id="_haJecGe-EeuvYfasU7h29w" id="_hYiU4Ge-EeuvYfasU7h29w" uri="capabilitypatterns/系统分析/model.xmi"/>
     <resourceDescriptors xmi:id="_ptXm8GfAEeuvYfasU7h29w" id="_prtaEGfAEeuvYfasU7h29w" uri="deliveryprocesses/基于模型的需求分析与架构定义/model.xmi"/>
     <resourceDescriptors xmi:id="_g3vPoGlYEeu889X7HLlvoQ" id="-uBzLkHvGrv4yr4PiFjaAWg" uri="guidances/guidelines/基于模型属性的需求.xmi"/>
@@ -173,6 +173,9 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_2WtAMHRcEeue9dq7oqftvQ" name="系统外部交联" guid="_2WtAMHRcEeue9dq7oqftvQ" presentationName="系统外部交联" briefDescription="描述系统与外部环境的交联关系">
             <methodElementProperty xmi:id="_7Lj2UHRcEeue9dq7oqftvQ" name="me_edited" value="true"/>
           </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_nDv-AHUhEeus9JE7rv5zYA" name="系统状态机" guid="_nDv-AHUhEeus9JE7rv5zYA" presentationName="系统状态机">
+            <methodElementProperty xmi:id="_pcZ3cHUhEeus9JE7rv5zYA" name="me_edited" value="true"/>
+          </contentElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_PcjxQFS-EeqpgdRmUO9KKw" name="3 定义逻辑架构" guid="_PcjxQFS-EeqpgdRmUO9KKw">
           <methodElementProperty xmi:id="_PcjxQVS-EeqpgdRmUO9KKw" name="pkg_loadCheck" value="true"/>
@@ -233,13 +236,13 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_vtztsHH4EeuAWZ7t2FAmYg" name="领域专家" guid="_vtztsHH4EeuAWZ7t2FAmYg" presentationName="领域专家">
             <methodElementProperty xmi:id="_xrilsHH4EeuAWZ7t2FAmYg" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_heSFcLViEeqrEZCQsiFrQw" name="需求工程师" guid="_heSFcLViEeqrEZCQsiFrQw" presentationName="New Role">
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_heSFcLViEeqrEZCQsiFrQw" name="需求工程师" guid="_heSFcLViEeqrEZCQsiFrQw" presentationName="需求工程师">
             <methodElementProperty xmi:id="_i5HrwLViEeqrEZCQsiFrQw" name="me_edited" value="true"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_9ZtrUGY3EeuvDfTza-_7BA" name="特性工程师" guid="_9ZtrUGY3EeuvDfTza-_7BA" presentationName="特性工程师" briefDescription="负责特性分析的工程师，包括可靠性、安全性等。">
             <methodElementProperty xmi:id="_EeWLsGY4EeuvDfTza-_7BA" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_sP2icF5XEeu1xJ-wzF5uEw" name="架构师" guid="_sP2icF5XEeu1xJ-wzF5uEw" presentationName="架构师" briefDescription="负责系统架构的定义">
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_sP2icF5XEeu1xJ-wzF5uEw" name="系统架构师" guid="_sP2icF5XEeu1xJ-wzF5uEw" presentationName="系统架构师" briefDescription="负责系统架构的定义">
             <methodElementProperty xmi:id="_1T5V0F5XEeu1xJ-wzF5uEw" name="me_edited" value="true"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_fWBpEHLLEeuwMeizsPfS0w" name="项目约束" guid="_fWBpEHLLEeuwMeizsPfS0w" presentationName="项目约束">
@@ -254,45 +257,117 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_7Gxl8GfEEeuvYfasU7h29w" name="可靠性分析师" guid="_7Gxl8GfEEeuvYfasU7h29w" presentationName="可靠性分析师">
             <methodElementProperty xmi:id="_k2JnEGfFEeuvYfasU7h29w" name="me_edited" value="true"/>
           </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_Nyob4HUdEeus9JE7rv5zYA" name="硬件架构师" guid="_Nyob4HUdEeus9JE7rv5zYA" presentationName="硬件架构师">
+            <methodElementProperty xmi:id="_TjsbkHUdEeus9JE7rv5zYA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_aL3CYHUdEeus9JE7rv5zYA" name="软件架构师" guid="_aL3CYHUdEeus9JE7rv5zYA" presentationName="软件架构师">
+            <methodElementProperty xmi:id="_cRZykHUdEeus9JE7rv5zYA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_ddZ2MHUeEeus9JE7rv5zYA" name="硬件工程师" guid="_ddZ2MHUeEeus9JE7rv5zYA" presentationName="硬件工程师">
+            <methodElementProperty xmi:id="_fc8FAHUeEeus9JE7rv5zYA" name="me_edited" value="true"/>
+          </contentElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_VNl_QF_tEeuGyK4GEWNojA" name="4 定义物理架构" guid="_VNl_QF_tEeuGyK4GEWNojA">
           <methodElementProperty xmi:id="_VNmmUF_tEeuGyK4GEWNojA" name="pkg_loadCheck" value="true"/>
           <methodElementProperty xmi:id="_IDEpQF_uEeuGyK4GEWNojA" name="me_edited" value="true"/>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_rIU64HH5EeuAWZ7t2FAmYg" name="定义物理节点架构" guid="_rIU64HH5EeuAWZ7t2FAmYg" presentationName="定义物理节点架构">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_rIU64HH5EeuAWZ7t2FAmYg" name="定义物理节点架构" guid="_rIU64HH5EeuAWZ7t2FAmYg" presentationName="定义物理节点架构" performedBy="_sP2icF5XEeu1xJ-wzF5uEw" mandatoryInput="_LPKSMHUgEeus9JE7rv5zYA _0tLIcHUeEeus9JE7rv5zYA _lFVGUHUdEeus9JE7rv5zYA _FUqpsHUgEeus9JE7rv5zYA" output="_wPIsUHUdEeus9JE7rv5zYA _EVr1wHUcEeus9JE7rv5zYA _pLj74HUdEeus9JE7rv5zYA _lFVGUHUdEeus9JE7rv5zYA" additionallyPerformedBy="_Nyob4HUdEeus9JE7rv5zYA _aL3CYHUdEeus9JE7rv5zYA" optionalInput="_DqilULVhEeqrEZCQsiFrQw _3zdKcGF2EeuZNcqltU9cSw _Ik2S8HUeEeus9JE7rv5zYA">
             <methodElementProperty xmi:id="_5Y62MHH6EeuAWZ7t2FAmYg" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_6jav4HH5EeuAWZ7t2FAmYg" name="定义物理组件需求" guid="_6jav4HH5EeuAWZ7t2FAmYg" presentationName="定义物理组件需求">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_6jav4HH5EeuAWZ7t2FAmYg" name="定义物理组件需求" guid="_6jav4HH5EeuAWZ7t2FAmYg" presentationName="定义物理组件需求" performedBy="_heSFcLViEeqrEZCQsiFrQw" mandatoryInput="_Nj1YoHUiEeus9JE7rv5zYA" output="_niwngHUcEeus9JE7rv5zYA _j7N5EHUcEeus9JE7rv5zYA" additionallyPerformedBy="_sP2icF5XEeu1xJ-wzF5uEw">
             <methodElementProperty xmi:id="_FJEf8HH6EeuAWZ7t2FAmYg" name="me_edited" value="true"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_BiYtIHH6EeuAWZ7t2FAmYg" name="系统物理分解" guid="_BiYtIHH6EeuAWZ7t2FAmYg" presentationName="系统物理分解">
             <methodElementProperty xmi:id="_ERibAHH6EeuAWZ7t2FAmYg" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_8xc4QHH6EeuAWZ7t2FAmYg" name="建立物理分区准则" guid="_8xc4QHH6EeuAWZ7t2FAmYg" presentationName="建立物理分区准则" performedBy="_sP2icF5XEeu1xJ-wzF5uEw" mandatoryInput="_qPMpUGF4EeuZNcqltU9cSw _-iPH4GF8EeuZNcqltU9cSw _ShUJwF_uEeuGyK4GEWNojA" output="_BRiYQHH7EeuAWZ7t2FAmYg">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_8xc4QHH6EeuAWZ7t2FAmYg" name="定义分区准则" guid="_8xc4QHH6EeuAWZ7t2FAmYg" presentationName="定义分区准则" performedBy="_sP2icF5XEeu1xJ-wzF5uEw" mandatoryInput="_qPMpUGF4EeuZNcqltU9cSw _-iPH4GF8EeuZNcqltU9cSw _ShUJwF_uEeuGyK4GEWNojA" output="_BRiYQHH7EeuAWZ7t2FAmYg">
             <methodElementProperty xmi:id="_ITAP4HH7EeuAWZ7t2FAmYg" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_BRiYQHH7EeuAWZ7t2FAmYg" name="物理架构分区准则" guid="_BRiYQHH7EeuAWZ7t2FAmYg" presentationName="物理架构分区准则">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_BRiYQHH7EeuAWZ7t2FAmYg" name="分区准则" guid="_BRiYQHH7EeuAWZ7t2FAmYg" presentationName="分区准则">
             <methodElementProperty xmi:id="_ElOWkHH7EeuAWZ7t2FAmYg" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_peva0HRSEeue9dq7oqftvQ" name="定义逻辑节点架构" guid="_peva0HRSEeue9dq7oqftvQ" presentationName="定义逻辑节点架构">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_peva0HRSEeue9dq7oqftvQ" name="定义逻辑节点架构" guid="_peva0HRSEeue9dq7oqftvQ" presentationName="定义逻辑节点架构" performedBy="_sP2icF5XEeu1xJ-wzF5uEw" mandatoryInput="_-iPH4GF8EeuZNcqltU9cSw _BRiYQHH7EeuAWZ7t2FAmYg _QfAGAF_pEeuGyK4GEWNojA _3zdKcGF2EeuZNcqltU9cSw" output="_0tLIcHUeEeus9JE7rv5zYA _FUqpsHUgEeus9JE7rv5zYA _lFVGUHUdEeus9JE7rv5zYA _LPKSMHUgEeus9JE7rv5zYA" optionalInput="_FpfVAF_pEeuGyK4GEWNojA">
             <methodElementProperty xmi:id="_2WizsHRSEeue9dq7oqftvQ" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_5KepAHRUEeue9dq7oqftvQ" name="定义关键组件属性" guid="_5KepAHRUEeue9dq7oqftvQ" presentationName="定义关键组件属性">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_5KepAHRUEeue9dq7oqftvQ" name="定义关键组件属性" guid="_5KepAHRUEeue9dq7oqftvQ" presentationName="定义关键组件属性" performedBy="_heSFcLViEeqrEZCQsiFrQw" mandatoryInput="_0CTG0HUbEeus9JE7rv5zYA _eYNjgHUcEeus9JE7rv5zYA _EVr1wHUcEeus9JE7rv5zYA _MCrWoHUcEeus9JE7rv5zYA _PAPT8HUcEeus9JE7rv5zYA _avw2IHUcEeus9JE7rv5zYA _co6o0HRbEeue9dq7oqftvQ" output="_Um6okHUcEeus9JE7rv5zYA" optionalInput="_j7N5EHUcEeus9JE7rv5zYA _niwngHUcEeus9JE7rv5zYA _BRiYQHH7EeuAWZ7t2FAmYg">
             <methodElementProperty xmi:id="_auzUQHRVEeue9dq7oqftvQ" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="__kW8MHRUEeue9dq7oqftvQ" name="定义数据架构" guid="__kW8MHRUEeue9dq7oqftvQ" presentationName="定义数据架构">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="__kW8MHRUEeue9dq7oqftvQ" name="定义数据架构" guid="__kW8MHRUEeue9dq7oqftvQ" presentationName="定义数据架构" briefDescription="数据架构是硬件架构师的职责？" performedBy="_Nyob4HUdEeus9JE7rv5zYA" mandatoryInput="_EVr1wHUcEeus9JE7rv5zYA _wPIsUHUdEeus9JE7rv5zYA _lFVGUHUdEeus9JE7rv5zYA _pLj74HUdEeus9JE7rv5zYA" output="_MCrWoHUcEeus9JE7rv5zYA" additionallyPerformedBy="_sP2icF5XEeu1xJ-wzF5uEw _aL3CYHUdEeus9JE7rv5zYA" optionalInput="_Ik2S8HUeEeus9JE7rv5zYA">
             <methodElementProperty xmi:id="_avJSgHRVEeue9dq7oqftvQ" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_EYWPoHRVEeue9dq7oqftvQ" name="定义几何模型" guid="_EYWPoHRVEeue9dq7oqftvQ" presentationName="定义几何模型">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_EYWPoHRVEeue9dq7oqftvQ" name="定义几何模型" guid="_EYWPoHRVEeue9dq7oqftvQ" presentationName="定义几何模型" performedBy="_ddZ2MHUeEeus9JE7rv5zYA" mandatoryInput="_0CTG0HUbEeus9JE7rv5zYA _j7N5EHUcEeus9JE7rv5zYA _BRiYQHH7EeuAWZ7t2FAmYg" additionallyPerformedBy="_Nyob4HUdEeus9JE7rv5zYA" optionalInput="_EVr1wHUcEeus9JE7rv5zYA _0tLIcHUeEeus9JE7rv5zYA">
             <methodElementProperty xmi:id="_awkO0HRVEeue9dq7oqftvQ" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_ICci0HRVEeue9dq7oqftvQ" name="定义硬件架构" guid="_ICci0HRVEeue9dq7oqftvQ" presentationName="定义硬件架构">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_ICci0HRVEeue9dq7oqftvQ" name="定义硬件架构" guid="_ICci0HRVEeue9dq7oqftvQ" presentationName="定义硬件架构" performedBy="_Nyob4HUdEeus9JE7rv5zYA" mandatoryInput="_wPIsUHUdEeus9JE7rv5zYA _EVr1wHUcEeus9JE7rv5zYA _lFVGUHUdEeus9JE7rv5zYA" output="_0CTG0HUbEeus9JE7rv5zYA _VrxQcHUfEeus9JE7rv5zYA" additionallyPerformedBy="_vtztsHH4EeuAWZ7t2FAmYg">
             <methodElementProperty xmi:id="_aveCoHRVEeue9dq7oqftvQ" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Kn3F4HRVEeue9dq7oqftvQ" name="定义软件架构" guid="_Kn3F4HRVEeue9dq7oqftvQ" presentationName="定义软件架构">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Kn3F4HRVEeue9dq7oqftvQ" name="定义软件架构" guid="_Kn3F4HRVEeue9dq7oqftvQ" presentationName="定义软件架构" performedBy="_aL3CYHUdEeus9JE7rv5zYA" mandatoryInput="_ywnqQHUgEeus9JE7rv5zYA _wPIsUHUdEeus9JE7rv5zYA _EVr1wHUcEeus9JE7rv5zYA _lFVGUHUdEeus9JE7rv5zYA _pLj74HUdEeus9JE7rv5zYA" output="_PAPT8HUcEeus9JE7rv5zYA _tS19gHUhEeus9JE7rv5zYA _1kXHwHUhEeus9JE7rv5zYA" additionallyPerformedBy="_sP2icF5XEeu1xJ-wzF5uEw" optionalInput="_FpfVAF_pEeuGyK4GEWNojA _LPKSMHUgEeus9JE7rv5zYA _3zdKcGF2EeuZNcqltU9cSw">
             <methodElementProperty xmi:id="_awPesHRVEeue9dq7oqftvQ" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_P-TmIHRVEeue9dq7oqftvQ" name="定义操作规程" guid="_P-TmIHRVEeue9dq7oqftvQ" presentationName="定义操作规程">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_P-TmIHRVEeue9dq7oqftvQ" name="定义操作规程" guid="_P-TmIHRVEeue9dq7oqftvQ" presentationName="定义操作规程" performedBy="_vtztsHH4EeuAWZ7t2FAmYg" mandatoryInput="_FUqpsHUgEeus9JE7rv5zYA" output="_7KA-IHUgEeus9JE7rv5zYA" additionallyPerformedBy="_sP2icF5XEeu1xJ-wzF5uEw" optionalInput="_7iMPwHK-EeuwMeizsPfS0w">
             <methodElementProperty xmi:id="_Sc03AHRVEeue9dq7oqftvQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_0CTG0HUbEeus9JE7rv5zYA" name="硬件架构" guid="_0CTG0HUbEeus9JE7rv5zYA" presentationName="硬件架构">
+            <methodElementProperty xmi:id="_8YcSYHUbEeus9JE7rv5zYA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_EVr1wHUcEeus9JE7rv5zYA" name="物理节点分解" guid="_EVr1wHUcEeus9JE7rv5zYA" presentationName="物理节点分解">
+            <methodElementProperty xmi:id="_G3pcMHUcEeus9JE7rv5zYA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_MCrWoHUcEeus9JE7rv5zYA" name="数据架构" guid="_MCrWoHUcEeus9JE7rv5zYA" presentationName="数据架构">
+            <methodElementProperty xmi:id="_TGXb0HUcEeus9JE7rv5zYA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_PAPT8HUcEeus9JE7rv5zYA" name="软件架构" guid="_PAPT8HUcEeus9JE7rv5zYA" presentationName="软件架构">
+            <methodElementProperty xmi:id="_Rpi4gHUcEeus9JE7rv5zYA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_Um6okHUcEeus9JE7rv5zYA" name="组件技术性能度量" guid="_Um6okHUcEeus9JE7rv5zYA" presentationName="组件技术性能度量">
+            <methodElementProperty xmi:id="_XOegsHUcEeus9JE7rv5zYA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_j7N5EHUcEeus9JE7rv5zYA" name="硬件组件需求" guid="_j7N5EHUcEeus9JE7rv5zYA" presentationName="硬件组件需求">
+            <methodElementProperty xmi:id="_nIo3UHUcEeus9JE7rv5zYA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_niwngHUcEeus9JE7rv5zYA" name="软件组件需求" guid="_niwngHUcEeus9JE7rv5zYA" presentationName="软件组件需求">
+            <methodElementProperty xmi:id="_qLLbQHUcEeus9JE7rv5zYA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_lFVGUHUdEeus9JE7rv5zYA" name="物理节点交联" guid="_lFVGUHUdEeus9JE7rv5zYA" presentationName="物理节点交联">
+            <methodElementProperty xmi:id="_nyzZMHUdEeus9JE7rv5zYA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_pLj74HUdEeus9JE7rv5zYA" name="物理节点场景" guid="_pLj74HUdEeus9JE7rv5zYA" presentationName="物理节点场景">
+            <methodElementProperty xmi:id="_rbUYAHUdEeus9JE7rv5zYA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_wPIsUHUdEeus9JE7rv5zYA" name="物理节点定义" guid="_wPIsUHUdEeus9JE7rv5zYA" presentationName="物理节点定义" briefDescription="描述组成系统的物理节点">
+            <methodElementProperty xmi:id="_yp3CUHUdEeus9JE7rv5zYA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_xokH8HUeEeus9JE7rv5zYA" name="几何模型" guid="_xokH8HUeEeus9JE7rv5zYA" presentationName="几何模型">
+            <methodElementProperty xmi:id="_zxN2gHUeEeus9JE7rv5zYA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_0tLIcHUeEeus9JE7rv5zYA" name="逻辑节点定义" guid="_0tLIcHUeEeus9JE7rv5zYA" presentationName="逻辑节点定义">
+            <methodElementProperty xmi:id="_3PdfAHUeEeus9JE7rv5zYA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_VrxQcHUfEeus9JE7rv5zYA" name="硬件组件交联" guid="_VrxQcHUfEeus9JE7rv5zYA" presentationName="硬件组件交联">
+            <methodElementProperty xmi:id="_eevh8HUfEeus9JE7rv5zYA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_FUqpsHUgEeus9JE7rv5zYA" name="逻辑节点分解" guid="_FUqpsHUgEeus9JE7rv5zYA" presentationName="逻辑节点分解">
+            <methodElementProperty xmi:id="_NmeH0HUgEeus9JE7rv5zYA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_IpgekHUgEeus9JE7rv5zYA" name="逻辑节点交联" guid="_IpgekHUgEeus9JE7rv5zYA" presentationName="逻辑节点交联">
+            <methodElementProperty xmi:id="_NmKl0HUgEeus9JE7rv5zYA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_LPKSMHUgEeus9JE7rv5zYA" name="逻辑节点场景" guid="_LPKSMHUgEeus9JE7rv5zYA" presentationName="逻辑节点场景">
+            <methodElementProperty xmi:id="_NlyLUHUgEeus9JE7rv5zYA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_ywnqQHUgEeus9JE7rv5zYA" name="逻辑到物理分配矩阵" guid="_ywnqQHUgEeus9JE7rv5zYA" presentationName="逻辑到物理分配矩阵">
+            <methodElementProperty xmi:id="_2SzXkHUgEeus9JE7rv5zYA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_7KA-IHUgEeus9JE7rv5zYA" name="操作规程定义" guid="_7KA-IHUgEeus9JE7rv5zYA" presentationName="操作规程定义">
+            <methodElementProperty xmi:id="__Q6iEHUgEeus9JE7rv5zYA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_tS19gHUhEeus9JE7rv5zYA" name="软件组件交联" guid="_tS19gHUhEeus9JE7rv5zYA" presentationName="软件组件交联">
+            <methodElementProperty xmi:id="_wumSsHUhEeus9JE7rv5zYA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_1kXHwHUhEeus9JE7rv5zYA" name="软件层次架构" guid="_1kXHwHUhEeus9JE7rv5zYA" presentationName="软件层次架构">
+            <methodElementProperty xmi:id="_4BeqcHUhEeus9JE7rv5zYA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_Nj1YoHUiEeus9JE7rv5zYA" name="关键组件属性" guid="_Nj1YoHUiEeus9JE7rv5zYA" presentationName="关键组件属性">
+            <methodElementProperty xmi:id="_QqQ-EHUiEeus9JE7rv5zYA" name="me_edited" value="true"/>
           </contentElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_nSxb8F_tEeuGyK4GEWNojA" name="0 准备建模" guid="_nSxb8F_tEeuGyK4GEWNojA" presentationName="准备建模" briefDescription="此流程参考OOSEM的Setup Model流程">
@@ -365,6 +440,15 @@
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_MVRLYHK_EeuwMeizsPfS0w" name="约束模块" guid="_MVRLYHK_EeuwMeizsPfS0w" presentationName="约束模块">
             <methodElementProperty xmi:id="_Stn0kHK_EeuwMeizsPfS0w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_avw2IHUcEeus9JE7rv5zYA" name="系统分析结果" guid="_avw2IHUcEeus9JE7rv5zYA" presentationName="系统分析结果">
+            <methodElementProperty xmi:id="_d-WSAHUcEeus9JE7rv5zYA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_eYNjgHUcEeus9JE7rv5zYA" name="任务分析结果" guid="_eYNjgHUcEeus9JE7rv5zYA" presentationName="任务分析结果">
+            <methodElementProperty xmi:id="_g3wIEHUcEeus9JE7rv5zYA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_Ik2S8HUeEeus9JE7rv5zYA" name="权衡分析结果" guid="_Ik2S8HUeEeus9JE7rv5zYA" presentationName="权衡分析结果">
+            <methodElementProperty xmi:id="_Lg2xEHUeEeus9JE7rv5zYA" name="me_edited" value="true"/>
           </contentElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ACShcHH8EeuAWZ7t2FAmYg" name="交付下层级系统模型" guid="_ACShcHH8EeuAWZ7t2FAmYg" presentationName="交付下层级系统模型" briefDescription="是否有必要定义这个流程？或者作为物理架构定义的一个活动？">

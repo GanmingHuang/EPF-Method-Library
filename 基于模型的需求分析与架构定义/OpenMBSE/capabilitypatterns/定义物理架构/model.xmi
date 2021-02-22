@@ -3,9 +3,10 @@
   <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_fbs0wGe-EeuvYfasU7h29w" guid="_fbs0wGe-EeuvYfasU7h29w">
     <resourceDescriptors xmi:id="_fbs0wWe-EeuvYfasU7h29w" id="-Ped7oB8e8JCBxIy4rpH2bQ" uri="content.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
-  <org.eclipse.epf.uma:ProcessComponent xmi:id="_fZ7TIGe-EeuvYfasU7h29w" name="物理架构定义" guid="_fZ7TIGe-EeuvYfasU7h29w">
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_fZ7TIGe-EeuvYfasU7h29w" name="定义物理架构" guid="_fZ7TIGe-EeuvYfasU7h29w">
     <methodElementProperty xmi:id="_fZ7TIme-EeuvYfasU7h29w" name="pkg_loadCheck" value="true"/>
-    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_fZ7TIWe-EeuvYfasU7h29w" name="物理架构定义" guid="_fZ7TIWe-EeuvYfasU7h29w" presentationName="物理架构定义">
+    <methodElementProperty xmi:id="_dqU7EHUiEeus9JE7rv5zYA" name="me_edited" value="true"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_fZ7TIWe-EeuvYfasU7h29w" name="定义物理架构" guid="_fZ7TIWe-EeuvYfasU7h29w" presentationName="定义物理架构">
       <presentation xmi:id="-Ped7oB8e8JCBxIy4rpH2bQ" href="uma://-Ped7oB8e8JCBxIy4rpH2bQ#-Ped7oB8e8JCBxIy4rpH2bQ"/>
     </process>
   </org.eclipse.epf.uma:ProcessComponent>
