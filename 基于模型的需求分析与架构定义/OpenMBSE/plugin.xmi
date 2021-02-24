@@ -13,11 +13,11 @@
     <resourceDescriptors xmi:id="_azrgwGe-EeuvYfasU7h29w" id="_atxGAGe-EeuvYfasU7h29w" uri="capabilitypatterns/利益攸关方需求定义/model.xmi"/>
     <resourceDescriptors xmi:id="_dUZxEGe-EeuvYfasU7h29w" id="_dSlzMGe-EeuvYfasU7h29w" uri="capabilitypatterns/分析系统需求/model.xmi"/>
     <resourceDescriptors xmi:id="_fbfZYGe-EeuvYfasU7h29w" id="_fZ7TIGe-EeuvYfasU7h29w" uri="capabilitypatterns/定义物理架构/model.xmi"/>
-    <resourceDescriptors xmi:id="_haJecGe-EeuvYfasU7h29w" id="_hYiU4Ge-EeuvYfasU7h29w" uri="capabilitypatterns/系统分析/model.xmi"/>
+    <resourceDescriptors xmi:id="_haJecGe-EeuvYfasU7h29w" id="_hYiU4Ge-EeuvYfasU7h29w" uri="capabilitypatterns/执行系统分析/model.xmi"/>
     <resourceDescriptors xmi:id="_ptXm8GfAEeuvYfasU7h29w" id="_prtaEGfAEeuvYfasU7h29w" uri="deliveryprocesses/基于模型的需求分析与架构定义/model.xmi"/>
     <resourceDescriptors xmi:id="_g3vPoGlYEeu889X7HLlvoQ" id="-uBzLkHvGrv4yr4PiFjaAWg" uri="guidances/guidelines/基于模型属性的需求.xmi"/>
     <resourceDescriptors xmi:id="_ZfBqwGlaEeu889X7HLlvoQ" id="-GOSAZXLV-HLQFvJu_vlBEQ" uri="guidances/checklists/逻辑架构定义工作检查单.xmi"/>
-    <resourceDescriptors xmi:id="_2OWUcHH2EeuAWZ7t2FAmYg" id="_2MM_YHH2EeuAWZ7t2FAmYg" uri="capabilitypatterns/利益相关方需求分析/model.xmi"/>
+    <resourceDescriptors xmi:id="_2OWUcHH2EeuAWZ7t2FAmYg" id="_2MM_YHH2EeuAWZ7t2FAmYg" uri="capabilitypatterns/分析利益相关方需求/model.xmi"/>
     <resourceDescriptors xmi:id="_VRRKIHLMEeuwMeizsPfS0w" id="-HaCpUR4lxqA8buVdzVCpRw" uri="tasks/制定建模计划.xmi"/>
     <resourceDescriptors xmi:id="_4MO4MHLMEeuwMeizsPfS0w" id="-azWzLTiww9Bg2VnFRKjXiA" uri="tasks/建立建模规范.xmi"/>
     <resourceDescriptors xmi:id="_4MU-0HLMEeuwMeizsPfS0w" id="-Ob41NXyygAFgNS9B47nDHQ" uri="tasks/建立模型组织架构.xmi"/>
@@ -87,50 +87,53 @@
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_LJKpcFS-EeqpgdRmUO9KKw" name="1 分析利益相关者需求" guid="_LJKpcFS-EeqpgdRmUO9KKw" presentationName="分析利益相关者需求" briefDescription="这个流程的输出没有利益攸关方需求？&#xD;&#xA;将任务需求改为利益攸关方需求？&#xD;&#xA;这个流程不分析场景？">
           <methodElementProperty xmi:id="_LJKpcVS-EeqpgdRmUO9KKw" name="pkg_loadCheck" value="true"/>
           <methodElementProperty xmi:id="_RThS4VS-EeqpgdRmUO9KKw" name="me_edited" value="true"/>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_QP7N8LVgEeqrEZCQsiFrQw" name="定义利益攸关方用例" guid="_QP7N8LVgEeqrEZCQsiFrQw" presentationName="定义利益攸关方用例">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_QP7N8LVgEeqrEZCQsiFrQw" name="定义顶层用例" guid="_QP7N8LVgEeqrEZCQsiFrQw" presentationName="定义顶层用例" performedBy="_vtztsHH4EeuAWZ7t2FAmYg" mandatoryInput="_KrgHMHavEeuQkdonVOQ62A _KXTYQLVhEeqrEZCQsiFrQw" output="_S2vpwLVhEeqrEZCQsiFrQw">
             <methodElementProperty xmi:id="_3Rj2cLVgEeqrEZCQsiFrQw" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_rTW_ELVgEeqrEZCQsiFrQw" name="描述当前系统与环境" guid="_rTW_ELVgEeqrEZCQsiFrQw" presentationName="描述当前系统与环境">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_rTW_ELVgEeqrEZCQsiFrQw" name="描述当前系统运行域" guid="_rTW_ELVgEeqrEZCQsiFrQw" presentationName="描述当前系统运行域" performedBy="_vtztsHH4EeuAWZ7t2FAmYg" output="_gd7HIHauEeuQkdonVOQ62A _n-0FsHauEeuQkdonVOQ62A" additionallyPerformedBy="_sP2icF5XEeu1xJ-wzF5uEw">
             <methodElementProperty xmi:id="_3RRikLVgEeqrEZCQsiFrQw" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_xjcdELVgEeqrEZCQsiFrQw" name="定义目标系统运行域" guid="_xjcdELVgEeqrEZCQsiFrQw" presentationName="定义目标系统运行域">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_xjcdELVgEeqrEZCQsiFrQw" name="定义目标系统运行域" guid="_xjcdELVgEeqrEZCQsiFrQw" presentationName="定义目标系统运行域" performedBy="_vtztsHH4EeuAWZ7t2FAmYg" mandatoryInput="_gd7HIHauEeuQkdonVOQ62A _COBIIHXsEeug9tQKNCLgYw" output="_Wy3hELVhEeqrEZCQsiFrQw" optionalInput="_S2vpwLVhEeqrEZCQsiFrQw _HAspYHavEeuQkdonVOQ62A _KrgHMHavEeuQkdonVOQ62A _KXTYQLVhEeqrEZCQsiFrQw">
             <methodElementProperty xmi:id="_3QSrILVgEeqrEZCQsiFrQw" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_6gwWULVgEeqrEZCQsiFrQw" name="定义任务需求" guid="_6gwWULVgEeqrEZCQsiFrQw" presentationName="定义任务需求">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_6gwWULVgEeqrEZCQsiFrQw" name="定义任务需求" guid="_6gwWULVgEeqrEZCQsiFrQw" presentationName="定义任务需求" performedBy="_vtztsHH4EeuAWZ7t2FAmYg" mandatoryInput="_COBIIHXsEeug9tQKNCLgYw" output="_HAspYHavEeuQkdonVOQ62A _KrgHMHavEeuQkdonVOQ62A _KXTYQLVhEeqrEZCQsiFrQw" additionallyPerformedBy="_heSFcLViEeqrEZCQsiFrQw">
             <methodElementProperty xmi:id="_8jKS8LVgEeqrEZCQsiFrQw" name="me_edited" value="true"/>
-          </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="__iyFwLVgEeqrEZCQsiFrQw" name="利益相关者清单" guid="__iyFwLVgEeqrEZCQsiFrQw" presentationName="New Artifact">
-            <methodElementProperty xmi:id="_DL9y8LVhEeqrEZCQsiFrQw" name="me_edited" value="true"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_DqilULVhEeqrEZCQsiFrQw" name="任务场景" guid="_DqilULVhEeqrEZCQsiFrQw" presentationName="任务场景">
             <methodElementProperty xmi:id="_JJrHgLVhEeqrEZCQsiFrQw" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_GRMegLVhEeqrEZCQsiFrQw" name="功能识别" guid="_GRMegLVhEeqrEZCQsiFrQw" presentationName="New Artifact">
-            <methodElementProperty xmi:id="_JJceALVhEeqrEZCQsiFrQw" name="me_edited" value="true"/>
-          </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_KXTYQLVhEeqrEZCQsiFrQw" name="利益相关者需求" guid="_KXTYQLVhEeqrEZCQsiFrQw" presentationName="利益相关者需求" briefDescription="如何从模型自动生成利益相关者需求？">
             <methodElementProperty xmi:id="_POmeYLVhEeqrEZCQsiFrQw" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_S2vpwLVhEeqrEZCQsiFrQw" name="用例" guid="_S2vpwLVhEeqrEZCQsiFrQw" presentationName="用例">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_S2vpwLVhEeqrEZCQsiFrQw" name="顶层用例" guid="_S2vpwLVhEeqrEZCQsiFrQw" presentationName="顶层用例">
             <methodElementProperty xmi:id="_ZN1HoLVhEeqrEZCQsiFrQw" name="me_edited" value="true"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_Wy3hELVhEeqrEZCQsiFrQw" name="系统运行域模型" guid="_Wy3hELVhEeqrEZCQsiFrQw" presentationName="系统运行域模型" briefDescription="描述系统运行域的组成">
             <methodElementProperty xmi:id="_YoMrALVhEeqrEZCQsiFrQw" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_gEoAULVhEeqrEZCQsiFrQw" name="执行因果分析" guid="_gEoAULVhEeqrEZCQsiFrQw" presentationName="执行因果分析">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_gEoAULVhEeqrEZCQsiFrQw" name="执行因果分析" guid="_gEoAULVhEeqrEZCQsiFrQw" presentationName="执行因果分析" performedBy="_vtztsHH4EeuAWZ7t2FAmYg" mandatoryInput="_gd7HIHauEeuQkdonVOQ62A" output="_COBIIHXsEeug9tQKNCLgYw" additionallyPerformedBy="_7gaSkHXpEeug9tQKNCLgYw _sP2icF5XEeu1xJ-wzF5uEw">
             <methodElementProperty xmi:id="_izNtgLVhEeqrEZCQsiFrQw" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_SLROYLViEeqrEZCQsiFrQw" name="定义效能度量" guid="_SLROYLViEeqrEZCQsiFrQw" presentationName="定义效能度量">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_SLROYLViEeqrEZCQsiFrQw" name="定义效能度量" guid="_SLROYLViEeqrEZCQsiFrQw" presentationName="定义效能度量" performedBy="_7gaSkHXpEeug9tQKNCLgYw" mandatoryInput="_COBIIHXsEeug9tQKNCLgYw _S2vpwLVhEeqrEZCQsiFrQw _KXTYQLVhEeqrEZCQsiFrQw _KrgHMHavEeuQkdonVOQ62A" output="_HAspYHavEeuQkdonVOQ62A">
             <methodElementProperty xmi:id="_cHZgULViEeqrEZCQsiFrQw" name="me_edited" value="true"/>
-          </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_VkdXwLViEeqrEZCQsiFrQw" name="利益相关者需要" guid="_VkdXwLViEeqrEZCQsiFrQw" presentationName="New Artifact">
-            <methodElementProperty xmi:id="_cHEJILViEeqrEZCQsiFrQw" name="me_edited" value="true"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_JxcIMHXqEeug9tQKNCLgYw" name="任务分析规范" guid="_JxcIMHXqEeug9tQKNCLgYw" presentationName="任务分析规范">
             <methodElementProperty xmi:id="_L3VdsHXqEeug9tQKNCLgYw" name="me_edited" value="true"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_COBIIHXsEeug9tQKNCLgYw" name="因果分析" guid="_COBIIHXsEeug9tQKNCLgYw" presentationName="因果分析">
             <methodElementProperty xmi:id="_Eka-0HXsEeug9tQKNCLgYw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_gd7HIHauEeuQkdonVOQ62A" name="当前运行域模型" guid="_gd7HIHauEeuQkdonVOQ62A" presentationName="当前运行域模型">
+            <methodElementProperty xmi:id="_kYp3UHauEeuQkdonVOQ62A" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_n-0FsHauEeuQkdonVOQ62A" name="备选复用组件" guid="_n-0FsHauEeuQkdonVOQ62A" presentationName="备选复用组件">
+            <methodElementProperty xmi:id="_q68foHauEeuQkdonVOQ62A" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_HAspYHavEeuQkdonVOQ62A" name="效能度量" guid="_HAspYHavEeuQkdonVOQ62A" presentationName="效能度量">
+            <methodElementProperty xmi:id="_Jur5oHavEeuQkdonVOQ62A" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_KrgHMHavEeuQkdonVOQ62A" name="任务需求" guid="_KrgHMHavEeuQkdonVOQ62A" presentationName="任务需求">
+            <methodElementProperty xmi:id="_M1tU8HavEeuQkdonVOQ62A" name="me_edited" value="true"/>
           </contentElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_N-8jwFS-EeqpgdRmUO9KKw" name="2 分析系统需求" guid="_N-8jwFS-EeqpgdRmUO9KKw">
@@ -284,6 +287,9 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_7gaSkHXpEeug9tQKNCLgYw" name="系统分析师" guid="_7gaSkHXpEeug9tQKNCLgYw" presentationName="系统分析师">
             <methodElementProperty xmi:id="_Aa1lMHXqEeug9tQKNCLgYw" name="me_edited" value="true"/>
           </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_sHWPEHazEeuQkdonVOQ62A" name="系统工程经理" guid="_sHWPEHazEeuQkdonVOQ62A" presentationName="系统工程经理">
+            <methodElementProperty xmi:id="_uXXJ4HazEeuQkdonVOQ62A" name="me_edited" value="true"/>
+          </contentElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_VNl_QF_tEeuGyK4GEWNojA" name="4 定义物理架构" guid="_VNl_QF_tEeuGyK4GEWNojA">
           <methodElementProperty xmi:id="_VNmmUF_tEeuGyK4GEWNojA" name="pkg_loadCheck" value="true"/>
@@ -432,32 +438,26 @@
             <methodElementProperty xmi:id="_dlQh8HK-EeuwMeizsPfS0w" name="me_edited" value="true"/>
           </contentElements>
         </childPackages>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_5DUgcGfEEeuvYfasU7h29w" name="分析备选方案" guid="_5DUgcGfEEeuvYfasU7h29w" presentationName="分析备选方案" briefDescription="参考OOSEM的流程，&#xD;&#xA;可靠性分析、安全性分析等如何体现？">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_5DUgcGfEEeuvYfasU7h29w" name="5 执行系统分析" guid="_5DUgcGfEEeuvYfasU7h29w" presentationName="5 执行系统分析" briefDescription="参考OOSEM的流程，&#xD;&#xA;可靠性分析、安全性分析等如何体现？">
           <methodElementProperty xmi:id="_5DUgcWfEEeuvYfasU7h29w" name="pkg_loadCheck" value="true"/>
           <methodElementProperty xmi:id="_Li16UGfGEeuvYfasU7h29w" name="me_edited" value="true"/>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_oTrd4GfFEeuvYfasU7h29w" name="识别分析" guid="_oTrd4GfFEeuvYfasU7h29w" presentationName="识别分析">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_oTrd4GfFEeuvYfasU7h29w" name="识别分析" guid="_oTrd4GfFEeuvYfasU7h29w" presentationName="识别分析" performedBy="_sHWPEHazEeuQkdonVOQ62A" mandatoryInput="_HAspYHavEeuQkdonVOQ62A" output="_3rJpcHazEeuQkdonVOQ62A" additionallyPerformedBy="_heSFcLViEeqrEZCQsiFrQw" optionalInput="_COBIIHXsEeug9tQKNCLgYw">
             <methodElementProperty xmi:id="_SlxxkGfGEeuvYfasU7h29w" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_q1ALIGfFEeuvYfasU7h29w" name="建立分析模型" guid="_q1ALIGfFEeuvYfasU7h29w" presentationName="建立分析模型">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_q1ALIGfFEeuvYfasU7h29w" name="建立分析模型" guid="_q1ALIGfFEeuvYfasU7h29w" presentationName="建立分析模型" performedBy="_7gaSkHXpEeug9tQKNCLgYw" mandatoryInput="_7iMPwHK-EeuwMeizsPfS0w _G9OFUHa0EeuQkdonVOQ62A" output="_sz4IcHa0EeuQkdonVOQ62A _qNZ1cHa0EeuQkdonVOQ62A" additionallyPerformedBy="_heSFcLViEeqrEZCQsiFrQw">
             <methodElementProperty xmi:id="_SljIEGfGEeuvYfasU7h29w" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_y5T_0GfFEeuvYfasU7h29w" name="定义分析上下文" guid="_y5T_0GfFEeuvYfasU7h29w" presentationName="定义分析上下文">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_y5T_0GfFEeuvYfasU7h29w" name="定义分析上下文" guid="_y5T_0GfFEeuvYfasU7h29w" presentationName="定义分析上下文" performedBy="_heSFcLViEeqrEZCQsiFrQw" mandatoryInput="_3rJpcHazEeuQkdonVOQ62A _HAspYHavEeuQkdonVOQ62A _qPMpUGF4EeuZNcqltU9cSw" output="_G9OFUHa0EeuQkdonVOQ62A _7iMPwHK-EeuwMeizsPfS0w" optionalInput="_Y9qQMHXpEeug9tQKNCLgYw">
             <methodElementProperty xmi:id="_SlUekGfGEeuvYfasU7h29w" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_2FYTMGfFEeuvYfasU7h29w" name="执行分析" guid="_2FYTMGfFEeuvYfasU7h29w" presentationName="执行分析">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_2FYTMGfFEeuvYfasU7h29w" name="执行分析" guid="_2FYTMGfFEeuvYfasU7h29w" presentationName="执行分析" performedBy="_7gaSkHXpEeug9tQKNCLgYw" mandatoryInput="_qPMpUGF4EeuZNcqltU9cSw _JxcIMHXqEeug9tQKNCLgYw _sz4IcHa0EeuQkdonVOQ62A" output="_DfZW4HK_EeuwMeizsPfS0w _Ik2S8HUeEeus9JE7rv5zYA">
             <methodElementProperty xmi:id="_SlEm8GfGEeuvYfasU7h29w" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_7iMPwHK-EeuwMeizsPfS0w" name="分析上下文模型" guid="_7iMPwHK-EeuwMeizsPfS0w" presentationName="分析上下文模型">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_7iMPwHK-EeuwMeizsPfS0w" name="系统分析上下文模型" guid="_7iMPwHK-EeuwMeizsPfS0w" presentationName="系统分析上下文模型">
             <methodElementProperty xmi:id="_GfYWEHK_EeuwMeizsPfS0w" name="me_edited" value="true"/>
-          </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_Aw2F8HK_EeuwMeizsPfS0w" name="分析模型" guid="_Aw2F8HK_EeuwMeizsPfS0w" presentationName="分析模型">
-            <methodElementProperty xmi:id="_GCeXoHK_EeuwMeizsPfS0w" name="me_edited" value="true"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_DfZW4HK_EeuwMeizsPfS0w" name="分析结果" guid="_DfZW4HK_EeuwMeizsPfS0w" presentationName="分析结果">
             <methodElementProperty xmi:id="_FpgeAHK_EeuwMeizsPfS0w" name="me_edited" value="true"/>
-          </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_MVRLYHK_EeuwMeizsPfS0w" name="约束模块" guid="_MVRLYHK_EeuwMeizsPfS0w" presentationName="约束模块">
-            <methodElementProperty xmi:id="_Stn0kHK_EeuwMeizsPfS0w" name="me_edited" value="true"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_avw2IHUcEeus9JE7rv5zYA" name="系统分析结果" guid="_avw2IHUcEeus9JE7rv5zYA" presentationName="系统分析结果">
             <methodElementProperty xmi:id="_d-WSAHUcEeus9JE7rv5zYA" name="me_edited" value="true"/>
@@ -467,6 +467,18 @@
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_Ik2S8HUeEeus9JE7rv5zYA" name="权衡分析结果" guid="_Ik2S8HUeEeus9JE7rv5zYA" presentationName="权衡分析结果">
             <methodElementProperty xmi:id="_Lg2xEHUeEeus9JE7rv5zYA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_3rJpcHazEeuQkdonVOQ62A" name="分析目标" guid="_3rJpcHazEeuQkdonVOQ62A" presentationName="分析目标">
+            <methodElementProperty xmi:id="_6JDPQHazEeuQkdonVOQ62A" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_G9OFUHa0EeuQkdonVOQ62A" name="任务分析上下文模型" guid="_G9OFUHa0EeuQkdonVOQ62A" presentationName="任务分析上下文模型">
+            <methodElementProperty xmi:id="_J6Dp4Ha0EeuQkdonVOQ62A" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_qNZ1cHa0EeuQkdonVOQ62A" name="任务分析规范" guid="_qNZ1cHa0EeuQkdonVOQ62A" presentationName="任务分析规范">
+            <methodElementProperty xmi:id="_sXRE8Ha0EeuQkdonVOQ62A" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_sz4IcHa0EeuQkdonVOQ62A" name="系统分析规范" guid="_sz4IcHa0EeuQkdonVOQ62A" presentationName="系统分析规范">
+            <methodElementProperty xmi:id="_vFiCAHa0EeuQkdonVOQ62A" name="me_edited" value="true"/>
           </contentElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ACShcHH8EeuAWZ7t2FAmYg" name="交付下层级系统模型" guid="_ACShcHH8EeuAWZ7t2FAmYg" presentationName="交付下层级系统模型" briefDescription="是否有必要定义这个流程？或者作为物理架构定义的一个活动？">

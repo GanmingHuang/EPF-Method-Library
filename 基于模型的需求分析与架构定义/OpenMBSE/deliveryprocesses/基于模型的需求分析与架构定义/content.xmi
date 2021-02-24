@@ -5,4 +5,6 @@
   <org.eclipse.epf.uma:ProcessDescription xmi:id="-cH2yz4YMYz8dOq5A5Ze9Gg" name="逻辑架构定义,_vJAeoWF9EeuZNcqltU9cSw" guid="-cH2yz4YMYz8dOq5A5Ze9Gg"/>
   <org.eclipse.epf.uma:ProcessDescription xmi:id="-4Pw7YgD-jvoC0dSJJJISVw" name="物理架构定义,_fZ7TIWe-EeuvYfasU7h29w" guid="-4Pw7YgD-jvoC0dSJJJISVw"/>
   <org.eclipse.epf.uma:ProcessDescription xmi:id="-gR5jEaaPSledWeNi-FjMUg" name="系统需求定义,_dSlzMWe-EeuvYfasU7h29w" guid="-gR5jEaaPSledWeNi-FjMUg"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-fMXQyrPHJVn84zOrdQl-VA" name="利益相关方需求分析,_2MM_YXH2EeuAWZ7t2FAmYg" guid="-fMXQyrPHJVn84zOrdQl-VA"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-Ugx-1rVwzqHbfsMexq5_7w" name="系统分析,_hYiU4We-EeuvYfasU7h29w" guid="-Ugx-1rVwzqHbfsMexq5_7w"/>
 </xmi:XMI>
