@@ -181,13 +181,21 @@
     <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductNode" xmi:id="_CmLMhGF_EeuZNcqltU9cSw" name="逻辑组件交联视图" type="1">
       <linkedElement xmi:type="org.eclipse.epf.uma:WorkProductDescriptor" href="uma://_vJAeoGF9EeuZNcqltU9cSw#_sKV4oGF-EeuZNcqltU9cSw"/>
     </nodes>
-    <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductNode" xmi:id="_CmLMhWF_EeuZNcqltU9cSw" linkedElement="_sKV4omF-EeuZNcqltU9cSw" name="逻辑接口定义" type="1"/>
     <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductNode" xmi:id="_CmLzkGF_EeuZNcqltU9cSw" name="逻辑组件需求" type="1">
       <linkedElement xmi:type="org.eclipse.epf.uma:WorkProductDescriptor" href="uma://_vJAeoGF9EeuZNcqltU9cSw#_su1FwWF-EeuZNcqltU9cSw"/>
     </nodes>
-    <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductNode" xmi:id="_CmLzkWF_EeuZNcqltU9cSw" linkedElement="_su1Fw2F-EeuZNcqltU9cSw" name="逻辑组件状态机" type="1"/>
-    <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductNode" xmi:id="_CmLzkmF_EeuZNcqltU9cSw" linkedElement="_vZacsWF-EeuZNcqltU9cSw" name="系统环境模型" type="1"/>
-    <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductNode" xmi:id="_CmLzk2F_EeuZNcqltU9cSw" linkedElement="_vZacs2F-EeuZNcqltU9cSw" name="逻辑组件" type="1"/>
+    <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductNode" xmi:id="_MoUqEHd8EeuXI7JGipAf7Q" name="系统外部交联" type="1">
+      <linkedElement xmi:type="org.eclipse.epf.uma:WorkProductDescriptor" href="uma://_vJAeoGF9EeuZNcqltU9cSw#_Leqb8XReEeue9dq7oqftvQ"/>
+    </nodes>
+    <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductNode" xmi:id="_MoUqEXd8EeuXI7JGipAf7Q" name="失效模式" type="1">
+      <linkedElement xmi:type="org.eclipse.epf.uma:WorkProductDescriptor" href="uma://_vJAeoGF9EeuZNcqltU9cSw#_LexJoXReEeue9dq7oqftvQ"/>
+    </nodes>
+    <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductNode" xmi:id="_MoUqEnd8EeuXI7JGipAf7Q" name="系统技术性能度量" type="1">
+      <linkedElement xmi:type="org.eclipse.epf.uma:WorkProductDescriptor" href="uma://_vJAeoGF9EeuZNcqltU9cSw#_Le5FcXReEeue9dq7oqftvQ"/>
+    </nodes>
+    <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductNode" xmi:id="_MoUqE3d8EeuXI7JGipAf7Q" name="逻辑组件状态机" type="1">
+      <linkedElement xmi:type="org.eclipse.epf.uma:WorkProductDescriptor" href="uma://_vJAeoGF9EeuZNcqltU9cSw#_NZo64HReEeue9dq7oqftvQ"/>
+    </nodes>
   </org.eclipse.epf.diagram.model:WorkProductDependencyDiagram>
   <notation:Diagram xmi:id="_Cktz8GF_EeuZNcqltU9cSw" type="WPDD" element="_CktM4GF_EeuZNcqltU9cSw" name="逻辑架构定义" measurementUnit="Pixel">
     <children xmi:type="notation:Node" xmi:id="_CmOP0GF_EeuZNcqltU9cSw" type="1001" element="_CmLMgGF_EeuZNcqltU9cSw">
@@ -204,7 +212,7 @@
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_CmQFAmF_EeuZNcqltU9cSw"/>
       <styles xmi:type="notation:FillStyle" xmi:id="_CmQFA2F_EeuZNcqltU9cSw"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_CmQFBGF_EeuZNcqltU9cSw"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CmQFBWF_EeuZNcqltU9cSw" x="109"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CmQFBWF_EeuZNcqltU9cSw" x="40" y="110"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_CmQsEWF_EeuZNcqltU9cSw" type="1001" element="_CmLMgmF_EeuZNcqltU9cSw">
       <children xmi:type="notation:Node" xmi:id="_CmRTIGF_EeuZNcqltU9cSw" type="4001"/>
@@ -220,7 +228,7 @@
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_CmR6MmF_EeuZNcqltU9cSw"/>
       <styles xmi:type="notation:FillStyle" xmi:id="_CmR6M2F_EeuZNcqltU9cSw"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_CmR6NGF_EeuZNcqltU9cSw"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CmR6NWF_EeuZNcqltU9cSw" x="351"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CmR6NWF_EeuZNcqltU9cSw" x="380" y="120"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_CmShQGF_EeuZNcqltU9cSw" type="1001" element="_CmLMhGF_EeuZNcqltU9cSw">
       <children xmi:type="notation:Node" xmi:id="_CmTIUGF_EeuZNcqltU9cSw" type="4001"/>
@@ -228,15 +236,7 @@
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_CmShQmF_EeuZNcqltU9cSw"/>
       <styles xmi:type="notation:FillStyle" xmi:id="_CmShQ2F_EeuZNcqltU9cSw"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_CmShRGF_EeuZNcqltU9cSw"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CmShRWF_EeuZNcqltU9cSw" x="484"/>
-    </children>
-    <children xmi:type="notation:Node" xmi:id="_CmTIUWF_EeuZNcqltU9cSw" type="1001" element="_CmLMhWF_EeuZNcqltU9cSw">
-      <children xmi:type="notation:Node" xmi:id="_CmTvYGF_EeuZNcqltU9cSw" type="4001"/>
-      <styles xmi:type="notation:FontStyle" xmi:id="_CmTIUmF_EeuZNcqltU9cSw" fontName="Arial" fontHeight="8"/>
-      <styles xmi:type="notation:DescriptionStyle" xmi:id="_CmTIU2F_EeuZNcqltU9cSw"/>
-      <styles xmi:type="notation:FillStyle" xmi:id="_CmTIVGF_EeuZNcqltU9cSw"/>
-      <styles xmi:type="notation:LineStyle" xmi:id="_CmTIVWF_EeuZNcqltU9cSw"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CmTIVmF_EeuZNcqltU9cSw" x="641"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CmShRWF_EeuZNcqltU9cSw" x="230" y="260"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_CmTvYWF_EeuZNcqltU9cSw" type="1001" element="_CmLzkGF_EeuZNcqltU9cSw">
       <children xmi:type="notation:Node" xmi:id="_CmUWdGF_EeuZNcqltU9cSw" type="4001"/>
@@ -246,29 +246,37 @@
       <styles xmi:type="notation:LineStyle" xmi:id="_CmUWcmF_EeuZNcqltU9cSw"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CmUWc2F_EeuZNcqltU9cSw" x="774"/>
     </children>
-    <children xmi:type="notation:Node" xmi:id="_CmU9gGF_EeuZNcqltU9cSw" type="1001" element="_CmLzkWF_EeuZNcqltU9cSw">
-      <children xmi:type="notation:Node" xmi:id="_CmVkkGF_EeuZNcqltU9cSw" type="4001"/>
-      <styles xmi:type="notation:FontStyle" xmi:id="_CmU9gWF_EeuZNcqltU9cSw" fontName="Arial" fontHeight="8"/>
-      <styles xmi:type="notation:DescriptionStyle" xmi:id="_CmU9gmF_EeuZNcqltU9cSw"/>
-      <styles xmi:type="notation:FillStyle" xmi:id="_CmU9g2F_EeuZNcqltU9cSw"/>
-      <styles xmi:type="notation:LineStyle" xmi:id="_CmU9hGF_EeuZNcqltU9cSw"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CmU9hWF_EeuZNcqltU9cSw" x="907"/>
+    <children xmi:type="notation:Node" xmi:id="_MoXtYHd8EeuXI7JGipAf7Q" type="1001" element="_MoUqEHd8EeuXI7JGipAf7Q">
+      <children xmi:type="notation:Node" xmi:id="_MoYUcHd8EeuXI7JGipAf7Q" type="4001"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_MoXtYXd8EeuXI7JGipAf7Q" fontName="Arial" fontHeight="8"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_MoXtYnd8EeuXI7JGipAf7Q"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_MoXtY3d8EeuXI7JGipAf7Q"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_MoXtZHd8EeuXI7JGipAf7Q"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MoXtZXd8EeuXI7JGipAf7Q"/>
     </children>
-    <children xmi:type="notation:Node" xmi:id="_CmVkkWF_EeuZNcqltU9cSw" type="1001" element="_CmLzkmF_EeuZNcqltU9cSw">
-      <children xmi:type="notation:Node" xmi:id="_CmWysGF_EeuZNcqltU9cSw" type="4001"/>
-      <styles xmi:type="notation:FontStyle" xmi:id="_CmVkkmF_EeuZNcqltU9cSw" fontName="Arial" fontHeight="8"/>
-      <styles xmi:type="notation:DescriptionStyle" xmi:id="_CmVkk2F_EeuZNcqltU9cSw"/>
-      <styles xmi:type="notation:FillStyle" xmi:id="_CmWLoGF_EeuZNcqltU9cSw"/>
-      <styles xmi:type="notation:LineStyle" xmi:id="_CmWLoWF_EeuZNcqltU9cSw"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CmWLomF_EeuZNcqltU9cSw" x="1052"/>
+    <children xmi:type="notation:Node" xmi:id="_MoY7gHd8EeuXI7JGipAf7Q" type="1001" element="_MoUqEXd8EeuXI7JGipAf7Q">
+      <children xmi:type="notation:Node" xmi:id="_MoZikHd8EeuXI7JGipAf7Q" type="4001"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_MoY7gXd8EeuXI7JGipAf7Q" fontName="Arial" fontHeight="8"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_MoY7gnd8EeuXI7JGipAf7Q"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_MoY7g3d8EeuXI7JGipAf7Q"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_MoY7hHd8EeuXI7JGipAf7Q"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MoY7hXd8EeuXI7JGipAf7Q" x="145" y="100"/>
     </children>
-    <children xmi:type="notation:Node" xmi:id="_CmWysWF_EeuZNcqltU9cSw" type="1001" element="_CmLzk2F_EeuZNcqltU9cSw">
-      <children xmi:type="notation:Node" xmi:id="_CmXZwGF_EeuZNcqltU9cSw" type="4001"/>
-      <styles xmi:type="notation:FontStyle" xmi:id="_CmWysmF_EeuZNcqltU9cSw" fontName="Arial" fontHeight="8"/>
-      <styles xmi:type="notation:DescriptionStyle" xmi:id="_CmWys2F_EeuZNcqltU9cSw"/>
-      <styles xmi:type="notation:FillStyle" xmi:id="_CmWytGF_EeuZNcqltU9cSw"/>
-      <styles xmi:type="notation:LineStyle" xmi:id="_CmWytWF_EeuZNcqltU9cSw"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CmWytmF_EeuZNcqltU9cSw" x="1185"/>
+    <children xmi:type="notation:Node" xmi:id="_MoZikXd8EeuXI7JGipAf7Q" type="1001" element="_MoUqEnd8EeuXI7JGipAf7Q">
+      <children xmi:type="notation:Node" xmi:id="_MoaJoHd8EeuXI7JGipAf7Q" type="4001"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_MoZiknd8EeuXI7JGipAf7Q" fontName="Arial" fontHeight="8"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_MoZik3d8EeuXI7JGipAf7Q"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_MoZilHd8EeuXI7JGipAf7Q"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_MoZilXd8EeuXI7JGipAf7Q"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MoZilnd8EeuXI7JGipAf7Q" x="245" y="115"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_MoaJoXd8EeuXI7JGipAf7Q" type="1001" element="_MoUqE3d8EeuXI7JGipAf7Q">
+      <children xmi:type="notation:Node" xmi:id="_MoawsHd8EeuXI7JGipAf7Q" type="4001"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_MoaJond8EeuXI7JGipAf7Q" fontName="Arial" fontHeight="8"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_MoaJo3d8EeuXI7JGipAf7Q"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_MoaJpHd8EeuXI7JGipAf7Q"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_MoaJpXd8EeuXI7JGipAf7Q"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MoaJpnd8EeuXI7JGipAf7Q" x="470" y="155"/>
     </children>
     <styles xmi:type="notation:PageStyle" xmi:id="_Cktz8WF_EeuZNcqltU9cSw"/>
     <styles xmi:type="notation:GuideStyle" xmi:id="_Cktz8mF_EeuZNcqltU9cSw"/>
@@ -301,7 +309,7 @@
     <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductComposite" xmi:id="_9s5LJmlaEeu889X7HLlvoQ" type="1">
       <linkedElement xmi:type="org.eclipse.epf.uma:TaskDescriptor" href="uma://_vJAeoGF9EeuZNcqltU9cSw#_vZacsGF-EeuZNcqltU9cSw"/>
       <outgoingConnections xmi:type="org.eclipse.epf.diagram.model:Link" xmi:id="_9s7nYGlaEeu889X7HLlvoQ" target="_9s5LImlaEeu889X7HLlvoQ"/>
-      <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductDescriptorNode" xmi:id="_9s5LJ2laEeu889X7HLlvoQ" linkedElement="_vZacsWF-EeuZNcqltU9cSw" name="系统环境模型" state=""/>
+      <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductDescriptorNode" xmi:id="_9s5LJ2laEeu889X7HLlvoQ" name="系统环境模型" state=""/>
       <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductDescriptorNode" xmi:id="_9s5LKGlaEeu889X7HLlvoQ" name="系统需求" state="">
         <linkedElement xmi:type="org.eclipse.epf.uma:WorkProductDescriptor" href="uma://_vJAeoGF9EeuZNcqltU9cSw#_m9CGQGF-EeuZNcqltU9cSw"/>
       </nodes>
@@ -311,7 +319,7 @@
       <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductDescriptorNode" xmi:id="_9s5LKmlaEeu889X7HLlvoQ" name="系统逻辑分解" state="">
         <linkedElement xmi:type="org.eclipse.epf.uma:WorkProductDescriptor" href="uma://_vJAeoGF9EeuZNcqltU9cSw#_m9BfMmF-EeuZNcqltU9cSw"/>
       </nodes>
-      <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductDescriptorNode" xmi:id="_9s5LK2laEeu889X7HLlvoQ" linkedElement="_vZacs2F-EeuZNcqltU9cSw" name="逻辑组件" state=""/>
+      <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductDescriptorNode" xmi:id="_9s5LK2laEeu889X7HLlvoQ" name="逻辑组件" state=""/>
     </nodes>
     <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductComposite" xmi:id="_9s5LLGlaEeu889X7HLlvoQ" type="1">
       <linkedElement xmi:type="org.eclipse.epf.uma:TaskDescriptor" href="uma://_vJAeoGF9EeuZNcqltU9cSw#_m9A4IGF-EeuZNcqltU9cSw"/>
@@ -344,7 +352,7 @@
       <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductDescriptorNode" xmi:id="_9s5LNWlaEeu889X7HLlvoQ" name="逻辑组件交联视图" state="">
         <linkedElement xmi:type="org.eclipse.epf.uma:WorkProductDescriptor" href="uma://_vJAeoGF9EeuZNcqltU9cSw#_sKV4oGF-EeuZNcqltU9cSw"/>
       </nodes>
-      <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductDescriptorNode" xmi:id="_9s5LNmlaEeu889X7HLlvoQ" linkedElement="_sKV4omF-EeuZNcqltU9cSw" name="逻辑接口定义" state=""/>
+      <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductDescriptorNode" xmi:id="_9s5LNmlaEeu889X7HLlvoQ" name="逻辑接口定义" state=""/>
     </nodes>
     <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductComposite" xmi:id="_9s5LN2laEeu889X7HLlvoQ" type="1">
       <linkedElement xmi:type="org.eclipse.epf.uma:TaskDescriptor" href="uma://_vJAeoGF9EeuZNcqltU9cSw#_su1FwGF-EeuZNcqltU9cSw"/>
@@ -361,7 +369,7 @@
       <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductDescriptorNode" xmi:id="_9s5LO2laEeu889X7HLlvoQ" name="逻辑组件需求" state="">
         <linkedElement xmi:type="org.eclipse.epf.uma:WorkProductDescriptor" href="uma://_vJAeoGF9EeuZNcqltU9cSw#_su1FwWF-EeuZNcqltU9cSw"/>
       </nodes>
-      <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductDescriptorNode" xmi:id="_9s5LPGlaEeu889X7HLlvoQ" linkedElement="_su1Fw2F-EeuZNcqltU9cSw" name="逻辑组件状态机" state=""/>
+      <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductDescriptorNode" xmi:id="_9s5LPGlaEeu889X7HLlvoQ" name="逻辑组件状态机" state=""/>
     </nodes>
   </org.eclipse.epf.diagram.model:ActivityDetailDiagram>
   <notation:Diagram xmi:id="_9r2CQWlaEeu889X7HLlvoQ" type="ADD" element="_9r2CQGlaEeu889X7HLlvoQ" name="逻辑架构定义" measurementUnit="Pixel">
