@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ProcessComponent xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_damiIHhFEeuarL68ZTqeLw" name="定义物理架构-剪裁" guid="_damiIHhFEeuarL68ZTqeLw">
+  <methodElementProperty name="pkg_loadCheck" value="true"/>
+  <methodElementProperty name="me_edited" value="true"/>
+  <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_dao-Y3hFEeuarL68ZTqeLw" name="定义分区准则" guid="_dao-Y3hFEeuarL68ZTqeLw" presentationName="定义分区准则" superActivities="_daqzkHhFEeuarL68ZTqeLw" mandatoryInput="_darapXhFEeuarL68ZTqeLw _daraqnhFEeuarL68ZTqeLw _dao-YHhFEeuarL68ZTqeLw" output="_daplcnhFEeuarL68ZTqeLw" performedPrimarilyBy="_danJMnhFEeuarL68ZTqeLw">
+    <methodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <Task href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_8xc4QHH6EeuAWZ7t2FAmYg"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_danJMnhFEeuarL68ZTqeLw" name="系统架构师" guid="_danJMnhFEeuarL68ZTqeLw" presentationName="系统架构师" briefDescription="负责系统架构的定义" isPlanned="false" superActivities="_daqzkHhFEeuarL68ZTqeLw" modifies="_daplcnhFEeuarL68ZTqeLw _daqMgnhFEeuarL68ZTqeLw _daoXU3hFEeuarL68ZTqeLw _daoXUHhFEeuarL68ZTqeLw _danJNXhFEeuarL68ZTqeLw">
+    <methodElementProperty name="descriptor_createdByReference" value="true"/>
+    <methodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <Role href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_sP2icF5XEeu1xJ-wzF5uEw"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_darapXhFEeuarL68ZTqeLw" name="系统需求" guid="_darapXhFEeuarL68ZTqeLw" presentationName="系统需求" isPlanned="false" superActivities="_daqzkHhFEeuarL68ZTqeLw" impactedBy="_daplcnhFEeuarL68ZTqeLw">
+    <methodElementProperty name="descriptor_createdByReference" value="true"/>
+    <methodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <WorkProduct href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_qPMpUGF4EeuZNcqltU9cSw"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_daraqnhFEeuarL68ZTqeLw" name="逻辑组件需求" guid="_daraqnhFEeuarL68ZTqeLw" presentationName="逻辑组件需求" isPlanned="false" superActivities="_daqzkHhFEeuarL68ZTqeLw" impactedBy="_daplcnhFEeuarL68ZTqeLw">
+    <methodElementProperty name="descriptor_createdByReference" value="true"/>
+    <methodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <WorkProduct href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_-iPH4GF8EeuZNcqltU9cSw"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_dao-YHhFEeuarL68ZTqeLw" name="企业级建模规范" guid="_dao-YHhFEeuarL68ZTqeLw" presentationName="企业级建模规范" isPlanned="false" superActivities="_daqzkHhFEeuarL68ZTqeLw" impactedBy="_daplcnhFEeuarL68ZTqeLw">
+    <methodElementProperty name="descriptor_createdByReference" value="true"/>
+    <methodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <WorkProduct href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_ShUJwF_uEeuGyK4GEWNojA"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_daplcnhFEeuarL68ZTqeLw" name="分区准则" guid="_daplcnhFEeuarL68ZTqeLw" presentationName="分区准则" isPlanned="false" superActivities="_daqzkHhFEeuarL68ZTqeLw" impactedBy="_daoXVnhFEeuarL68ZTqeLw" impacts="_darapXhFEeuarL68ZTqeLw _daraqnhFEeuarL68ZTqeLw _dao-YHhFEeuarL68ZTqeLw">
+    <methodElementProperty name="descriptor_createdByReference" value="true"/>
+    <methodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <WorkProduct href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_BRiYQHH7EeuAWZ7t2FAmYg"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_danJMHhFEeuarL68ZTqeLw" name="系统逻辑分解" guid="_danJMHhFEeuarL68ZTqeLw" presentationName="系统逻辑分解" isPlanned="false" superActivities="_daqzkHhFEeuarL68ZTqeLw" impactedBy="_daoXVnhFEeuarL68ZTqeLw">
+    <methodElementProperty name="descriptor_createdByReference" value="true"/>
+    <methodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <WorkProduct href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_QfAGAF_pEeuGyK4GEWNojA"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_dapld3hFEeuarL68ZTqeLw" name="系统逻辑场景" guid="_dapld3hFEeuarL68ZTqeLw" presentationName="系统逻辑场景" isPlanned="false" superActivities="_daqzkHhFEeuarL68ZTqeLw" impactedBy="_danwQHhFEeuarL68ZTqeLw">
+    <methodElementProperty name="descriptor_createdByReference" value="true"/>
+    <methodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <WorkProduct href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_3zdKcGF2EeuZNcqltU9cSw"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_danJNHhFEeuarL68ZTqeLw" name="逻辑组件状态机" guid="_danJNHhFEeuarL68ZTqeLw" presentationName="逻辑组件状态机" isPlanned="false" superActivities="_daqzkHhFEeuarL68ZTqeLw">
+    <methodElementProperty name="descriptor_createdByReference" value="true"/>
+    <methodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <WorkProduct href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_FpfVAF_pEeuGyK4GEWNojA"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_dasBsnhFEeuarL68ZTqeLw" name="节点逻辑定义" guid="_dasBsnhFEeuarL68ZTqeLw" presentationName="节点逻辑定义" isPlanned="false" superActivities="_daqzkHhFEeuarL68ZTqeLw" impacts="_daoXVnhFEeuarL68ZTqeLw">
+    <methodElementProperty name="descriptor_createdByReference" value="true"/>
+    <methodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <WorkProduct href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_0tLIcHUeEeus9JE7rv5zYA"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_daoXVnhFEeuarL68ZTqeLw" name="节点逻辑分解" guid="_daoXVnhFEeuarL68ZTqeLw" presentationName="节点逻辑分解" isPlanned="false" superActivities="_daqzkHhFEeuarL68ZTqeLw" impactedBy="_dasBsnhFEeuarL68ZTqeLw _danwQHhFEeuarL68ZTqeLw _daoXU3hFEeuarL68ZTqeLw _daraqXhFEeuarL68ZTqeLw" impacts="_danJMHhFEeuarL68ZTqeLw _daplcnhFEeuarL68ZTqeLw">
+    <methodElementProperty name="descriptor_createdByReference" value="true"/>
+    <methodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <WorkProduct href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_FUqpsHUgEeus9JE7rv5zYA"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_danJNXhFEeuarL68ZTqeLw" name="节点物理交联" guid="_danJNXhFEeuarL68ZTqeLw" presentationName="节点物理交联" isPlanned="false" superActivities="_daqzkHhFEeuarL68ZTqeLw">
+    <methodElementProperty name="descriptor_createdByReference" value="true"/>
+    <methodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <WorkProduct href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_lFVGUHUdEeus9JE7rv5zYA"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_danwQHhFEeuarL68ZTqeLw" name="节点逻辑场景" guid="_danwQHhFEeuarL68ZTqeLw" presentationName="节点逻辑场景" isPlanned="false" superActivities="_daqzkHhFEeuarL68ZTqeLw" impactedBy="_daoXUHhFEeuarL68ZTqeLw" impacts="_dapld3hFEeuarL68ZTqeLw _daoXVnhFEeuarL68ZTqeLw">
+    <methodElementProperty name="descriptor_createdByReference" value="true"/>
+    <methodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <WorkProduct href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_LPKSMHUgEeus9JE7rv5zYA"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_daplcHhFEeuarL68ZTqeLw" name="定义节点物理架构" guid="_daplcHhFEeuarL68ZTqeLw" presentationName="定义节点物理架构" superActivities="_daqzkHhFEeuarL68ZTqeLw" linkToPredecessor="_danJMXhFEeuarL68ZTqeLw" additionallyPerformedBy="_dao-ZnhFEeuarL68ZTqeLw _darao3hFEeuarL68ZTqeLw" mandatoryInput="_danwQHhFEeuarL68ZTqeLw _dasBsnhFEeuarL68ZTqeLw _danJNXhFEeuarL68ZTqeLw _daoXVnhFEeuarL68ZTqeLw" optionalInput="_dao-YXhFEeuarL68ZTqeLw _dapld3hFEeuarL68ZTqeLw _danwRHhFEeuarL68ZTqeLw" output="_daqMgnhFEeuarL68ZTqeLw _daoXU3hFEeuarL68ZTqeLw _daoXUHhFEeuarL68ZTqeLw _danJNXhFEeuarL68ZTqeLw" performedPrimarilyBy="_danJMnhFEeuarL68ZTqeLw">
+    <methodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <Task href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_rIU64HH5EeuAWZ7t2FAmYg"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_dao-ZnhFEeuarL68ZTqeLw" name="硬件架构师" guid="_dao-ZnhFEeuarL68ZTqeLw" presentationName="硬件架构师" isPlanned="false" superActivities="_daqzkHhFEeuarL68ZTqeLw" modifies="_dasBsHhFEeuarL68ZTqeLw _daoXUnhFEeuarL68ZTqeLw _daplcXhFEeuarL68ZTqeLw">
+    <methodElementProperty name="descriptor_createdByReference" value="true"/>
+    <methodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <Role href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_Nyob4HUdEeus9JE7rv5zYA"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_darao3hFEeuarL68ZTqeLw" name="软件架构师" guid="_darao3hFEeuarL68ZTqeLw" presentationName="软件架构师" isPlanned="false" superActivities="_daqzkHhFEeuarL68ZTqeLw" modifies="_daqzk3hFEeuarL68ZTqeLw _daoXVHhFEeuarL68ZTqeLw _dao-YnhFEeuarL68ZTqeLw">
+    <methodElementProperty name="descriptor_createdByReference" value="true"/>
+    <methodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <Role href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_aL3CYHUdEeus9JE7rv5zYA"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_dao-YXhFEeuarL68ZTqeLw" name="任务场景" guid="_dao-YXhFEeuarL68ZTqeLw" presentationName="任务场景" isPlanned="false" superActivities="_daqzkHhFEeuarL68ZTqeLw">
+    <methodElementProperty name="descriptor_createdByReference" value="true"/>
+    <methodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <WorkProduct href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_DqilULVhEeqrEZCQsiFrQw"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_danwRHhFEeuarL68ZTqeLw" name="权衡分析结果" guid="_danwRHhFEeuarL68ZTqeLw" presentationName="权衡分析结果" isPlanned="false" superActivities="_daqzkHhFEeuarL68ZTqeLw">
+    <methodElementProperty name="descriptor_createdByReference" value="true"/>
+    <methodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <WorkProduct href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_Ik2S8HUeEeus9JE7rv5zYA"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_daqMgnhFEeuarL68ZTqeLw" name="节点物理定义" guid="_daqMgnhFEeuarL68ZTqeLw" presentationName="节点物理定义" briefDescription="描述组成系统的物理节点" isPlanned="false" superActivities="_daqzkHhFEeuarL68ZTqeLw" impacts="_daoXU3hFEeuarL68ZTqeLw">
+    <methodElementProperty name="descriptor_createdByReference" value="true"/>
+    <methodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <WorkProduct href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_wPIsUHUdEeus9JE7rv5zYA"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_daoXU3hFEeuarL68ZTqeLw" name="节点物理分解" guid="_daoXU3hFEeuarL68ZTqeLw" presentationName="节点物理分解" isPlanned="false" superActivities="_daqzkHhFEeuarL68ZTqeLw" impactedBy="_daqMgnhFEeuarL68ZTqeLw _daoXUHhFEeuarL68ZTqeLw _daraqXhFEeuarL68ZTqeLw" impacts="_daoXVnhFEeuarL68ZTqeLw">
+    <methodElementProperty name="descriptor_createdByReference" value="true"/>
+    <methodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <WorkProduct href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_EVr1wHUcEeus9JE7rv5zYA"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_daoXUHhFEeuarL68ZTqeLw" name="节点物理场景" guid="_daoXUHhFEeuarL68ZTqeLw" presentationName="节点物理场景" isPlanned="false" superActivities="_daqzkHhFEeuarL68ZTqeLw" impacts="_danwQHhFEeuarL68ZTqeLw _daoXU3hFEeuarL68ZTqeLw">
+    <methodElementProperty name="descriptor_createdByReference" value="true"/>
+    <methodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <WorkProduct href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_pLj74HUdEeus9JE7rv5zYA"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_daqMhHhFEeuarL68ZTqeLw" name="定义硬件架构" guid="_daqMhHhFEeuarL68ZTqeLw" presentationName="定义硬件架构" superActivities="_daqzkHhFEeuarL68ZTqeLw" linkToPredecessor="_daqMgXhFEeuarL68ZTqeLw" additionallyPerformedBy="_dasBs3hFEeuarL68ZTqeLw" mandatoryInput="_daqMgnhFEeuarL68ZTqeLw _daoXU3hFEeuarL68ZTqeLw _danJNXhFEeuarL68ZTqeLw" output="_daoXUnhFEeuarL68ZTqeLw _daplcXhFEeuarL68ZTqeLw" performedPrimarilyBy="_dao-ZnhFEeuarL68ZTqeLw">
+    <methodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <Task href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_ICci0HRVEeue9dq7oqftvQ"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_dasBs3hFEeuarL68ZTqeLw" name="领域专家" guid="_dasBs3hFEeuarL68ZTqeLw" presentationName="领域专家" isPlanned="false" superActivities="_daqzkHhFEeuarL68ZTqeLw" modifies="_danwRXhFEeuarL68ZTqeLw">
+    <methodElementProperty name="descriptor_createdByReference" value="true"/>
+    <methodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <Role href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_vtztsHH4EeuAWZ7t2FAmYg"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_daoXUnhFEeuarL68ZTqeLw" name="硬件架构" guid="_daoXUnhFEeuarL68ZTqeLw" presentationName="硬件架构" isPlanned="false" superActivities="_daqzkHhFEeuarL68ZTqeLw">
+    <methodElementProperty name="descriptor_createdByReference" value="true"/>
+    <methodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <WorkProduct href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_0CTG0HUbEeus9JE7rv5zYA"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_daplcXhFEeuarL68ZTqeLw" name="硬件组件交联" guid="_daplcXhFEeuarL68ZTqeLw" presentationName="硬件组件交联" isPlanned="false" superActivities="_daqzkHhFEeuarL68ZTqeLw">
+    <methodElementProperty name="descriptor_createdByReference" value="true"/>
+    <methodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <WorkProduct href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_VrxQcHUfEeus9JE7rv5zYA"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_dao-Z3hFEeuarL68ZTqeLw" name="定义软件架构" guid="_dao-Z3hFEeuarL68ZTqeLw" presentationName="定义软件架构" superActivities="_daqzkHhFEeuarL68ZTqeLw" linkToPredecessor="_daraqHhFEeuarL68ZTqeLw" additionallyPerformedBy="_danJMnhFEeuarL68ZTqeLw" mandatoryInput="_daraqXhFEeuarL68ZTqeLw _daqMgnhFEeuarL68ZTqeLw _daoXU3hFEeuarL68ZTqeLw _danJNXhFEeuarL68ZTqeLw _daoXUHhFEeuarL68ZTqeLw" optionalInput="_danJNHhFEeuarL68ZTqeLw _danwQHhFEeuarL68ZTqeLw _dapld3hFEeuarL68ZTqeLw" output="_daqzk3hFEeuarL68ZTqeLw _daoXVHhFEeuarL68ZTqeLw _dao-YnhFEeuarL68ZTqeLw" performedPrimarilyBy="_darao3hFEeuarL68ZTqeLw">
+    <methodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <Task href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_Kn3F4HRVEeue9dq7oqftvQ"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_daraqXhFEeuarL68ZTqeLw" name="逻辑到物理分配矩阵" guid="_daraqXhFEeuarL68ZTqeLw" presentationName="逻辑到物理分配矩阵" isPlanned="false" superActivities="_daqzkHhFEeuarL68ZTqeLw" impacts="_daoXVnhFEeuarL68ZTqeLw _daoXU3hFEeuarL68ZTqeLw">
+    <methodElementProperty name="descriptor_createdByReference" value="true"/>
+    <methodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <WorkProduct href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_ywnqQHUgEeus9JE7rv5zYA"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_daqzk3hFEeuarL68ZTqeLw" name="软件架构" guid="_daqzk3hFEeuarL68ZTqeLw" presentationName="软件架构" isPlanned="false" superActivities="_daqzkHhFEeuarL68ZTqeLw">
+    <methodElementProperty name="descriptor_createdByReference" value="true"/>
+    <methodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <WorkProduct href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_PAPT8HUcEeus9JE7rv5zYA"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_daoXVHhFEeuarL68ZTqeLw" name="软件组件交联" guid="_daoXVHhFEeuarL68ZTqeLw" presentationName="软件组件交联" isPlanned="false" superActivities="_daqzkHhFEeuarL68ZTqeLw">
+    <methodElementProperty name="descriptor_createdByReference" value="true"/>
+    <methodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <WorkProduct href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_tS19gHUhEeus9JE7rv5zYA"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_dao-YnhFEeuarL68ZTqeLw" name="软件层次架构" guid="_dao-YnhFEeuarL68ZTqeLw" presentationName="软件层次架构" isPlanned="false" superActivities="_daqzkHhFEeuarL68ZTqeLw">
+    <methodElementProperty name="descriptor_createdByReference" value="true"/>
+    <methodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <WorkProduct href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_1kXHwHUhEeus9JE7rv5zYA"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_danwQ3hFEeuarL68ZTqeLw" name="定义数据架构" guid="_danwQ3hFEeuarL68ZTqeLw" presentationName="定义数据架构" briefDescription="数据架构是硬件架构师的职责？" superActivities="_daqzkHhFEeuarL68ZTqeLw" linkToPredecessor="_danJM3hFEeuarL68ZTqeLw" additionallyPerformedBy="_danJMnhFEeuarL68ZTqeLw _darao3hFEeuarL68ZTqeLw" mandatoryInput="_daoXU3hFEeuarL68ZTqeLw _daqMgnhFEeuarL68ZTqeLw _danJNXhFEeuarL68ZTqeLw _daoXUHhFEeuarL68ZTqeLw" optionalInput="_danwRHhFEeuarL68ZTqeLw" output="_dasBsHhFEeuarL68ZTqeLw" performedPrimarilyBy="_dao-ZnhFEeuarL68ZTqeLw">
+    <methodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <Task href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#__kW8MHRUEeue9dq7oqftvQ"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_dasBsHhFEeuarL68ZTqeLw" name="数据架构" guid="_dasBsHhFEeuarL68ZTqeLw" presentationName="数据架构" isPlanned="false" superActivities="_daqzkHhFEeuarL68ZTqeLw">
+    <methodElementProperty name="descriptor_createdByReference" value="true"/>
+    <methodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <WorkProduct href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_MCrWoHUcEeus9JE7rv5zYA"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_danwQXhFEeuarL68ZTqeLw" name="定义操作规程" guid="_danwQXhFEeuarL68ZTqeLw" presentationName="定义操作规程" superActivities="_daqzkHhFEeuarL68ZTqeLw" linkToPredecessor="_daraoHhFEeuarL68ZTqeLw" additionallyPerformedBy="_danJMnhFEeuarL68ZTqeLw" mandatoryInput="_daoXU3hFEeuarL68ZTqeLw _daoXUHhFEeuarL68ZTqeLw" optionalInput="_danwQnhFEeuarL68ZTqeLw" output="_danwRXhFEeuarL68ZTqeLw" performedPrimarilyBy="_dasBs3hFEeuarL68ZTqeLw">
+    <methodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <Task href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_P-TmIHRVEeue9dq7oqftvQ"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_danwQnhFEeuarL68ZTqeLw" name="系统分析上下文模型" guid="_danwQnhFEeuarL68ZTqeLw" presentationName="系统分析上下文模型" isPlanned="false" superActivities="_daqzkHhFEeuarL68ZTqeLw">
+    <methodElementProperty name="descriptor_createdByReference" value="true"/>
+    <methodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <WorkProduct href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_7iMPwHK-EeuwMeizsPfS0w"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_danwRXhFEeuarL68ZTqeLw" name="操作规程定义" guid="_danwRXhFEeuarL68ZTqeLw" presentationName="操作规程定义" isPlanned="false" superActivities="_daqzkHhFEeuarL68ZTqeLw">
+    <methodElementProperty name="descriptor_createdByReference" value="true"/>
+    <methodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <WorkProduct href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_7KA-IHUgEeus9JE7rv5zYA"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_daqMg3hFEeuarL68ZTqeLw" name="定义关键组件属性" guid="_daqMg3hFEeuarL68ZTqeLw" presentationName="定义关键组件属性" superActivities="_daqzkHhFEeuarL68ZTqeLw" linkToPredecessor="_dapldXhFEeuarL68ZTqeLw _daqMgHhFEeuarL68ZTqeLw _dapldHhFEeuarL68ZTqeLw _daraonhFEeuarL68ZTqeLw" mandatoryInput="_daoXUnhFEeuarL68ZTqeLw _darapHhFEeuarL68ZTqeLw _daoXU3hFEeuarL68ZTqeLw _dasBsHhFEeuarL68ZTqeLw _daqzk3hFEeuarL68ZTqeLw _dao-ZXhFEeuarL68ZTqeLw _daraoXhFEeuarL68ZTqeLw" optionalInput="_darap3hFEeuarL68ZTqeLw _daoXUXhFEeuarL68ZTqeLw _daplcnhFEeuarL68ZTqeLw" output="_dao-ZHhFEeuarL68ZTqeLw" performedPrimarilyBy="_darapnhFEeuarL68ZTqeLw">
+    <methodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <Task href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_5KepAHRUEeue9dq7oqftvQ"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_darapnhFEeuarL68ZTqeLw" name="需求工程师" guid="_darapnhFEeuarL68ZTqeLw" presentationName="需求工程师" isPlanned="false" superActivities="_daqzkHhFEeuarL68ZTqeLw" modifies="_dao-ZHhFEeuarL68ZTqeLw _daoXUXhFEeuarL68ZTqeLw _darap3hFEeuarL68ZTqeLw">
+    <methodElementProperty name="descriptor_createdByReference" value="true"/>
+    <methodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <Role href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_heSFcLViEeqrEZCQsiFrQw"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_darapHhFEeuarL68ZTqeLw" name="任务分析结果" guid="_darapHhFEeuarL68ZTqeLw" presentationName="任务分析结果" isPlanned="false" superActivities="_daqzkHhFEeuarL68ZTqeLw">
+    <methodElementProperty name="descriptor_createdByReference" value="true"/>
+    <methodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <WorkProduct href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_eYNjgHUcEeus9JE7rv5zYA"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_dao-ZXhFEeuarL68ZTqeLw" name="系统分析结果" guid="_dao-ZXhFEeuarL68ZTqeLw" presentationName="系统分析结果" isPlanned="false" superActivities="_daqzkHhFEeuarL68ZTqeLw">
+    <methodElementProperty name="descriptor_createdByReference" value="true"/>
+    <methodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <WorkProduct href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_avw2IHUcEeus9JE7rv5zYA"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_daraoXhFEeuarL68ZTqeLw" name="系统技术性能度量" guid="_daraoXhFEeuarL68ZTqeLw" presentationName="系统技术性能度量" briefDescription="技术性能度量（TPM）相当于技术指标&#xD;&#xA;TPM独立于系统需求？" isPlanned="false" superActivities="_daqzkHhFEeuarL68ZTqeLw">
+    <methodElementProperty name="descriptor_createdByReference" value="true"/>
+    <methodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <WorkProduct href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_co6o0HRbEeue9dq7oqftvQ"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_darap3hFEeuarL68ZTqeLw" name="硬件组件需求" guid="_darap3hFEeuarL68ZTqeLw" presentationName="硬件组件需求" isPlanned="false" superActivities="_daqzkHhFEeuarL68ZTqeLw">
+    <methodElementProperty name="descriptor_createdByReference" value="true"/>
+    <methodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <WorkProduct href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_j7N5EHUcEeus9JE7rv5zYA"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_daoXUXhFEeuarL68ZTqeLw" name="软件组件需求" guid="_daoXUXhFEeuarL68ZTqeLw" presentationName="软件组件需求" isPlanned="false" superActivities="_daqzkHhFEeuarL68ZTqeLw">
+    <methodElementProperty name="descriptor_createdByReference" value="true"/>
+    <methodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <WorkProduct href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_niwngHUcEeus9JE7rv5zYA"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_dao-ZHhFEeuarL68ZTqeLw" name="组件技术性能度量" guid="_dao-ZHhFEeuarL68ZTqeLw" presentationName="组件技术性能度量" isPlanned="false" superActivities="_daqzkHhFEeuarL68ZTqeLw">
+    <methodElementProperty name="descriptor_createdByReference" value="true"/>
+    <methodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <WorkProduct href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_Um6okHUcEeus9JE7rv5zYA"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_daqzkXhFEeuarL68ZTqeLw" name="定义物理组件需求" guid="_daqzkXhFEeuarL68ZTqeLw" presentationName="定义物理组件需求" superActivities="_daqzkHhFEeuarL68ZTqeLw" linkToPredecessor="_dasBsXhFEeuarL68ZTqeLw" additionallyPerformedBy="_danJMnhFEeuarL68ZTqeLw" mandatoryInput="_danJNnhFEeuarL68ZTqeLw" output="_daoXUXhFEeuarL68ZTqeLw _darap3hFEeuarL68ZTqeLw" performedPrimarilyBy="_darapnhFEeuarL68ZTqeLw">
+    <methodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <Task href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_6jav4HH5EeuAWZ7t2FAmYg"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_danJNnhFEeuarL68ZTqeLw" name="关键组件属性" guid="_danJNnhFEeuarL68ZTqeLw" presentationName="关键组件属性" isPlanned="false" superActivities="_daqzkHhFEeuarL68ZTqeLw">
+    <methodElementProperty name="descriptor_createdByReference" value="true"/>
+    <methodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <WorkProduct href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_Nj1YoHUiEeus9JE7rv5zYA"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_daoXVXhFEeuarL68ZTqeLw" name="定义几何模型" guid="_daoXVXhFEeuarL68ZTqeLw" presentationName="定义几何模型" superActivities="_daqzkHhFEeuarL68ZTqeLw" linkToPredecessor="_daqMhXhFEeuarL68ZTqeLw" additionallyPerformedBy="_dao-ZnhFEeuarL68ZTqeLw" mandatoryInput="_daoXUnhFEeuarL68ZTqeLw _darap3hFEeuarL68ZTqeLw _daplcnhFEeuarL68ZTqeLw" optionalInput="_daoXU3hFEeuarL68ZTqeLw _dasBsnhFEeuarL68ZTqeLw" performedPrimarilyBy="_dapldnhFEeuarL68ZTqeLw">
+    <methodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <Task href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_EYWPoHRVEeue9dq7oqftvQ"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_dapldnhFEeuarL68ZTqeLw" name="硬件工程师" guid="_dapldnhFEeuarL68ZTqeLw" presentationName="硬件工程师" isPlanned="false" superActivities="_daqzkHhFEeuarL68ZTqeLw">
+    <methodElementProperty name="descriptor_createdByReference" value="true"/>
+    <methodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <Role href="uma://_Jn2nsFS-EeqpgdRmUO9KKw#_ddZ2MHUeEeus9JE7rv5zYA"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_daqzknhFEeuarL68ZTqeLw" guid="_daqzknhFEeuarL68ZTqeLw" pred="_dao-Y3hFEeuarL68ZTqeLw"/>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_danJMXhFEeuarL68ZTqeLw" guid="_danJMXhFEeuarL68ZTqeLw"/>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_daqMgXhFEeuarL68ZTqeLw" guid="_daqMgXhFEeuarL68ZTqeLw" pred="_daplcHhFEeuarL68ZTqeLw"/>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_daraqHhFEeuarL68ZTqeLw" guid="_daraqHhFEeuarL68ZTqeLw" pred="_daplcHhFEeuarL68ZTqeLw"/>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_danJM3hFEeuarL68ZTqeLw" guid="_danJM3hFEeuarL68ZTqeLw" pred="_daplcHhFEeuarL68ZTqeLw"/>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_daraoHhFEeuarL68ZTqeLw" guid="_daraoHhFEeuarL68ZTqeLw" pred="_daplcHhFEeuarL68ZTqeLw"/>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_dapldXhFEeuarL68ZTqeLw" guid="_dapldXhFEeuarL68ZTqeLw" pred="_daqMhHhFEeuarL68ZTqeLw"/>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_daqMgHhFEeuarL68ZTqeLw" guid="_daqMgHhFEeuarL68ZTqeLw" pred="_dao-Z3hFEeuarL68ZTqeLw"/>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_dapldHhFEeuarL68ZTqeLw" guid="_dapldHhFEeuarL68ZTqeLw" pred="_danwQ3hFEeuarL68ZTqeLw"/>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_daraonhFEeuarL68ZTqeLw" guid="_daraonhFEeuarL68ZTqeLw" pred="_danwQXhFEeuarL68ZTqeLw"/>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_dasBsXhFEeuarL68ZTqeLw" guid="_dasBsXhFEeuarL68ZTqeLw" pred="_daqMg3hFEeuarL68ZTqeLw"/>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_daqMhXhFEeuarL68ZTqeLw" guid="_daqMhXhFEeuarL68ZTqeLw" pred="_daqzkXhFEeuarL68ZTqeLw"/>
+  <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_daqzkHhFEeuarL68ZTqeLw" name="定义物理架构-剪裁" guid="_daqzkHhFEeuarL68ZTqeLw" presentationName="定义物理架构" briefDescription="这个能力模式应该提供一种简化版本" breakdownElements="_dao-Y3hFEeuarL68ZTqeLw _danJMnhFEeuarL68ZTqeLw _darapXhFEeuarL68ZTqeLw _daraqnhFEeuarL68ZTqeLw _dao-YHhFEeuarL68ZTqeLw _daplcnhFEeuarL68ZTqeLw _danJMHhFEeuarL68ZTqeLw _dapld3hFEeuarL68ZTqeLw _danJNHhFEeuarL68ZTqeLw _dasBsnhFEeuarL68ZTqeLw _daoXVnhFEeuarL68ZTqeLw _danJNXhFEeuarL68ZTqeLw _danwQHhFEeuarL68ZTqeLw _daplcHhFEeuarL68ZTqeLw _dao-ZnhFEeuarL68ZTqeLw _darao3hFEeuarL68ZTqeLw _dao-YXhFEeuarL68ZTqeLw _danwRHhFEeuarL68ZTqeLw _daqMgnhFEeuarL68ZTqeLw _daoXU3hFEeuarL68ZTqeLw _daoXUHhFEeuarL68ZTqeLw _daqMhHhFEeuarL68ZTqeLw _dasBs3hFEeuarL68ZTqeLw _daoXUnhFEeuarL68ZTqeLw _daplcXhFEeuarL68ZTqeLw _dao-Z3hFEeuarL68ZTqeLw _daraqXhFEeuarL68ZTqeLw _daqzk3hFEeuarL68ZTqeLw _daoXVHhFEeuarL68ZTqeLw _dao-YnhFEeuarL68ZTqeLw _danwQ3hFEeuarL68ZTqeLw _dasBsHhFEeuarL68ZTqeLw _danwQXhFEeuarL68ZTqeLw _danwQnhFEeuarL68ZTqeLw _danwRXhFEeuarL68ZTqeLw _daqMg3hFEeuarL68ZTqeLw _darapnhFEeuarL68ZTqeLw _darapHhFEeuarL68ZTqeLw _dao-ZXhFEeuarL68ZTqeLw _daraoXhFEeuarL68ZTqeLw _darap3hFEeuarL68ZTqeLw _daoXUXhFEeuarL68ZTqeLw _dao-ZHhFEeuarL68ZTqeLw _daqzkXhFEeuarL68ZTqeLw _danJNnhFEeuarL68ZTqeLw _daoXVXhFEeuarL68ZTqeLw _dapldnhFEeuarL68ZTqeLw"/>
+</org.eclipse.epf.uma:ProcessComponent>
