@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_dLPH8HnbEeuyYPZJG4tQkw" guid="_dLPH8HnbEeuyYPZJG4tQkw">
+    <resourceDescriptors xmi:id="_dLPH8XnbEeuyYPZJG4tQkw" id="-Y_3QLcfw2LlzG8gEC10Lpg" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_dJBhcHnbEeuyYPZJG4tQkw" name="管理需求追溯-OOSEM" guid="_dJBhcHnbEeuyYPZJG4tQkw">
+    <methodElementProperty xmi:id="_dJCIgHnbEeuyYPZJG4tQkw" name="pkg_loadCheck" value="true"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_dJBhcXnbEeuyYPZJG4tQkw" name="管理需求追溯-OOSEM" guid="_dJBhcXnbEeuyYPZJG4tQkw" presentationName="管理需求追溯-OOSEM">
+      <presentation xmi:id="-Y_3QLcfw2LlzG8gEC10Lpg" href="uma://-Y_3QLcfw2LlzG8gEC10Lpg#-Y_3QLcfw2LlzG8gEC10Lpg"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_1N7W0HnZEeuNJM29jFUO_Q" guid="_1N7W0HnZEeuNJM29jFUO_Q">
+    <resourceDescriptors xmi:id="_1N7W0XnZEeuNJM29jFUO_Q" id="-A_tJVE5z1P4SWUSraNi-gg" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_1FaUAHnZEeuNJM29jFUO_Q" name="准备建模" guid="_1FaUAHnZEeuNJM29jFUO_Q">
+    <methodElementProperty xmi:id="_1Fa7EHnZEeuNJM29jFUO_Q" name="pkg_loadCheck" value="true"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_1FaUAXnZEeuNJM29jFUO_Q" name="准备建模" guid="_1FaUAXnZEeuNJM29jFUO_Q" presentationName="准备建模">
+      <presentation xmi:id="-A_tJVE5z1P4SWUSraNi-gg" href="uma://-A_tJVE5z1P4SWUSraNi-gg#-A_tJVE5z1P4SWUSraNi-gg"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

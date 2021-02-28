@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-XThTtLMyp4LkQlHGIiXB8w" name="建立模型组织架构,_ztjhoF_tEeuGyK4GEWNojA" guid="-XThTtLMyp4LkQlHGIiXB8w" changeDate="2021-02-20T00:07:34.188+0800">
+  <purpose>建立模型组织架构，以便进行模型管理和项目团队协同建模。</purpose>
+</org.eclipse.epf.uma:TaskDescription>

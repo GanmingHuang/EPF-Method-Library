@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_fMLhcHnaEeuyYPZJG4tQkw" guid="_fMLhcHnaEeuyYPZJG4tQkw">
+    <resourceDescriptors xmi:id="_fMLhcXnaEeuyYPZJG4tQkw" id="-M-ZWXVdoS7K-W81ZedkKFg" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_fKSrEHnaEeuyYPZJG4tQkw" name="综合候选物理架构-OOSEM" guid="_fKSrEHnaEeuyYPZJG4tQkw">
+    <methodElementProperty xmi:id="_fKSrEnnaEeuyYPZJG4tQkw" name="pkg_loadCheck" value="true"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_fKSrEXnaEeuyYPZJG4tQkw" name="综合候选物理架构-OOSEM" guid="_fKSrEXnaEeuyYPZJG4tQkw" presentationName="综合候选物理架构-OOSEM">
+      <presentation xmi:id="-M-ZWXVdoS7K-W81ZedkKFg" href="uma://-M-ZWXVdoS7K-W81ZedkKFg#-M-ZWXVdoS7K-W81ZedkKFg"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

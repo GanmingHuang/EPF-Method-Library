@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_Z4lWUHnZEeuNJM29jFUO_Q" guid="_Z4lWUHnZEeuNJM29jFUO_Q">
+    <resourceDescriptors xmi:id="_Z4lWUXnZEeuNJM29jFUO_Q" id="-l17AbUDjlEhEX7GztniDcg" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_Zt8MkHnZEeuNJM29jFUO_Q" name="OOSEM" guid="_Zt8MkHnZEeuNJM29jFUO_Q">
+    <methodElementProperty xmi:id="_Zt8MknnZEeuNJM29jFUO_Q" name="pkg_loadCheck" value="true"/>
+    <process xsi:type="org.eclipse.epf.uma:DeliveryProcess" xmi:id="_Zt8MkXnZEeuNJM29jFUO_Q" name="OOSEM" guid="_Zt8MkXnZEeuNJM29jFUO_Q" presentationName="OOSEM">
+      <presentation xmi:id="-l17AbUDjlEhEX7GztniDcg" href="uma://-l17AbUDjlEhEX7GztniDcg#-l17AbUDjlEhEX7GztniDcg"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

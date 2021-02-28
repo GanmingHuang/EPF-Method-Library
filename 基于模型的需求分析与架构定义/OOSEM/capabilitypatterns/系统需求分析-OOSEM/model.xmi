@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_Zpn30HnaEeuyYPZJG4tQkw" guid="_Zpn30HnaEeuyYPZJG4tQkw">
+    <resourceDescriptors xmi:id="_Zpn30XnaEeuyYPZJG4tQkw" id="-PFj9ZN1TeqO9pE9l2qAUQw" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_Zna4YHnaEeuyYPZJG4tQkw" name="系统需求分析-OOSEM" guid="_Zna4YHnaEeuyYPZJG4tQkw">
+    <methodElementProperty xmi:id="_ZnbfcHnaEeuyYPZJG4tQkw" name="pkg_loadCheck" value="true"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_Zna4YXnaEeuyYPZJG4tQkw" name="系统需求分析-OOSEM" guid="_Zna4YXnaEeuyYPZJG4tQkw" presentationName="系统需求分析-OOSEM">
+      <presentation xmi:id="-PFj9ZN1TeqO9pE9l2qAUQw" href="uma://-PFj9ZN1TeqO9pE9l2qAUQw#-PFj9ZN1TeqO9pE9l2qAUQw"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-ZxP9OL16cLdcivbuJLAw-Q" name="new_guideline,_Cm8KoGlYEeu889X7HLlvoQ" guid="-ZxP9OL16cLdcivbuJLAw-Q">
+  <mainDescription>&lt;p>&#xD;
+    使用块表示系统需求规范，使用块的属性表示系统的需求。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    使用操作表示功能需求，&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    使用值属性表示性能需求、特性需求等量化需求，&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    使用端口表示接口需求&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

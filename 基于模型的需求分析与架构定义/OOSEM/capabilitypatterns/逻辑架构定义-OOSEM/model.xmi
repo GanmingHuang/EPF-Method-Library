@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_cTSBsHnaEeuyYPZJG4tQkw" guid="_cTSBsHnaEeuyYPZJG4tQkw">
+    <resourceDescriptors xmi:id="_cTSBsXnaEeuyYPZJG4tQkw" id="-B0WirPkse9aM9A_aMOSGPg" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_cRSdoHnaEeuyYPZJG4tQkw" name="逻辑架构定义-OOSEM" guid="_cRSdoHnaEeuyYPZJG4tQkw">
+    <methodElementProperty xmi:id="_cRTEsXnaEeuyYPZJG4tQkw" name="pkg_loadCheck" value="true"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_cRTEsHnaEeuyYPZJG4tQkw" name="逻辑架构定义-OOSEM" guid="_cRTEsHnaEeuyYPZJG4tQkw" presentationName="逻辑架构定义-OOSEM">
+      <presentation xmi:id="-B0WirPkse9aM9A_aMOSGPg" href="uma://-B0WirPkse9aM9A_aMOSGPg#-B0WirPkse9aM9A_aMOSGPg"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>
