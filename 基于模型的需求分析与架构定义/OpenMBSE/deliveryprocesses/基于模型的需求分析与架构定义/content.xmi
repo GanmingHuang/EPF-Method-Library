@@ -2,10 +2,10 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
   <org.eclipse.epf.uma:DeliveryProcessDescription xmi:id="-3NPMSXXERJ7VojnV8j_rMA" name="基于模型的需求分析与架构定义,_prtaEWfAEeuvYfasU7h29w" guid="-3NPMSXXERJ7VojnV8j_rMA"/>
   <org.eclipse.epf.uma:ProcessDescription xmi:id="-Ugx-1rVwzqHbfsMexq5_7w" name="系统分析,_hYiU4We-EeuvYfasU7h29w" guid="-Ugx-1rVwzqHbfsMexq5_7w"/>
-  <org.eclipse.epf.uma:ProcessDescription xmi:id="-gB-WoqIwnw565G4jgs4hFg" name="创建模型,_HAY4kWGAEeuZNcqltU9cSw" guid="-gB-WoqIwnw565G4jgs4hFg"/>
-  <org.eclipse.epf.uma:ProcessDescription xmi:id="-OHHbeeZaDHHrilsOBarUdg" name="利益相关方需求分析,_2MM_YXH2EeuAWZ7t2FAmYg" guid="-OHHbeeZaDHHrilsOBarUdg"/>
-  <org.eclipse.epf.uma:ProcessDescription xmi:id="-ks5ZUptCbQAS1ZTzCzShug" name="系统需求定义,_dSlzMWe-EeuvYfasU7h29w" guid="-ks5ZUptCbQAS1ZTzCzShug"/>
-  <org.eclipse.epf.uma:ProcessDescription xmi:id="-PYICOUkOLgWHPfjE477HMg" name="逻辑架构定义,_vJAeoWF9EeuZNcqltU9cSw" guid="-PYICOUkOLgWHPfjE477HMg"/>
   <org.eclipse.epf.uma:ProcessDescription xmi:id="-OomrYarhH8NvVOmevS8h9g" name="物理架构定义,_fZ7TIWe-EeuvYfasU7h29w" guid="-OomrYarhH8NvVOmevS8h9g"/>
-  <org.eclipse.epf.uma:ProcessDescription xmi:id="-PDQ7ckaE8JHZuYWaa3Fllw" name="系统分析,_hYiU4We-EeuvYfasU7h29w" guid="-PDQ7ckaE8JHZuYWaa3Fllw"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-ceerUi3DeJSZlkW9k3_bZg" name="创建模型,_HAY4kWGAEeuZNcqltU9cSw" guid="-ceerUi3DeJSZlkW9k3_bZg"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-aaFzSx_WGqnEdES4C86HwA" name="利益相关方需求分析,_2MM_YXH2EeuAWZ7t2FAmYg" guid="-aaFzSx_WGqnEdES4C86HwA"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-Da2yg0fhSAKTNIg8yFMR1A" name="系统需求定义,_dSlzMWe-EeuvYfasU7h29w" guid="-Da2yg0fhSAKTNIg8yFMR1A"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-npvlkuWsiElL_Vot7k90Hg" name="逻辑架构定义,_vJAeoWF9EeuZNcqltU9cSw" guid="-npvlkuWsiElL_Vot7k90Hg"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-1p4nGbyceSWn10wH3XPPzA" name="系统分析,_hYiU4We-EeuvYfasU7h29w" guid="-1p4nGbyceSWn10wH3XPPzA"/>
 </xmi:XMI>

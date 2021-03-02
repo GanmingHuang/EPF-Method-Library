@@ -17,7 +17,7 @@
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_y9Msh2F-EeuZNcqltU9cSw" key="type" value="Task"/>
       </eAnnotations>
     </node>
-    <node xmi:type="uml:ActivityParameterNode" xmi:id="_y9MsiGF-EeuZNcqltU9cSw" name="定义系统内部逻辑交联视图" outgoing="_23gl8GF-EeuZNcqltU9cSw" incoming="_2pfYEGF-EeuZNcqltU9cSw">
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_y9MsiGF-EeuZNcqltU9cSw" name="定义逻辑组件交联" outgoing="_23gl8GF-EeuZNcqltU9cSw" incoming="_2pfYEGF-EeuZNcqltU9cSw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_y9MsiWF-EeuZNcqltU9cSw" source="uma_element">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_y9MsimF-EeuZNcqltU9cSw" key="uri" value="uma://_vJAeoGF9EeuZNcqltU9cSw#_sKUDcGF-EeuZNcqltU9cSw"/>
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_y9Msi2F-EeuZNcqltU9cSw" key="type" value="Task"/>
@@ -51,7 +51,7 @@
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_y9Pv0mF-EeuZNcqltU9cSw"/>
       <styles xmi:type="notation:FillStyle" xmi:id="_y9Pv02F-EeuZNcqltU9cSw"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_y9Pv1GF-EeuZNcqltU9cSw" lineColor="0"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y9Pv1WF-EeuZNcqltU9cSw" x="135" y="70"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y9Pv1WF-EeuZNcqltU9cSw" x="145" y="70"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_y9QW4WF-EeuZNcqltU9cSw" type="1009" element="_y9MshGF-EeuZNcqltU9cSw">
       <children xmi:type="notation:Node" xmi:id="_y9Q98GF-EeuZNcqltU9cSw" type="4008"/>
@@ -67,7 +67,7 @@
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_y9RlAmF-EeuZNcqltU9cSw"/>
       <styles xmi:type="notation:FillStyle" xmi:id="_y9RlA2F-EeuZNcqltU9cSw"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_y9RlBGF-EeuZNcqltU9cSw" lineColor="0"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y9RlBWF-EeuZNcqltU9cSw" x="99" y="210"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y9RlBWF-EeuZNcqltU9cSw" x="128" y="210"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_y9SMEWF-EeuZNcqltU9cSw" type="1009" element="_y9MsjGF-EeuZNcqltU9cSw">
       <children xmi:type="notation:Node" xmi:id="_y9SzIGF-EeuZNcqltU9cSw" type="4008"/>
@@ -75,7 +75,7 @@
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_y9SME2F-EeuZNcqltU9cSw"/>
       <styles xmi:type="notation:FillStyle" xmi:id="_y9SMFGF-EeuZNcqltU9cSw"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_y9SMFWF-EeuZNcqltU9cSw" lineColor="0"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y9SMFmF-EeuZNcqltU9cSw" x="125" y="280"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y9SMFmF-EeuZNcqltU9cSw" x="128" y="280"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_SNEo4GF_EeuZNcqltU9cSw" type="1004" element="_SNCzsGF_EeuZNcqltU9cSw">
       <children xmi:type="notation:Node" xmi:id="_SNF3AGF_EeuZNcqltU9cSw" type="4003">
@@ -85,7 +85,7 @@
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_SNEo4mF_EeuZNcqltU9cSw"/>
       <styles xmi:type="notation:FillStyle" xmi:id="_SNEo42F_EeuZNcqltU9cSw"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_SNEo5GF_EeuZNcqltU9cSw" lineColor="0"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SNEo5WF_EeuZNcqltU9cSw" x="162" y="30"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SNEo5WF_EeuZNcqltU9cSw" x="188" y="30"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_U9fiEGF_EeuZNcqltU9cSw" type="1001" element="_U9eT8GF_EeuZNcqltU9cSw">
       <children xmi:type="notation:Node" xmi:id="_U9gJIGF_EeuZNcqltU9cSw" type="4001">
@@ -95,7 +95,7 @@
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_U9fiEmF_EeuZNcqltU9cSw"/>
       <styles xmi:type="notation:FillStyle" xmi:id="_U9fiE2F_EeuZNcqltU9cSw"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_U9fiFGF_EeuZNcqltU9cSw" lineColor="0"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_U9fiFWF_EeuZNcqltU9cSw" x="160" y="425"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_U9fiFWF_EeuZNcqltU9cSw" x="186" y="425"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_SbrRYHReEeue9dq7oqftvQ" type="1009" element="_SbVTIHReEeue9dq7oqftvQ">
       <children xmi:type="notation:Node" xmi:id="_SbuUsHReEeue9dq7oqftvQ" type="4008"/>
@@ -103,7 +103,7 @@
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_SbrRYnReEeue9dq7oqftvQ"/>
       <styles xmi:type="notation:FillStyle" xmi:id="_SbrRY3ReEeue9dq7oqftvQ"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_SbrRZHReEeue9dq7oqftvQ" lineColor="0"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SbrRZXReEeue9dq7oqftvQ" x="115" y="350"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SbrRZXReEeue9dq7oqftvQ" x="119" y="350"/>
     </children>
     <styles xmi:type="notation:PageStyle" xmi:id="_8BWqEWF9EeuZNcqltU9cSw"/>
     <styles xmi:type="notation:GuideStyle" xmi:id="_8BWqEmF9EeuZNcqltU9cSw"/>
