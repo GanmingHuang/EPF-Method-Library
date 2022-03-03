@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_zn3SAJSLEey_fOvgI-ENSQ" guid="_zn3SAJSLEey_fOvgI-ENSQ"/>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_znamEJSLEey_fOvgI-ENSQ" name="通用" guid="_znamEJSLEey_fOvgI-ENSQ">
+    <methodElementProperty xmi:id="_zn3SApSLEey_fOvgI-ENSQ" name="plugin_synFree" value="true"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_znamEZSLEey_fOvgI-ENSQ" name="Content" guid="_znamEZSLEey_fOvgI-ENSQ">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_znamEpSLEey_fOvgI-ENSQ" name="Categories" guid="_znamEpSLEey_fOvgI-ENSQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_znamE5SLEey_fOvgI-ENSQ" name="Domains" guid="_znamE5SLEey_fOvgI-ENSQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_znamFJSLEey_fOvgI-ENSQ" name="Disciplines" guid="_znamFJSLEey_fOvgI-ENSQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_znamFZSLEey_fOvgI-ENSQ" name="RoleSets" guid="_znamFZSLEey_fOvgI-ENSQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_znamFpSLEey_fOvgI-ENSQ" name="WP Types" guid="_znamFpSLEey_fOvgI-ENSQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_znamF5SLEey_fOvgI-ENSQ" name="Tools" guid="_znamF5SLEey_fOvgI-ENSQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_znamGJSLEey_fOvgI-ENSQ" name="StandardCategories" guid="_znamGJSLEey_fOvgI-ENSQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_znamGZSLEey_fOvgI-ENSQ" name="CustomCategories" guid="_znamGZSLEey_fOvgI-ENSQ">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_znamGpSLEey_fOvgI-ENSQ" name="Hidden" guid="_znamGpSLEey_fOvgI-ENSQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_znamG5SLEey_fOvgI-ENSQ" name="Custom Categories" guid="_znamG5SLEey_fOvgI-ENSQ"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_znamHJSLEey_fOvgI-ENSQ" name="CoreContent" guid="_znamHJSLEey_fOvgI-ENSQ"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_znamHZSLEey_fOvgI-ENSQ" name="CapabilityPatterns" guid="_znamHZSLEey_fOvgI-ENSQ"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_znamHpSLEey_fOvgI-ENSQ" name="DeliveryProcesses" guid="_znamHpSLEey_fOvgI-ENSQ"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_znamH5SLEey_fOvgI-ENSQ" name="ProcessContributions" guid="_znamH5SLEey_fOvgI-ENSQ"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

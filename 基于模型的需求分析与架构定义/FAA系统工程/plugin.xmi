@@ -21,7 +21,7 @@
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_fSPOsMBlEeqNRYuURMXvwA" name="FAA功能分析" guid="_fSPOsMBlEeqNRYuURMXvwA" briefDescription="参考FAA的功能分析流程">
           <methodElementProperty xmi:id="_fSefQMBlEeqNRYuURMXvwA" name="pkg_loadCheck" value="true"/>
           <methodElementProperty xmi:id="_rM_ekMBnEeqNRYuURMXvwA" name="me_edited" value="true"/>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_lb24UMBlEeqNRYuURMXvwA" name="1 定义顶层功能" guid="_lb24UMBlEeqNRYuURMXvwA" presentationName="New Task">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_lb24UMBlEeqNRYuURMXvwA" name="1 定义顶层功能" guid="_lb24UMBlEeqNRYuURMXvwA" presentationName="1 定义顶层功能">
             <methodElementProperty xmi:id="_-AzYUMBmEeqNRYuURMXvwA" name="me_edited" value="true"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_z7nGcMBlEeqNRYuURMXvwA" name="1.1 界定问题空间" guid="_z7nGcMBlEeqNRYuURMXvwA" presentationName="New Task">
@@ -72,7 +72,7 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_3SwzAMBmEeqNRYuURMXvwA" name="5 创建功能架构基线" guid="_3SwzAMBmEeqNRYuURMXvwA" presentationName="New Task">
             <methodElementProperty xmi:id="_rIZScMBnEeqNRYuURMXvwA" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_FYFH4MBnEeqNRYuURMXvwA" name="功能架构" guid="_FYFH4MBnEeqNRYuURMXvwA" presentationName="New Artifact">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_FYFH4MBnEeqNRYuURMXvwA" name="功能架构" guid="_FYFH4MBnEeqNRYuURMXvwA" presentationName="功能架构" briefDescription="功能架构由一系列FFBD和N方图组成">
             <methodElementProperty xmi:id="_rINsQMBnEeqNRYuURMXvwA" name="me_edited" value="true"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_HZzvEMBnEeqNRYuURMXvwA" name="概念" guid="_HZzvEMBnEeqNRYuURMXvwA" presentationName="New Artifact">
@@ -92,6 +92,37 @@
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_W6lVUMBnEeqNRYuURMXvwA" name="工具分析需求" guid="_W6lVUMBnEeqNRYuURMXvwA" presentationName="New Artifact">
             <methodElementProperty xmi:id="_bxYFIMBnEeqNRYuURMXvwA" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_J1VmkJhhEeuwe54eAY75SA" name="公共" guid="_J1VmkJhhEeuwe54eAY75SA">
+          <methodElementProperty xmi:id="_J1btMJhhEeuwe54eAY75SA" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_r-33sJhhEeuwe54eAY75SA" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_NQ0O8JhhEeuwe54eAY75SA" name="管理决策" guid="_NQ0O8JhhEeuwe54eAY75SA" presentationName="管理决策">
+            <methodElementProperty xmi:id="_r-zmQJhhEeuwe54eAY75SA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_P3TwEJhhEeuwe54eAY75SA" name="遗留系统" guid="_P3TwEJhhEeuwe54eAY75SA" presentationName="遗留系统">
+            <methodElementProperty xmi:id="_r-utwJhhEeuwe54eAY75SA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_R6nroJhhEeuwe54eAY75SA" name="系统工程管理计划" guid="_R6nroJhhEeuwe54eAY75SA" presentationName="系统工程管理计划">
+            <methodElementProperty xmi:id="_UIwXIJhhEeuwe54eAY75SA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_UjiOoJhhEeuwe54eAY75SA" name="需求" guid="_UjiOoJhhEeuwe54eAY75SA" presentationName="需求">
+            <methodElementProperty xmi:id="_r-qcUJhhEeuwe54eAY75SA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_WvskMJhhEeuwe54eAY75SA" name="物理架构" guid="_WvskMJhhEeuwe54eAY75SA" presentationName="物理架构">
+            <methodElementProperty xmi:id="_r-mK4JhhEeuwe54eAY75SA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_ZbyXAJhhEeuwe54eAY75SA" name="接口控制文档" guid="_ZbyXAJhhEeuwe54eAY75SA" presentationName="接口控制文档">
+            <methodElementProperty xmi:id="_r-hSYJhhEeuwe54eAY75SA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_bvxy4JhhEeuwe54eAY75SA" name="设计分析报告" guid="_bvxy4JhhEeuwe54eAY75SA" presentationName="设计分析报告">
+            <methodElementProperty xmi:id="_r-Z9oJhhEeuwe54eAY75SA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_eIdhgJhhEeuwe54eAY75SA" name="约束" guid="_eIdhgJhhEeuwe54eAY75SA" presentationName="约束">
+            <methodElementProperty xmi:id="_r-QzsJhhEeuwe54eAY75SA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_gGFEwJhhEeuwe54eAY75SA" name="权衡分析报告" guid="_gGFEwJhhEeuwe54eAY75SA" presentationName="权衡分析报告">
+            <methodElementProperty xmi:id="_r-BjIJhhEeuwe54eAY75SA" name="me_edited" value="true"/>
           </contentElements>
         </childPackages>
       </childPackages>

@@ -18,15 +18,15 @@
         </childPackages>
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_LpFwfGe_EeuvYfasU7h29w" name="CoreContent" guid="_LpFwfGe_EeuvYfasU7h29w">
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_h_vCUGe_EeuvYfasU7h29w" name="运行分析" guid="_h_vCUGe_EeuvYfasU7h29w">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_h_vCUGe_EeuvYfasU7h29w" name="1 运行分析" guid="_h_vCUGe_EeuvYfasU7h29w">
           <methodElementProperty xmi:id="_h_vCUWe_EeuvYfasU7h29w" name="pkg_loadCheck" value="true"/>
           <methodElementProperty xmi:id="_qQIyQGe_EeuvYfasU7h29w" name="me_edited" value="true"/>
         </childPackages>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_jnPLoGe_EeuvYfasU7h29w" name="系统分析" guid="_jnPLoGe_EeuvYfasU7h29w">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_jnPLoGe_EeuvYfasU7h29w" name="2 系统分析" guid="_jnPLoGe_EeuvYfasU7h29w">
           <methodElementProperty xmi:id="_jnPLoWe_EeuvYfasU7h29w" name="pkg_loadCheck" value="true"/>
           <methodElementProperty xmi:id="_p5ArsGe_EeuvYfasU7h29w" name="me_edited" value="true"/>
         </childPackages>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_lCJDYGe_EeuvYfasU7h29w" name="逻辑架构" guid="_lCJDYGe_EeuvYfasU7h29w">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_lCJDYGe_EeuvYfasU7h29w" name="3 逻辑架构" guid="_lCJDYGe_EeuvYfasU7h29w">
           <methodElementProperty xmi:id="_lCJDYWe_EeuvYfasU7h29w" name="pkg_loadCheck" value="true"/>
           <methodElementProperty xmi:id="_pjGGEGe_EeuvYfasU7h29w" name="me_edited" value="true"/>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_S_DzIGlZEeu889X7HLlvoQ" name="定义逻辑组件" guid="_S_DzIGlZEeu889X7HLlvoQ" presentationName="定义逻辑组件">
@@ -38,14 +38,14 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_YqBK0GlZEeu889X7HLlvoQ" name="分配逻辑功能到逻辑组件" guid="_YqBK0GlZEeu889X7HLlvoQ" presentationName="New Task">
             <methodElementProperty xmi:id="_kLRngGlZEeu889X7HLlvoQ" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_bO9z0GlZEeu889X7HLlvoQ" name="创建逻辑场景" guid="_bO9z0GlZEeu889X7HLlvoQ" presentationName="New Task">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_bO9z0GlZEeu889X7HLlvoQ" name="创建逻辑场景" guid="_bO9z0GlZEeu889X7HLlvoQ" presentationName="创建逻辑场景">
             <methodElementProperty xmi:id="_jqOv8GlZEeu889X7HLlvoQ" name="me_edited" value="true"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_ha_RMGlZEeu889X7HLlvoQ" name="定义逻辑接口" guid="_ha_RMGlZEeu889X7HLlvoQ" presentationName="New Task">
             <methodElementProperty xmi:id="_jKPBQGlZEeu889X7HLlvoQ" name="me_edited" value="true"/>
           </contentElements>
         </childPackages>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_mmw30Ge_EeuvYfasU7h29w" name="物理架构" guid="_mmw30Ge_EeuvYfasU7h29w">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_mmw30Ge_EeuvYfasU7h29w" name="4 物理架构" guid="_mmw30Ge_EeuvYfasU7h29w">
           <methodElementProperty xmi:id="_mmw30We_EeuvYfasU7h29w" name="pkg_loadCheck" value="true"/>
           <methodElementProperty xmi:id="_pKrmEGe_EeuvYfasU7h29w" name="me_edited" value="true"/>
         </childPackages>
